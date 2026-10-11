@@ -108,6 +108,15 @@
   function navigate(search){const q=new URLSearchParams(search),court=new URLSearchParams(location.search).get('court');if(court)q.set('court',court);history.pushState(null,'',location.pathname+(q.size?'?'+q:''));route();}
   document.getElementById('period-form').addEventListener('submit',e=>{e.preventDefault();navigate('?'+new URLSearchParams({from:from.value,to:to.value}));});
   document.getElementById('latest').addEventListener('click',()=>navigate(''));
+  document.querySelectorAll('[data-days]').forEach(button=>button.addEventListener('click',()=>{
+    // Calendar days in the reporting timezone, including today. UTC arithmetic
+    // on that date avoids shortening or extending a range across DST changes.
+    const parts=new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());
+    const part=type=>parts.find(p=>p.type===type).value;
+    const end=`${part('year')}-${part('month')}-${part('day')}`;
+    const start=new Date(end+'T00:00:00Z');start.setUTCDate(start.getUTCDate()-Number(button.dataset.days)+1);
+    navigate('?'+new URLSearchParams({from:start.toISOString().slice(0,10),to:end}));
+  }));
   document.querySelectorAll('.site-nav details').forEach(menu=>menu.addEventListener('toggle',()=>{if(menu.open)document.querySelectorAll('.site-nav details').forEach(other=>{if(other!==menu)other.open=false;});}));
   addEventListener('popstate',route);route();
   document.addEventListener('keydown',event=>{if(event.key==='Escape'){document.querySelectorAll('.site-nav details[open]').forEach(menu=>{menu.open=false;menu.querySelector('summary').focus();});}});

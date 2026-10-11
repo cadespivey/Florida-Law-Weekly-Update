@@ -10,6 +10,11 @@ from the private cumulative research database.
   then latest publication timestamp. Filesystem modification time is irrelevant.
 - Date range: inclusive reporting-period overlap, not individual opinion dates.
   Both dates are required. Reversed or invalid dates return an explanatory message.
+- Quick date links apply the last 30, 60, 90 or 180 calendar days immediately:
+  Through is today in America/New_York; From is today minus N−1 days so the
+  inclusive range contains exactly N days. Calculate on each click, including
+  month/year/leap-day and DST boundaries. Reuse the date-range route so inputs,
+  results, URL, Back/Forward and directory court selection stay synchronized.
 - Date controls occupy a subtle shaded band without surrounding divider lines.
   Use equal-width fields and buttons, 14px labels/control text and 44px control
   heights; reflow to two columns, then one on narrow screens. The first report
