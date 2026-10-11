@@ -1,0 +1,4530 @@
+{
+  "format_version": 1,
+  "checked_on": "2026-10-11",
+  "counties": [
+    "Duval",
+    "St. Johns",
+    "Putnam",
+    "Nassau",
+    "Baker",
+    "Union",
+    "Clay"
+  ],
+  "entities": [
+    {
+      "entity_id": "judge-eded45c337734cd7",
+      "entity_type": "judge",
+      "name": "Adam S. Tanenbaum",
+      "court": "Florida Supreme Court",
+      "counties": [],
+      "assignment_scope": "Statewide",
+      "phone": "850-410-8092",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "500 South Duval Street, Tallahassee, FL 32399-1925",
+      "notes": "Use chambers phone for JA contact where email is unverified.",
+      "sources": [
+        "https://supremecourt.flcourts.gov/the-court/about-the-court/justices/justice-adam-tanenbaum"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-2add981dcc854e55",
+      "entity_type": "judge",
+      "name": "Carlos G. Mu\u00f1iz",
+      "court": "Florida Supreme Court",
+      "counties": [],
+      "assignment_scope": "Statewide",
+      "phone": "850-488-0007",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Jessica Outlaw",
+      "assistant_contact": "outlawj@flcourts.org",
+      "address": "500 South Duval Street, Tallahassee, FL 32399-1925",
+      "notes": "Use chambers phone for JA contact where email is unverified.",
+      "sources": [
+        "https://supremecourt.flcourts.gov/the-court/about-the-court/justices/justice-carlos-g.-muniz",
+        "https://supremecourt.flcourts.gov/the-court/about-the-court/employment/law-clerkships-justice-carlos-g.-muniz"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-08f7e11b60a04618",
+      "entity_type": "judge",
+      "name": "Jamie R. Grosshans",
+      "court": "Florida Supreme Court",
+      "counties": [],
+      "assignment_scope": "Statewide",
+      "phone": "850-488-8421",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Kristin Spilker",
+      "assistant_contact": "Not publicly verified",
+      "address": "500 South Duval Street, Tallahassee, FL 32399-1925",
+      "notes": "Use chambers phone for JA contact where email is unverified.",
+      "sources": [
+        "https://supremecourt.flcourts.gov/the-court/about-the-court/justices/justice-jamie-r.-grosshans"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-691d40f6c2c3436a",
+      "entity_type": "judge",
+      "name": "John D. Couriel",
+      "court": "Florida Supreme Court",
+      "counties": [],
+      "assignment_scope": "Statewide",
+      "phone": "850-922-5624",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Shannon Hudson",
+      "assistant_contact": "hudsons@flcourts.org",
+      "address": "500 South Duval Street, Tallahassee, FL 32399-1925",
+      "notes": "Use chambers phone for JA contact where email is unverified.",
+      "sources": [
+        "https://supremecourt.flcourts.gov/the-court/about-the-court/justices/justice-john-d.-couriel",
+        "https://supremecourt.flcourts.gov/the-court/about-the-court/employment/law-clerkships-justice-john-d.-couriel"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-3cdb5c510ae24445",
+      "entity_type": "judge",
+      "name": "Jorge Labarga",
+      "court": "Florida Supreme Court",
+      "counties": [],
+      "assignment_scope": "Statewide",
+      "phone": "850-413-8371",
+      "phone_type": "Chambers / JA office",
+      "assistant": "B.J. Vickers",
+      "assistant_contact": "Not publicly verified",
+      "address": "500 South Duval Street, Tallahassee, FL 32399-1925",
+      "notes": "Use chambers phone for JA contact where email is unverified.",
+      "sources": [
+        "https://supremecourt.flcourts.gov/the-court/about-the-court/justices/justice-jorge-labarga"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-a091eacd1a0543e7",
+      "entity_type": "judge",
+      "name": "Meredith L. Barrios",
+      "court": "Florida Supreme Court",
+      "counties": [],
+      "assignment_scope": "Statewide",
+      "phone": "850-414-8889",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Bethany E. Kennicutt",
+      "assistant_contact": "kennicuttb@flcourts.org",
+      "address": "500 South Duval Street, Tallahassee, FL 32399-1925",
+      "notes": "Use chambers phone for JA contact where email is unverified.",
+      "sources": [
+        "https://supremecourt.flcourts.gov/the-court/about-the-court/justices/justice-meredith-l.-barrios",
+        "https://supremecourt.flcourts.gov/the-court/about-the-court/employment/law-clerkships-justice-meredith-l.-sasso"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-3224526a197c4fb8",
+      "entity_type": "judge",
+      "name": "Renatha S. Francis",
+      "court": "Florida Supreme Court",
+      "counties": [],
+      "assignment_scope": "Statewide",
+      "phone": "850-921-1096",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Carmen Arnold",
+      "assistant_contact": "Not publicly verified",
+      "address": "500 South Duval Street, Tallahassee, FL 32399-1925",
+      "notes": "Use chambers phone for JA contact where email is unverified.",
+      "sources": [
+        "https://supremecourt.flcourts.gov/the-court/about-the-court/justices/justice-renatha-francis"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-995fb15b1a984103",
+      "entity_type": "judge",
+      "name": "Joseph Lewis Jr.",
+      "court": "1st DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "850-487-1000",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "2000 Drayton Drive, Tallahassee, FL 32399-0950",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://1dca.flcourts.gov/",
+        "https://1dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-c410b2b9c15f46a8",
+      "entity_type": "judge",
+      "name": "L. Clayton Roberts",
+      "court": "1st DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "850-487-1000",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "2000 Drayton Drive, Tallahassee, FL 32399-0950",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://1dca.flcourts.gov/",
+        "https://1dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-0d34bc5cfc71445d",
+      "entity_type": "judge",
+      "name": "Lance E. Neff",
+      "court": "1st DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "850-487-1000",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "2000 Drayton Drive, Tallahassee, FL 32399-0950",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://1dca.flcourts.gov/",
+        "https://1dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-8ab7f0941d254f66",
+      "entity_type": "judge",
+      "name": "Lori S. Rowe",
+      "court": "1st DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "850-487-1000",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "2000 Drayton Drive, Tallahassee, FL 32399-0950",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://1dca.flcourts.gov/",
+        "https://1dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-271fe5aa71e14548",
+      "entity_type": "judge",
+      "name": "M. Kemmerly Thomas",
+      "court": "1st DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "850-487-1000",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "2000 Drayton Drive, Tallahassee, FL 32399-0950",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://1dca.flcourts.gov/",
+        "https://1dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-b1c7ff72176a44e6",
+      "entity_type": "judge",
+      "name": "Rachel E. Nordby",
+      "court": "1st DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "850-487-1000",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "2000 Drayton Drive, Tallahassee, FL 32399-0950",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://1dca.flcourts.gov/",
+        "https://1dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-47484699a5ae4af3",
+      "entity_type": "judge",
+      "name": "Raymond F. Treadwell",
+      "court": "1st DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "850-487-1000",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "2000 Drayton Drive, Tallahassee, FL 32399-0950",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://1dca.flcourts.gov/",
+        "https://1dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-90fb89de99c04259",
+      "entity_type": "judge",
+      "name": "Robert E. Long Jr.",
+      "court": "1st DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "850-487-1000",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "2000 Drayton Drive, Tallahassee, FL 32399-0950",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://1dca.flcourts.gov/",
+        "https://1dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-5b4bd5e5ab9540b5",
+      "entity_type": "judge",
+      "name": "Ross L. Bilbrey",
+      "court": "1st DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "850-487-1000",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "2000 Drayton Drive, Tallahassee, FL 32399-0950",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://1dca.flcourts.gov/",
+        "https://1dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-3a72307e839b4380",
+      "entity_type": "judge",
+      "name": "Stephanie W. Ray",
+      "court": "1st DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "850-487-1000",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "2000 Drayton Drive, Tallahassee, FL 32399-0950",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://1dca.flcourts.gov/",
+        "https://1dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-508985ac12ae471f",
+      "entity_type": "judge",
+      "name": "Susan L. Kelsey",
+      "court": "1st DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "850-487-1000",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "2000 Drayton Drive, Tallahassee, FL 32399-0950",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://1dca.flcourts.gov/",
+        "https://1dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-f63a8556871d407b",
+      "entity_type": "judge",
+      "name": "Thomas D. Winokur",
+      "court": "1st DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "850-487-1000",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "2000 Drayton Drive, Tallahassee, FL 32399-0950",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://1dca.flcourts.gov/",
+        "https://1dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-e5eb9526c9ac4a29",
+      "entity_type": "judge",
+      "name": "Timothy D. Osterhaus",
+      "court": "1st DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "850-487-1000",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "2000 Drayton Drive, Tallahassee, FL 32399-0950",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://1dca.flcourts.gov/",
+        "https://1dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-5f0a2b4eec6547ef",
+      "entity_type": "judge",
+      "name": "Andrea Teves Smith",
+      "court": "2nd DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "727-610-3740",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "525 Mirror Lake Drive North, St. Petersburg, FL 33701",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://2dca.flcourts.gov/",
+        "https://2dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-f35e3f158aeb4fff",
+      "entity_type": "judge",
+      "name": "Anthony K. Black",
+      "court": "2nd DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "727-610-3740",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "525 Mirror Lake Drive North, St. Petersburg, FL 33701",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://2dca.flcourts.gov/",
+        "https://2dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-c7ca01c1a5c84216",
+      "entity_type": "judge",
+      "name": "Craig C. Villanti",
+      "court": "2nd DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "727-610-3740",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "525 Mirror Lake Drive North, St. Petersburg, FL 33701",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://2dca.flcourts.gov/",
+        "https://2dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-a676fbb432d84a9a",
+      "entity_type": "judge",
+      "name": "Daniel H. Sleet",
+      "court": "2nd DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "727-610-3740",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "525 Mirror Lake Drive North, St. Petersburg, FL 33701",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://2dca.flcourts.gov/",
+        "https://2dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-ce1045be09f94753",
+      "entity_type": "judge",
+      "name": "Edward C. LaRose",
+      "court": "2nd DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "727-610-3740",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "525 Mirror Lake Drive North, St. Petersburg, FL 33701",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://2dca.flcourts.gov/",
+        "https://2dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-b7a1cbb02b724991",
+      "entity_type": "judge",
+      "name": "J. Andrew Atkinson",
+      "court": "2nd DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "727-610-3740",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "525 Mirror Lake Drive North, St. Petersburg, FL 33701",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://2dca.flcourts.gov/",
+        "https://2dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-de9578b6f9324b5d",
+      "entity_type": "judge",
+      "name": "John Guard",
+      "court": "2nd DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "727-610-3740",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "525 Mirror Lake Drive North, St. Petersburg, FL 33701",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://2dca.flcourts.gov/",
+        "https://2dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-53affefac52a46c3",
+      "entity_type": "judge",
+      "name": "Matthew C. Lucas",
+      "court": "2nd DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "727-610-3740",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "525 Mirror Lake Drive North, St. Petersburg, FL 33701",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://2dca.flcourts.gov/",
+        "https://2dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-48b69552c5a94972",
+      "entity_type": "judge",
+      "name": "Morris Silberman",
+      "court": "2nd DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "727-610-3740",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "525 Mirror Lake Drive North, St. Petersburg, FL 33701",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://2dca.flcourts.gov/",
+        "https://2dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-713aa9443dfb4a1a",
+      "entity_type": "judge",
+      "name": "Nelly Khouzam",
+      "court": "2nd DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "727-610-3740",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "525 Mirror Lake Drive North, St. Petersburg, FL 33701",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://2dca.flcourts.gov/",
+        "https://2dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-3cb908c3e4cd4260",
+      "entity_type": "judge",
+      "name": "Patricia J. Kelly",
+      "court": "2nd DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "727-610-3740",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "525 Mirror Lake Drive North, St. Petersburg, FL 33701",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://2dca.flcourts.gov/",
+        "https://2dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-fb532a91d0f940a9",
+      "entity_type": "judge",
+      "name": "Robert Morris",
+      "court": "2nd DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "727-610-3740",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "525 Mirror Lake Drive North, St. Petersburg, FL 33701",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://2dca.flcourts.gov/",
+        "https://2dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-b9dd6676c9714881",
+      "entity_type": "judge",
+      "name": "Stevan T. Northcutt",
+      "court": "2nd DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "727-610-3740",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "525 Mirror Lake Drive North, St. Petersburg, FL 33701",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://2dca.flcourts.gov/",
+        "https://2dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-abdbf84458644185",
+      "entity_type": "judge",
+      "name": "Susan H. Rothstein-Youakim",
+      "court": "2nd DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "727-610-3740",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "525 Mirror Lake Drive North, St. Petersburg, FL 33701",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://2dca.flcourts.gov/",
+        "https://2dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-ffac0e40e252468a",
+      "entity_type": "judge",
+      "name": "Suzanne Labrit",
+      "court": "2nd DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "727-610-3740",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "525 Mirror Lake Drive North, St. Petersburg, FL 33701",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://2dca.flcourts.gov/",
+        "https://2dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-6389db4762524299",
+      "entity_type": "judge",
+      "name": "Alexander S. Bokor",
+      "court": "3rd DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "305-229-3200",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "2001 SW 117th Avenue, Miami, FL 33175",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://3dca.flcourts.gov/",
+        "https://3dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-a52d258656b3446b",
+      "entity_type": "judge",
+      "name": "Bronwyn C. Miller",
+      "court": "3rd DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "305-229-3200",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "2001 SW 117th Avenue, Miami, FL 33175",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://3dca.flcourts.gov/",
+        "https://3dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-b23f74cdf4924038",
+      "entity_type": "judge",
+      "name": "Edwin A. Scales III",
+      "court": "3rd DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "305-229-3200",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "2001 SW 117th Avenue, Miami, FL 33175",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://3dca.flcourts.gov/",
+        "https://3dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-b0d89b3c0f384826",
+      "entity_type": "judge",
+      "name": "Fleur J. Lobree",
+      "court": "3rd DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "305-229-3200",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "2001 SW 117th Avenue, Miami, FL 33175",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://3dca.flcourts.gov/",
+        "https://3dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-14b8262a67a04e74",
+      "entity_type": "judge",
+      "name": "Ivan F. Fernandez",
+      "court": "3rd DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "305-229-3200",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "2001 SW 117th Avenue, Miami, FL 33175",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://3dca.flcourts.gov/",
+        "https://3dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-39ef18dc434f48f8",
+      "entity_type": "judge",
+      "name": "Kansas R. Gooden",
+      "court": "3rd DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "305-229-3200",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "2001 SW 117th Avenue, Miami, FL 33175",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://3dca.flcourts.gov/",
+        "https://3dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-d0b007f886f241ba",
+      "entity_type": "judge",
+      "name": "Monica Gordo",
+      "court": "3rd DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "305-229-3200",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "2001 SW 117th Avenue, Miami, FL 33175",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://3dca.flcourts.gov/",
+        "https://3dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-11578dd84e9740e4",
+      "entity_type": "judge",
+      "name": "Norma S. Lindsey",
+      "court": "3rd DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "305-229-3200",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "2001 SW 117th Avenue, Miami, FL 33175",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://3dca.flcourts.gov/",
+        "https://3dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-853c7e94b610451b",
+      "entity_type": "judge",
+      "name": "Thomas J. Rebull",
+      "court": "3rd DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "305-229-3200",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "2001 SW 117th Avenue, Miami, FL 33175",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://3dca.flcourts.gov/",
+        "https://3dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-0c9f9f13c9ed416c",
+      "entity_type": "judge",
+      "name": "Thomas Logue",
+      "court": "3rd DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "305-229-3200",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "2001 SW 117th Avenue, Miami, FL 33175",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://3dca.flcourts.gov/",
+        "https://3dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-eae346eb93b34b6c",
+      "entity_type": "judge",
+      "name": "Alan O. Forst",
+      "court": "4th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "561-242-2000",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "110 South Tamarind Avenue, West Palm Beach, FL 33401",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://4dca.flcourts.gov/",
+        "https://4dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-e9eefe9037eb42b6",
+      "entity_type": "judge",
+      "name": "Burton C. Conner",
+      "court": "4th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "561-242-2000",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "110 South Tamarind Avenue, West Palm Beach, FL 33401",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://4dca.flcourts.gov/",
+        "https://4dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-ebafc04c537e4537",
+      "entity_type": "judge",
+      "name": "Caroline Shepherd",
+      "court": "4th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "561-242-2000",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "110 South Tamarind Avenue, West Palm Beach, FL 33401",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://4dca.flcourts.gov/",
+        "https://4dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-5aaed63256654abe",
+      "entity_type": "judge",
+      "name": "Cory J. Ciklin",
+      "court": "4th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "561-242-2000",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "110 South Tamarind Avenue, West Palm Beach, FL 33401",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://4dca.flcourts.gov/",
+        "https://4dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-a1099ca9d98e4146",
+      "entity_type": "judge",
+      "name": "Johnathan D. Lott",
+      "court": "4th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "561-242-2000",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "110 South Tamarind Avenue, West Palm Beach, FL 33401",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://4dca.flcourts.gov/",
+        "https://4dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-a07381bdf66d4a05",
+      "entity_type": "judge",
+      "name": "Jonathan D. Gerber",
+      "court": "4th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "561-242-2000",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "110 South Tamarind Avenue, West Palm Beach, FL 33401",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://4dca.flcourts.gov/",
+        "https://4dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-d1d7764e73be4af3",
+      "entity_type": "judge",
+      "name": "Mark W. Klingensmith",
+      "court": "4th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "561-242-2000",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "110 South Tamarind Avenue, West Palm Beach, FL 33401",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://4dca.flcourts.gov/",
+        "https://4dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-6b8482217e5448b6",
+      "entity_type": "judge",
+      "name": "Melanie G. May",
+      "court": "4th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "561-242-2000",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "110 South Tamarind Avenue, West Palm Beach, FL 33401",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://4dca.flcourts.gov/",
+        "https://4dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-4539b9b64ddb4c87",
+      "entity_type": "judge",
+      "name": "Robert M. Gross",
+      "court": "4th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "561-242-2000",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "110 South Tamarind Avenue, West Palm Beach, FL 33401",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://4dca.flcourts.gov/",
+        "https://4dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-96c800d071144605",
+      "entity_type": "judge",
+      "name": "Shannon K. Shaw",
+      "court": "4th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "561-242-2000",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "110 South Tamarind Avenue, West Palm Beach, FL 33401",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://4dca.flcourts.gov/",
+        "https://4dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-98e25d091bd24c3a",
+      "entity_type": "judge",
+      "name": "Spencer D. Levine",
+      "court": "4th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "561-242-2000",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "110 South Tamarind Avenue, West Palm Beach, FL 33401",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://4dca.flcourts.gov/",
+        "https://4dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-9fa71f4c1cdc4aea",
+      "entity_type": "judge",
+      "name": "Adrian G. Soud",
+      "court": "5th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "386-947-1530",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "300 South Beach Street, Daytona Beach, FL 32114",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://5dca.flcourts.gov/",
+        "https://5dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-e0be768496b846a4",
+      "entity_type": "judge",
+      "name": "Brian D. Lambert",
+      "court": "5th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "386-947-1530",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "300 South Beach Street, Daytona Beach, FL 32114",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://5dca.flcourts.gov/",
+        "https://5dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-e96fc96afc8d40f2",
+      "entity_type": "judge",
+      "name": "Christine K. Pratt",
+      "court": "5th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "386-947-1530",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "300 South Beach Street, Daytona Beach, FL 32114",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://5dca.flcourts.gov/",
+        "https://5dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-d6da64950c494756",
+      "entity_type": "judge",
+      "name": "Eric J. Eisnaugle",
+      "court": "5th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "386-947-1530",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "300 South Beach Street, Daytona Beach, FL 32114",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://5dca.flcourts.gov/",
+        "https://5dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-3a745cc677a34f13",
+      "entity_type": "judge",
+      "name": "F. Rand Wallis",
+      "court": "5th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "386-947-1530",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "300 South Beach Street, Daytona Beach, FL 32114",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://5dca.flcourts.gov/",
+        "https://5dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-ac45937d79e147db",
+      "entity_type": "judge",
+      "name": "Harvey L. Jay",
+      "court": "5th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "386-947-1530",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "300 South Beach Street, Daytona Beach, FL 32114",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://5dca.flcourts.gov/",
+        "https://5dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-9d3f77bc1b454bff",
+      "entity_type": "judge",
+      "name": "James A. Edwards",
+      "court": "5th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "386-947-1530",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "300 South Beach Street, Daytona Beach, FL 32114",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://5dca.flcourts.gov/",
+        "https://5dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-c323028efb9e4ada",
+      "entity_type": "judge",
+      "name": "Joe Boatwright",
+      "court": "5th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "386-947-1530",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "300 South Beach Street, Daytona Beach, FL 32114",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://5dca.flcourts.gov/",
+        "https://5dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-06e102cf4146420f",
+      "entity_type": "judge",
+      "name": "John M. Harris",
+      "court": "5th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "386-947-1530",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "300 South Beach Street, Daytona Beach, FL 32114",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://5dca.flcourts.gov/",
+        "https://5dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-6a25f5bc6dc24bd1",
+      "entity_type": "judge",
+      "name": "John MacIver",
+      "court": "5th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "386-947-1530",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "300 South Beach Street, Daytona Beach, FL 32114",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://5dca.flcourts.gov/",
+        "https://5dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-4b4525fb24774b59",
+      "entity_type": "judge",
+      "name": "Paige Kilbane",
+      "court": "5th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "386-947-1530",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "300 South Beach Street, Daytona Beach, FL 32114",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://5dca.flcourts.gov/",
+        "https://5dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-d3dc0906645b427c",
+      "entity_type": "judge",
+      "name": "Scott Makar",
+      "court": "5th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "386-947-1530",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "300 South Beach Street, Daytona Beach, FL 32114",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://5dca.flcourts.gov/",
+        "https://5dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-8e4be0d874da43c5",
+      "entity_type": "judge",
+      "name": "Carrie Ann Wozniak",
+      "court": "6th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "863-940-6041",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "811 East Main Street, Lakeland, FL 33801",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://6dca.flcourts.gov/",
+        "https://6dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-9498161d3c974dbc",
+      "entity_type": "judge",
+      "name": "Dan Traver",
+      "court": "6th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "863-940-6041",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "811 East Main Street, Lakeland, FL 33801",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://6dca.flcourts.gov/",
+        "https://6dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-3ea15e2aa2f24ecf",
+      "entity_type": "judge",
+      "name": "Jared E. Smith",
+      "court": "6th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "863-940-6041",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "811 East Main Street, Lakeland, FL 33801",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://6dca.flcourts.gov/",
+        "https://6dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-d67b7cd486824308",
+      "entity_type": "judge",
+      "name": "John K. Stargel",
+      "court": "6th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "863-940-6041",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "811 East Main Street, Lakeland, FL 33801",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://6dca.flcourts.gov/",
+        "https://6dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-026cf7e9a0b54b6c",
+      "entity_type": "judge",
+      "name": "Joshua A. Mize",
+      "court": "6th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "863-940-6041",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "811 East Main Street, Lakeland, FL 33801",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://6dca.flcourts.gov/",
+        "https://6dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-89562574342c483b",
+      "entity_type": "judge",
+      "name": "Joshua E. Pratt",
+      "court": "6th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "863-940-6041",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "811 East Main Street, Lakeland, FL 33801",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://6dca.flcourts.gov/",
+        "https://6dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-00773ebd8638445a",
+      "entity_type": "judge",
+      "name": "Keith F. White",
+      "court": "6th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "863-940-6041",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "811 East Main Street, Lakeland, FL 33801",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://6dca.flcourts.gov/",
+        "https://6dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-ae14ffadec044650",
+      "entity_type": "judge",
+      "name": "Mary Alice Nardella",
+      "court": "6th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "863-940-6041",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "811 East Main Street, Lakeland, FL 33801",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://6dca.flcourts.gov/",
+        "https://6dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-34ace56b72c2424e",
+      "entity_type": "judge",
+      "name": "Paetra T. Brownlee",
+      "court": "6th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "863-940-6041",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "811 East Main Street, Lakeland, FL 33801",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://6dca.flcourts.gov/",
+        "https://6dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-f2ad31ea85454a6e",
+      "entity_type": "judge",
+      "name": "Rachel B. Kamoutsas",
+      "court": "6th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "863-940-6041",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "811 East Main Street, Lakeland, FL 33801",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://6dca.flcourts.gov/",
+        "https://6dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-51ef8d78eb544d24",
+      "entity_type": "judge",
+      "name": "Roger K. Gannam",
+      "court": "6th DCA",
+      "counties": [],
+      "assignment_scope": "District-wide",
+      "phone": "863-940-6041",
+      "phone_type": "Court public line \u2014 not direct chambers",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "811 East Main Street, Lakeland, FL 33801",
+      "notes": "Direct chambers line and current JA name/email not verified in public sources checked. Contact court for routing; case inquiries go to clerk.",
+      "sources": [
+        "https://6dca.flcourts.gov/",
+        "https://6dca.flcourts.gov/Judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": []
+    },
+    {
+      "entity_id": "judge-66942d1f32144793",
+      "entity_type": "judge",
+      "name": "Denise R. Ferrero",
+      "court": "8th Circuit",
+      "counties": [
+        "Baker"
+      ],
+      "assignment_scope": "Baker",
+      "phone": "352-548-3700 / 904-259-0216",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Raina Feagle",
+      "assistant_contact": "FeagleR@circuit8.org",
+      "address": "220 South Main Street, Room A303, Gainesville, FL 32601",
+      "notes": "Shared chambers / JA office phone. Gainesville address is chambers base for regional circuit judges.",
+      "sources": [
+        "https://circuit8.org/courts-judges/judge-denise-r-ferrero/"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://circuit8.org/courts-judges/judge-denise-r-ferrero/judge-denise-r-ferreros-division-procedures/",
+          "type": "individual_procedure",
+          "title": "Judge Denise R. Ferrero\u2019s Division Procedures",
+          "verification": "linked_from_official_judge_page"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-4c1303f7c4384900",
+      "entity_type": "judge",
+      "name": "Kristine Van Vorst",
+      "court": "8th Circuit",
+      "counties": [
+        "Baker"
+      ],
+      "assignment_scope": "Baker",
+      "phone": "352-374-3644",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Amber Allen",
+      "assistant_contact": "AllenA@circuit8.org",
+      "address": "201 East University Avenue, Room 301, Gainesville, FL 32601",
+      "notes": "Shared chambers / JA office phone. Gainesville address is chambers base for regional circuit judges.",
+      "sources": [
+        "https://circuit8.org/courts-judges/judge-kristine-van-vorst/"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://circuit8.org/courts-judges/judge-kristine-van-vorst/judge-van-vorst-division-procedures/",
+          "type": "individual_procedure",
+          "title": "Judge Van Vorst\u2019s Division Procedures",
+          "verification": "linked_from_official_judge_page"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-5a5c3fbcbcdb4ed3",
+      "entity_type": "judge",
+      "name": "Phillip A. Pena",
+      "court": "8th Circuit",
+      "counties": [
+        "Baker"
+      ],
+      "assignment_scope": "Baker",
+      "phone": "352-548-3775",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Kelsey Wable",
+      "assistant_contact": "wablekc@circuit8.org",
+      "address": "201 East University Avenue, Room 305, Gainesville, FL 32601",
+      "notes": "Shared chambers / JA office phone. Gainesville address is chambers base for regional circuit judges.",
+      "sources": [
+        "https://circuit8.org/courts-judges/judge-phillip-a-pena/"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://circuit8.org/courts-judges/judge-phillip-a-pena/judge-pena-division-procedures/",
+          "type": "individual_procedure",
+          "title": "Judge Pena\u2019s Division Procedures",
+          "verification": "linked_from_official_judge_page"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-af45e485bb474fc4",
+      "entity_type": "judge",
+      "name": "Julie C. Johnson",
+      "court": "Baker County Court",
+      "counties": [
+        "Baker"
+      ],
+      "assignment_scope": "Baker",
+      "phone": "904-259-3575",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Kristina Crews",
+      "assistant_contact": "crewsk@circuit8.org",
+      "address": "339 East Macclenny Avenue, Suite 219, Macclenny, FL 32063",
+      "notes": "Shared chambers / JA office phone. Gainesville address is chambers base for regional circuit judges.",
+      "sources": [
+        "https://circuit8.org/courts-judges/judge-julie-c-johnson/"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://circuit8.org/courts-judges/judge-julie-c-johnson/judge-julie-c-johnson-division-procedures/",
+          "type": "individual_procedure",
+          "title": "Judge Julie C. Johnson\u2019s Division Procedures",
+          "verification": "linked_from_official_judge_page"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-e4edaea98aef4d7e",
+      "entity_type": "judge",
+      "name": "Gloria R. Walker",
+      "court": "8th Circuit",
+      "counties": [
+        "Baker",
+        "Union"
+      ],
+      "assignment_scope": "Baker; Union (circuit-wide appeals)",
+      "phone": "352-374-3616",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Charisma Calloway",
+      "assistant_contact": "CallowayC@circuit8.org",
+      "address": "201 East University Avenue, Room 415, Gainesville, FL 32601",
+      "notes": "Shared chambers / JA office phone. Gainesville address is chambers base for regional circuit judges.",
+      "sources": [
+        "https://circuit8.org/courts-judges/judge-gloria-r-walker/"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://circuit8.org/wp-content/uploads/Judge-Walker-Division-Procedures.pdf",
+          "type": "individual_procedure",
+          "title": "Judge Walker\u2019s Division Procedures",
+          "verification": "linked_from_official_judge_page"
+        },
+        {
+          "url": "https://circuit8.org/wp-content/uploads/Judge-Walkers-Zoom-Procedures.pdf",
+          "type": "individual_procedure",
+          "title": "Judge Walker\u2019s Zoom Procedures",
+          "verification": "linked_from_official_judge_page"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-4fc14000c3324752",
+      "entity_type": "judge",
+      "name": "James M. Colaw",
+      "court": "8th Circuit",
+      "counties": [
+        "Baker",
+        "Union"
+      ],
+      "assignment_scope": "Baker; Union (circuit-wide)",
+      "phone": "352-548-3784",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Wendy Laudicina",
+      "assistant_contact": "laudicinaw@circuit8.org",
+      "address": "220 South Main Street, Room A307, Gainesville, FL 32601",
+      "notes": "Shared chambers / JA office phone. Gainesville address is chambers base for regional circuit judges.",
+      "sources": [
+        "https://circuit8.org/courts-judges/judge-james-m-colaw/"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://circuit8.org/courts-judges/judge-james-m-colaw/judge-james-m-colaws-division-procedures/",
+          "type": "individual_procedure",
+          "title": "Judge James M. Colaw\u2019s Division Procedures",
+          "verification": "linked_from_official_judge_page"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-dc743696b88241c7",
+      "entity_type": "judge",
+      "name": "Susanne Wilson Bullard",
+      "court": "8th Circuit",
+      "counties": [
+        "Baker",
+        "Union"
+      ],
+      "assignment_scope": "Baker; Union (circuit-wide)",
+      "phone": "352-264-7057",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Kayla Courtney",
+      "assistant_contact": "courtneyk@circuit8.org",
+      "address": "220 South Main Street, Room A325, Gainesville, FL 32601",
+      "notes": "Shared chambers / JA office phone. Gainesville address is chambers base for regional circuit judges.",
+      "sources": [
+        "https://circuit8.org/courts-judges/judge-susanne-wilson-bullard/"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://circuit8.org/courts-judges/judge-susanne-wilson-bullard/judge-swb-division-procedures/",
+          "type": "individual_procedure",
+          "title": "Judge Wilson Bullard\u2019s Division Procedures",
+          "verification": "linked_from_official_judge_page"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-65a74baab67c47c1",
+      "entity_type": "judge",
+      "name": "William E. Davis",
+      "court": "8th Circuit",
+      "counties": [
+        "Baker",
+        "Union"
+      ],
+      "assignment_scope": "Baker; Union (circuit-wide)",
+      "phone": "352-264-7007",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Lindsey Polk",
+      "assistant_contact": "polkl@circuit8.org",
+      "address": "201 East University Avenue, Room 409, Gainesville, FL 32601",
+      "notes": "Shared chambers / JA office phone. Gainesville address is chambers base for regional circuit judges.",
+      "sources": [
+        "https://circuit8.org/courts-judges/judge-william-e-davis/"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://circuit8.org/courts-judges/judge-william-e-davis/judge-william-e-davis-division-procedures/",
+          "type": "individual_procedure",
+          "title": "Chief Judge William E. Davis\u2019 Division Procedures",
+          "verification": "linked_from_official_judge_page"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-d1ba1191f5d840cc",
+      "entity_type": "judge",
+      "name": "Ashley Wells Cox",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1306",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Norma Ponder",
+      "assistant_contact": "nponder1@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/73af2fda-24f1-4a0b-9007-d3b795b8bce7/135b97c9-84fa-4e82-b956-0fbccec4aa1f/FM-F-Uniform-Family-Procedures-Updated-no-table-contents7-15-26.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/73af2fda-24f1-4a0b-9007-d3b795b8bce7/135b97c9-84fa-4e82-b956-0fbccec4aa1f/FM-F-Uniform-Family-Procedures-Updated-no-table-contents7-15-26.pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-e8868ab03d404711",
+      "entity_type": "judge",
+      "name": "Bruce R. Anderson Jr.",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1258",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Paula Fields",
+      "assistant_contact": "pfields@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/16aacfa1-5779-4b5c-98de-c5ece469098b/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Division-CV-E-Policies-and-Procedures-Effective-Sept-2025.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/16aacfa1-5779-4b5c-98de-c5ece469098b/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Division-CV-E-Policies-and-Procedures-Effective-Sept-2025.pdf?language=en",
+          "type": "individual_procedure"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/7c03d084-c6e7-425c-a0be-438a22cdfbb2/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Standing-Order-on-Policies-and-Procedures-in-Division-CV-E.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "CV-E_Standing Order on Policies and Procedures in Division CV-E",
+          "verification": "linked_under_judge_in_current_court_index"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/cc787211-0b35-4f0a-948b-c6c2eefb70d5/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Procedures-for-Setting-Daubert-Type-Hearings.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "CV-E_Procedures for Setting Daubert Type Hearings",
+          "verification": "linked_under_judge_in_current_court_index"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/19cf9b22-d364-4152-ab15-01ce5f724d80/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Guidelines_for_768-0427_Motions.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Guidelines for Motion to Determine Evidence of Medical Treatment or Service Expenses (\"768-0427 Motion\")",
+          "verification": "linked_under_judge_in_current_court_index"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/6684e006-be2e-4db3-93c3-06965a5c3ab2/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Procedures-for-Scheduling-and-Hearing-Motions-Requiring-Evidentiary-Hearing.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "CV-E_Procedures for Scheduling and Hearing Motions Requiring Evidentiary Hearing",
+          "verification": "linked_under_judge_in_current_court_index"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/3e3695bd-969c-4b82-b70a-684f9f30a234/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Procedures-for-Non-Default-Summary-Judgment-Motions.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Procedures for Non-Default Summary Judgment Motions",
+          "verification": "linked_under_judge_in_current_court_index"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/4c89ee0a-7e38-462c-8df3-c44b3f437c30/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Trial-Conduct-and-Courtroom-Decorum-Policy.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Trial Conduct and Courtroom Decorum Policy",
+          "verification": "linked_under_judge_in_current_court_index"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/b796f1af-0f24-45aa-8939-cbf00344e220/135b97c9-84fa-4e82-b956-0fbccec4aa1f/FC-E-Policies-and-Procedures-FINAL.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Foreclosure Procedures",
+          "verification": "linked_under_judge_in_current_court_index"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/51eb48c9-8800-4a0d-8911-dbe568d4250a/135b97c9-84fa-4e82-b956-0fbccec4aa1f/2024-Guidelines-for-Professional-Conduct.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "2024 Guidelines for Professional Conduct",
+          "verification": "linked_under_judge_in_current_court_index"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/7b300110-572c-4258-9bc2-a87b7b8bf1b6/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Division-CV-E-Guidelines-Regarding-Compulsory-Medical-Examinations.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Guidelines Regarding Compulsory Medical Examination",
+          "verification": "linked_under_judge_in_current_court_index"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/b0dfa94a-4846-4631-9212-3e87c2f6eb86/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CV-E-Guidelines-Regarding-Privilege-Logs-and-Procedures-for-In-Camera-Review.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Guidelines Regarding Privilege Logs and Procedures for In-Camera Review",
+          "verification": "linked_under_judge_in_current_court_index"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/5fd84bb9-1ce6-4d5c-b321-3e75e4c4ff8a/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Guidelines-Regarding-Approval-of-Minors-Settlement.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Guidelines Regarding Approval of Minor's Settlement",
+          "verification": "linked_under_judge_in_current_court_index"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/b8690867-32cd-4c4f-a452-4b8230589eb9/135b97c9-84fa-4e82-b956-0fbccec4aa1f/PROCEDURES-ON-MOTION-TO-TAX-COSTS-AND-AWARD-ATTORNEY.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Procedures on Motion to Tax Costs and Award Attorney Fees",
+          "verification": "linked_under_judge_in_current_court_index"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-15e33b0b28b24cdf",
+      "entity_type": "judge",
+      "name": "Eric C. Roberson",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1294",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Sarah Kaleel",
+      "assistant_contact": "skaleel@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/80acb7cf-447e-4ab6-a7d3-67680ed9092f/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CR-G-Policy-and-Procedures.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/80acb7cf-447e-4ab6-a7d3-67680ed9092f/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CR-G-Policy-and-Procedures.pdf?language=en",
+          "type": "individual_procedure"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/32f19c25-ca36-4592-840c-2a2a0754c768/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CR-G-Trial-Order.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "CR-G Trial Order",
+          "verification": "linked_under_judge_in_current_court_index"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-6e112b701b864d49",
+      "entity_type": "judge",
+      "name": "Gilbert L. Feltel Jr.",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1303",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Megan Garwood",
+      "assistant_contact": "mgarwood@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/3e36c8a1-d8a7-4d20-afd7-35ab4d8ed37b/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Feltel-Civil-Policies-and-Procedures-CV-H-070225-(1).pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/3e36c8a1-d8a7-4d20-afd7-35ab4d8ed37b/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Feltel-Civil-Policies-and-Procedures-CV-H-070225-(1).pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-64ff481427d443a8",
+      "entity_type": "judge",
+      "name": "James H. Daniel",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1240",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Jennie Prather",
+      "assistant_contact": "jprather@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/17689bec-2654-4812-bb2f-df5d4de8b876/135b97c9-84fa-4e82-b956-0fbccec4aa1f/2026-CV-F-Procedures.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/17689bec-2654-4812-bb2f-df5d4de8b876/135b97c9-84fa-4e82-b956-0fbccec4aa1f/2026-CV-F-Procedures.pdf?language=en",
+          "type": "individual_procedure"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/adfeed88-2315-4cef-b713-0fd832d3ec30/135b97c9-84fa-4e82-b956-0fbccec4aa1f/FC-F-Policies-and-Procedures-FINAL.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Residential Foreclosure Procedures",
+          "verification": "linked_under_judge_in_current_court_index"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-43c4c699f53a4ca5",
+      "entity_type": "judge",
+      "name": "Jeb Branham",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1291",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Kristy Bend",
+      "assistant_contact": "kbend@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/c054c1c5-7093-4f88-84f2-82521cc5467c/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Practices-and-Procedures.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/c054c1c5-7093-4f88-84f2-82521cc5467c/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Practices-and-Procedures.pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-f084311f25a94f18",
+      "entity_type": "judge",
+      "name": "John I. Guy",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-2428",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Jennifer Weigel",
+      "assistant_contact": "jennw@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/d2b8a4e2-a960-491d-aaad-5d415db019de/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Guy-Uniform-Duval-Family-Practices-and-Procedures.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/d2b8a4e2-a960-491d-aaad-5d415db019de/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Guy-Uniform-Duval-Family-Practices-and-Procedures.pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-f70c204559814ab3",
+      "entity_type": "judge",
+      "name": "Jonathan D. Sacks",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1237",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "LMason1@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/7195f7a9-e915-4379-b1ba-57b1b54ba154/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Policies-and-Procedures.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/7195f7a9-e915-4379-b1ba-57b1b54ba154/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Policies-and-Procedures.pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-ecc139b3c95b4337",
+      "entity_type": "judge",
+      "name": "Katie L. Dearing",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1246",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Sandra Powell",
+      "assistant_contact": "powells@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/158d5f1c-86e3-4e60-a834-b610c9fc31e7/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CV-B-Civil-Policies-and-Procedures-2025-(1).pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/158d5f1c-86e3-4e60-a834-b610c9fc31e7/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CV-B-Civil-Policies-and-Procedures-2025-(1).pdf?language=en",
+          "type": "individual_procedure"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/80737210-c05e-407b-a9ba-ee454a2250d5/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Policies-and-Procedures.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "FC-B Foreclosure Policies and Procedures",
+          "verification": "linked_under_judge_in_current_court_index"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/8b35513c-d875-4d5c-ad08-e993e3d8b3ec/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Dearing-Procedures-for-Uniform-Motion-Calendar.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Procedures for Uniform Motion Calendar",
+          "verification": "linked_under_judge_in_current_court_index"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-dfb90ca36c504244",
+      "entity_type": "judge",
+      "name": "Kevin A. Blazs",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1282",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Barbara Elrod",
+      "assistant_contact": "belrod@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/95a8e2c5-3fc6-4d58-825f-74bd50e21a92/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Ex-Parte-Procedures-updated-August-2024.docx?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/95a8e2c5-3fc6-4d58-825f-74bd50e21a92/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Ex-Parte-Procedures-updated-August-2024.docx?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-34408784f8c24644",
+      "entity_type": "judge",
+      "name": "L. E. Hutton",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1267",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Dara Radtke",
+      "assistant_contact": "dradtke1@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Current procedures list 904-255-1267; linked contact sheet also lists 904-255-1269 for JA.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/bbb3deee-b850-4393-8fd0-e9ad58ac3795/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Judge-Hutton-Policy-and-Procedures.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/bbb3deee-b850-4393-8fd0-e9ad58ac3795/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Judge-Hutton-Policy-and-Procedures.pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-f6ff6a4faa4241c4",
+      "entity_type": "judge",
+      "name": "Lance M. Day",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1228",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "JA name/email not verified; call chambers. No current individual procedures located; chief judge. Circuit-wide orders are linked separately.",
+      "sources": [
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/clay-judges",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/nassau-judges",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/ex-parte-dates-judge-s-procedures",
+          "type": "court_index_only"
+        }
+      ],
+      "procedure_status": "individual_procedure_not_verified"
+    },
+    {
+      "entity_id": "judge-4232fe2b629644b2",
+      "entity_type": "judge",
+      "name": "Lindsay L. Tygart",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1243",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Brittany Bowen",
+      "assistant_contact": "bbowen_1@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/d8e57d87-a3e3-4c86-a0fb-9bfd0f99423f/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Tygart-Procedures.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/d8e57d87-a3e3-4c86-a0fb-9bfd0f99423f/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Tygart-Procedures.pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-294bed3e8c594106",
+      "entity_type": "judge",
+      "name": "London M. Kite",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1264",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Sylvia Wilk",
+      "assistant_contact": "skwilk@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/f39480d7-8e21-4ef5-a735-74df46cd7a34/135b97c9-84fa-4e82-b956-0fbccec4aa1f/FELONY-DIVISION-CR-B-POLICIES-AND-PROCEDURES-2026.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/f39480d7-8e21-4ef5-a735-74df46cd7a34/135b97c9-84fa-4e82-b956-0fbccec4aa1f/FELONY-DIVISION-CR-B-POLICIES-AND-PROCEDURES-2026.pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-e39a236404c9460b",
+      "entity_type": "judge",
+      "name": "Marianne L. Aho",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-2343",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Jennifer L. Keen",
+      "assistant_contact": "jlkeen@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/449bce36-8b50-415a-ae3f-7c195dd10c4d/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Procedures-Information-revised-5-4-26.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/449bce36-8b50-415a-ae3f-7c195dd10c4d/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Procedures-Information-revised-5-4-26.pdf?language=en",
+          "type": "individual_procedure"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/7eae7130-2c86-4eca-a441-aa91d4128cc7/135b97c9-84fa-4e82-b956-0fbccec4aa1f/FC-I-Policies-and-Procedures-FINAL.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "FC-I Policies and Procedures",
+          "verification": "linked_under_judge_in_current_court_index"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-2548a690b76c4aed",
+      "entity_type": "judge",
+      "name": "Mark Borello",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1285",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "JA name/email not verified; call chambers.",
+      "sources": [
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/45d9ff45-c915-41a7-909e-a59afaa13956/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CR-D-Trial-Order-for-Website.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Division CR-D Trial Order",
+          "verification": "linked_from_current_court_index"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/f110a728-5601-4b4b-a4f9-0b3f4fae3bf5/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Zoom-Instructions.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Division CR-D Zoom Instructions",
+          "verification": "linked_under_judge_in_current_court_index"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-66b2bc3beb9e4e65",
+      "entity_type": "judge",
+      "name": "Mark H. Mahon",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1218",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Francesca Giannini",
+      "assistant_contact": "fgiannini@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/4b3374ec-2bf8-4d00-b824-a62f81a79bfa/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Mahon-Uniform-Duval-Family-Practices-and-Procedures-Div-FM-C.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/4b3374ec-2bf8-4d00-b824-a62f81a79bfa/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Mahon-Uniform-Duval-Family-Practices-and-Procedures-Div-FM-C.pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-7d4d3fe4eddf4e8f",
+      "entity_type": "judge",
+      "name": "Maureen T. Horkan",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1297",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Connie Pfeifer",
+      "assistant_contact": "cpfeifer@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/03494c92-8dc6-43e6-a513-3bdaa41848c5/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Horkan-Uniform-Duval-Family-Practices-and-Procedures.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/03494c92-8dc6-43e6-a513-3bdaa41848c5/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Horkan-Uniform-Duval-Family-Practices-and-Procedures.pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-9904668106a745ab",
+      "entity_type": "judge",
+      "name": "Michael A. Kalil",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1309",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Rachel Wynn",
+      "assistant_contact": "RachelWynn@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/c57956ae-d337-46fe-bfc3-b66fc9ca699e/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Judge-Michael-Kalil-Policies-and-Procedures-12-29-2023-(1).pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/c57956ae-d337-46fe-bfc3-b66fc9ca699e/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Judge-Michael-Kalil-Policies-and-Procedures-12-29-2023-(1).pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-2f4f9c8357724a55",
+      "entity_type": "judge",
+      "name": "Michael S. Sharrit",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1249",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Lisa Carpenter",
+      "assistant_contact": "lrcarpenter@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/fe0e2deb-0d2c-4c05-be31-2d1ce32f7031/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Procedures-CV-G-2-14-2022.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/fe0e2deb-0d2c-4c05-be31-2d1ce32f7031/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Procedures-CV-G-2-14-2022.pdf?language=en",
+          "type": "individual_procedure"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/e552ffb0-1a06-445b-a8e1-51b3651699ec/135b97c9-84fa-4e82-b956-0fbccec4aa1f/FC-G-Policies-and-Procedures-FINAL.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Division FC-G Residential Foreclosure Procedures",
+          "verification": "linked_under_judge_in_current_court_index"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-0cd964ef9ced4b3c",
+      "entity_type": "judge",
+      "name": "Nicole D. Saunders",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1052",
+      "phone_type": "Chambers / JA office",
+      "assistant": "April Williams",
+      "assistant_contact": "CALL TO CONFIRM",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Published document conflicts: Awiliams4@coj.net on cover; Awilliams4@coj.net in body. Call to confirm. Phone is family-division directory number.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/3c864145-ed6f-4640-ab89-deeb8958abb4/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Division-DV-Procedures-(September-2026)-(1).pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/3c864145-ed6f-4640-ab89-deeb8958abb4/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Division-DV-Procedures-(September-2026)-(1).pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-13061690d5df41d7",
+      "entity_type": "judge",
+      "name": "R. Anthony Salem",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1360",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "Not publicly verified",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/0a3e5588-3505-4b72-96cd-f67784ac6e0c/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Policies-and-Procedures.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/0a3e5588-3505-4b72-96cd-f67784ac6e0c/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Policies-and-Procedures.pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-0e7fcbfaf69a44d0",
+      "entity_type": "judge",
+      "name": "Robert M. Dees",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1234",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Linda Blackman",
+      "assistant_contact": "lblackman@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/931b5938-fadf-41d0-974a-2e57b8280e6e/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Division-Procedures.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/931b5938-fadf-41d0-974a-2e57b8280e6e/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Division-Procedures.pdf?language=en",
+          "type": "individual_procedure"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/0ea87409-1655-4af9-905a-10650867454f/135b97c9-84fa-4e82-b956-0fbccec4aa1f/FC-C-Policies-and-Procedures-FINAL.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "FC-C Foreclosure Procedures",
+          "verification": "linked_under_judge_in_current_court_index"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-2116d4365dd647cc",
+      "entity_type": "judge",
+      "name": "Russell L. Healey",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1324",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Becci Powell",
+      "assistant_contact": "CALL TO CONFIRM",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Published document conflicts: bpowell@coj.net on cover; bppowell@coj.net in body. Call to confirm.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/4135fedf-f409-473b-aabf-811299c89d9b/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Healey-Uniform-Duval-Family-Practices-and-Procedures-FM-B.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/4135fedf-f409-473b-aabf-811299c89d9b/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Healey-Uniform-Duval-Family-Practices-and-Procedures-FM-B.pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-fadce14231924ade",
+      "entity_type": "judge",
+      "name": "Tatiana R. Salvador",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-2400",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Not publicly verified",
+      "assistant_contact": "lsoberay@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/b7eb024b-49b6-45a4-8f6c-2158918f571c/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Division-CR-E-Policies-and-Procedures.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/b7eb024b-49b6-45a4-8f6c-2158918f571c/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Division-CR-E-Policies-and-Procedures.pdf?language=en",
+          "type": "individual_procedure"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/403d9620-b61d-4131-acfb-1df4a1a4c25f/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Division-CR-E-Trial-Order.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Trial Order",
+          "verification": "linked_under_judge_in_current_court_index"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-952dacf03b2e4d63",
+      "entity_type": "judge",
+      "name": "Thomas M. Beverly",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1231",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Priscilla Watts",
+      "assistant_contact": "pawatts@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/c4f43d2c-4e35-49fe-97f3-5042c1e2d470/135b97c9-84fa-4e82-b956-0fbccec4aa1f/ExParte-Procedures-9.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/c4f43d2c-4e35-49fe-97f3-5042c1e2d470/135b97c9-84fa-4e82-b956-0fbccec4aa1f/ExParte-Procedures-9.pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-051702b7deca4112",
+      "entity_type": "judge",
+      "name": "Virginia B. Norton",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1300",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Alexis Gainers",
+      "assistant_contact": "againers@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/e4971672-86ec-4ebb-8c4d-307796a34498/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CV-D-Procedures-Information-updated-2024.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/e4971672-86ec-4ebb-8c4d-307796a34498/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CV-D-Procedures-Information-updated-2024.pdf?language=en",
+          "type": "individual_procedure"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/f45ee6ff-1b34-47eb-a418-4c8b99d886b7/135b97c9-84fa-4e82-b956-0fbccec4aa1f/FC-D-Policies-and-Procedures-FINAL.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "FC-D Foreclosure Procedures",
+          "verification": "linked_under_judge_in_current_court_index"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-7a91929e410b4b27",
+      "entity_type": "judge",
+      "name": "W. Collins Cooper",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1270",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Maiela Ruiz",
+      "assistant_contact": "mruiz1@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/3c71977d-4d1a-45b4-a6b5-3f6623205a28/135b97c9-84fa-4e82-b956-0fbccec4aa1f/policies-and-procedures-Collins-Cooper.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/3c71977d-4d1a-45b4-a6b5-3f6623205a28/135b97c9-84fa-4e82-b956-0fbccec4aa1f/policies-and-procedures-Collins-Cooper.pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-95c8f48be8bd4c96",
+      "entity_type": "judge",
+      "name": "Waddell A. Wallace III",
+      "court": "4th Circuit",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1252",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Ivette Roldan",
+      "assistant_contact": "roldani@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/d0060d05-5ab2-4d06-a32f-6673c9b5597e/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Civil-ProceduresCV-A-(1).pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/d0060d05-5ab2-4d06-a32f-6673c9b5597e/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Civil-ProceduresCV-A-(1).pdf?language=en",
+          "type": "individual_procedure"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/0208e475-ddd9-4136-9932-09962afa3be0/135b97c9-84fa-4e82-b956-0fbccec4aa1f/UNIFORM-MOTION-CALENDAR-PROCEDURES.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Uniform Motion Calendar Procedures",
+          "verification": "linked_under_judge_in_current_court_index"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/04013925-6cf9-444d-b6a1-f5f767fe54b1/135b97c9-84fa-4e82-b956-0fbccec4aa1f/FC-A-Policies-and-Procedures-FINAL.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "FC-A Foreclosure Procedures and Information",
+          "verification": "linked_under_judge_in_current_court_index"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-c07c46947c8f45be",
+      "entity_type": "judge",
+      "name": "Audrey McKibbin Moran",
+      "court": "Duval County Court",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1318",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Trish Bennett",
+      "assistant_contact": "pbennett@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/f0b381c4-a135-4c39-93ae-0fc4e94d23ee/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CC-B-Civil-Procedures-(1).pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/f0b381c4-a135-4c39-93ae-0fc4e94d23ee/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CC-B-Civil-Procedures-(1).pdf?language=en",
+          "type": "individual_procedure"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/3a8fb355-874b-4338-9c6e-853c33455493/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CC-B-Criminal-Procedures-(1).pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Criminal Procedures",
+          "verification": "linked_under_judge_in_current_court_index"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-aab68a9b42474e9c",
+      "entity_type": "judge",
+      "name": "Brooke Brady",
+      "court": "Duval County Court",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1261",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Tiffany Rozear",
+      "assistant_contact": "rozear@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/51d91a01-e010-4cb1-9329-c81208f39c60/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Civil-and-Criminal-Procedures-Division-P.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/51d91a01-e010-4cb1-9329-c81208f39c60/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Civil-and-Criminal-Procedures-Division-P.pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-861f4fbe591b421c",
+      "entity_type": "judge",
+      "name": "Dawn K. Hudson",
+      "court": "Duval County Court",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1363",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Genese Staples",
+      "assistant_contact": "gstaples@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/af64d342-5826-4bf5-9c20-89fa7a9ad3cd/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Civil-Procedures-DKH-Division-CC-Q_8_20_2025.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/af64d342-5826-4bf5-9c20-89fa7a9ad3cd/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Civil-Procedures-DKH-Division-CC-Q_8_20_2025.pdf?language=en",
+          "type": "individual_procedure"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/d9dbece8-238c-4872-a68e-f5a5175e3a26/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CC-QCriminal-Court-policies-mar-2024.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Criminal Procedures",
+          "verification": "linked_under_judge_in_current_court_index"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-ffdb1c909a7a49b1",
+      "entity_type": "judge",
+      "name": "Eleni Elia Derke",
+      "court": "Duval County Court",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1342",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Elizabeth Boozer",
+      "assistant_contact": "eboozer@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/ca3232bb-6f1a-400d-a77e-0a41252e1ddb/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Div-J-Civil-Procedures.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/ca3232bb-6f1a-400d-a77e-0a41252e1ddb/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Div-J-Civil-Procedures.pdf?language=en",
+          "type": "individual_procedure"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/1b56bc18-7eea-4bfa-a9e8-08547d77c4cc/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Div-J-criminal-procedures.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Criminal Procedures",
+          "verification": "linked_under_judge_in_current_court_index"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-388832b74e744624",
+      "entity_type": "judge",
+      "name": "Emmet F. Ferguson III",
+      "court": "Duval County Court",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1315",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Melanie Stott",
+      "assistant_contact": "mstott@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/aa7166fe-be7b-403f-8a0a-d9339a76d094/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CC-A-Civil-Procedures.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/aa7166fe-be7b-403f-8a0a-d9339a76d094/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CC-A-Civil-Procedures.pdf?language=en",
+          "type": "individual_procedure"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/50cea5b0-491b-4796-8965-3f8a220351cb/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CC-A-Criminal-Procedures.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Criminal Procedures",
+          "verification": "linked_under_judge_in_current_court_index"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-0d694d0c633b4878",
+      "entity_type": "judge",
+      "name": "Gary Flower",
+      "court": "Duval County Court",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1354",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Marilyn Springer",
+      "assistant_contact": "mspringer@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/17f3d39f-3206-444e-b107-085ed752c3b6/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Div-N-Civil-Procedures-2025.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/17f3d39f-3206-444e-b107-085ed752c3b6/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Div-N-Civil-Procedures-2025.pdf?language=en",
+          "type": "individual_procedure"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/9028809d-c118-4ee0-9461-d23f4bd10f57/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Div-N-Criminal-Procedures.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Criminal Courtroom Procedures",
+          "verification": "linked_under_judge_in_current_court_index"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-2ceeea6dcf704d25",
+      "entity_type": "judge",
+      "name": "James Nealis",
+      "court": "Duval County Court",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1327",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Sharon Shoup",
+      "assistant_contact": "sshoup@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/f11e49a9-21d5-45ba-aadb-b5a4ffea4494/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CC-E-Civil-Procedures-2.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/f11e49a9-21d5-45ba-aadb-b5a4ffea4494/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CC-E-Civil-Procedures-2.pdf?language=en",
+          "type": "individual_procedure"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/9a1a4118-a497-432c-a8f8-40ca1a4e5757/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CC-E-CRIMINAL-PROCEDURES.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Criminal Procedures",
+          "verification": "linked_under_judge_in_current_court_index"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-6fcf1e715285409e",
+      "entity_type": "judge",
+      "name": "Julie K. Nelson",
+      "court": "Duval County Court",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1357",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Debra A. Kelley",
+      "assistant_contact": "dakelley@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/89daba90-4ba5-46c1-89e7-56c4e80748e8/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Civil-and-Criminal-Procedures-Division-O-7-9-24.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/89daba90-4ba5-46c1-89e7-56c4e80748e8/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Civil-and-Criminal-Procedures-Division-O-7-9-24.pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-748c5fade8e642a9",
+      "entity_type": "judge",
+      "name": "Kelly E. Eckley-Moulder",
+      "court": "Duval County Court",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1336",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Erin Jacobs",
+      "assistant_contact": "jerin@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/39e0a914-65f5-45f5-ab83-7bd6916d4d03/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CC-H-civil-procedures.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/39e0a914-65f5-45f5-ab83-7bd6916d4d03/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CC-H-civil-procedures.pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-b776f1b3e64c445c",
+      "entity_type": "judge",
+      "name": "Kimberly A. Sadler",
+      "court": "Duval County Court",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1345",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Sakoya M. Francis",
+      "assistant_contact": "sfrancis@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/64f202a3-6154-4cfc-bc6a-7d6960f1e12d/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CC-K-(CIVIL-ROCEDURES)2024.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/64f202a3-6154-4cfc-bc6a-7d6960f1e12d/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CC-K-(CIVIL-ROCEDURES)2024.pdf?language=en",
+          "type": "individual_procedure"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/ad77cc68-b8cb-43b0-a485-8221a5a4aa8d/135b97c9-84fa-4e82-b956-0fbccec4aa1f/_CC-K-(CRIMINAL-PROCEDURES)-(002).pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Criminal Procedures",
+          "verification": "linked_under_judge_in_current_court_index"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-598b0a3acfe442ee",
+      "entity_type": "judge",
+      "name": "Michael I. Bateh",
+      "court": "Duval County Court",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1321",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Lynn Rees",
+      "assistant_contact": "tlrees@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/2ea9e168-3606-47ae-b905-d5ea58714002/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CC-C-Civil-Procedures.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/2ea9e168-3606-47ae-b905-d5ea58714002/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CC-C-Civil-Procedures.pdf?language=en",
+          "type": "individual_procedure"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/cbd9b4fb-680d-475e-9b5c-a6f74b3f96f1/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Criminal-CC-C-Policies-and-Procedures-2023.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Criminal Procedures",
+          "verification": "linked_under_judge_in_current_court_index"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-763069199f7b4046",
+      "entity_type": "judge",
+      "name": "Michelle Kalil",
+      "court": "Duval County Court",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1348",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Rosi Rogers",
+      "assistant_contact": "rosarior@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/a15fcaa0-f20f-425e-a1a2-0d5a2119e4c0/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Civil-Practices-Procedures.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/a15fcaa0-f20f-425e-a1a2-0d5a2119e4c0/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Civil-Practices-Procedures.pdf?language=en",
+          "type": "individual_procedure"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/37906de7-f507-449f-acfd-20fb5e70eb3c/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Kalil-Criminal-Practices-Procedures.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Criminal Procedures",
+          "verification": "linked_under_judge_in_current_court_index"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-b1f5916b22b94bdc",
+      "entity_type": "judge",
+      "name": "Mose L. Floyd",
+      "court": "Duval County Court",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1351",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Trish Bennett",
+      "assistant_contact": "pbennett@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Court-linked procedures name Trish Bennett; same assistant also listed for Moran. Confirm current assignment by phone.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/cd7b4e61-e289-46b8-bbb2-c4cdd84ec96c/135b97c9-84fa-4e82-b956-0fbccec4aa1f/civil-procedures-for-Division-M.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/cd7b4e61-e289-46b8-bbb2-c4cdd84ec96c/135b97c9-84fa-4e82-b956-0fbccec4aa1f/civil-procedures-for-Division-M.pdf?language=en",
+          "type": "individual_procedure"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/499f0a5e-60f5-44bd-86a2-ea4447707f1b/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Criminal-Procedures-for-Division-M.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Criminal Procedures",
+          "verification": "linked_under_judge_in_current_court_index"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-3b5f7e5b1af04100",
+      "entity_type": "judge",
+      "name": "Rhonda D. Peoples-Waters",
+      "court": "Duval County Court",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1255",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Akeisha Wright",
+      "assistant_contact": "akeishaw@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/d6b175fe-a10f-482c-be3f-e7f461f332ac/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CC-D-Civil-Procedures_2023.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/d6b175fe-a10f-482c-be3f-e7f461f332ac/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CC-D-Civil-Procedures_2023.pdf?language=en",
+          "type": "individual_procedure"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/6f29442d-1fe1-4229-ba3a-f7b5bfd1928f/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CC-D-Standing-Jury-Trial-Order.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Standing Jury Trial Order",
+          "verification": "linked_under_judge_in_current_court_index"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/f2c4ff00-41b7-4b27-8efb-80c2930076f0/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CC-D-Criminal-Procedures.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Criminal Procedures",
+          "verification": "linked_under_judge_in_current_court_index"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-4a1d2f1623b14b52",
+      "entity_type": "judge",
+      "name": "Robin E. Lanigan",
+      "court": "Duval County Court",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1339",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Margaret Copeland",
+      "assistant_contact": "mcopeland@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/80acb166-c57d-4af1-a2de-00528ed0f92e/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Lanigan-civil-procedures.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/80acb166-c57d-4af1-a2de-00528ed0f92e/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Lanigan-civil-procedures.pdf?language=en",
+          "type": "individual_procedure"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/3c963a72-c97c-44cd-a077-93187e2d076c/135b97c9-84fa-4e82-b956-0fbccec4aa1f/2023-12-19-Criminal-courtroom-procedures.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Criminal Procedures",
+          "verification": "linked_under_judge_in_current_court_index"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-75ffea15b96349d1",
+      "entity_type": "judge",
+      "name": "Scott F. Mitchell",
+      "court": "Duval County Court",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1333",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Tracy Healy",
+      "assistant_contact": "thealy@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Phone is the shared chambers / JA office contact. Address is courthouse; address correspondence to named judge.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/7443cb50-3515-45a2-9141-768bd479ad77/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CC-G-Civil-procedures2-1.pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/7443cb50-3515-45a2-9141-768bd479ad77/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CC-G-Civil-procedures2-1.pdf?language=en",
+          "type": "individual_procedure"
+        },
+        {
+          "url": "https://www.jud4.org/getContentAsset/2c0f2ae2-8e93-47ae-ae8e-d1f57d07892f/135b97c9-84fa-4e82-b956-0fbccec4aa1f/CC-G-Criminal-Judicial-Practices-and-Procedures.pdf?language=en",
+          "type": "individual_procedure",
+          "title": "Criminal Procedures",
+          "verification": "linked_under_judge_in_current_court_index"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-3ba6dca41b4e43c7",
+      "entity_type": "judge",
+      "name": "Shaya E. Lee",
+      "court": "Duval County Court",
+      "counties": [
+        "Duval"
+      ],
+      "assignment_scope": "Duval",
+      "phone": "904-255-1330",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Tianna (Tia) Levine",
+      "assistant_contact": "tlevine@coj.net",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "Correct spelling is Shaya E. Lee; prior roster misspelled first name as Shayla.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/76ebe9f8-53a3-4484-b549-a0958d76eb6a/135b97c9-84fa-4e82-b956-0fbccec4aa1f/2026-CC-F-Practices-Procedures-(FSC-Template).pdf?language=en",
+        "https://www.jud4.org/circuit-and-county-judges-of-the-fourth-judicial-circuit",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/76ebe9f8-53a3-4484-b549-a0958d76eb6a/135b97c9-84fa-4e82-b956-0fbccec4aa1f/2026-CC-F-Practices-Procedures-(FSC-Template).pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-abee1dfe83704d17",
+      "entity_type": "judge",
+      "name": "Lester B. Bass",
+      "court": "4th Circuit",
+      "counties": [
+        "Nassau"
+      ],
+      "assignment_scope": "Nassau",
+      "phone": "904-548-4933",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Amber Collie",
+      "assistant_contact": "acollie@coj.net",
+      "address": "76347 Veterans Way, Yulee, FL 32097",
+      "notes": "Shared chambers / JA office phone.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/f0b93bb8-80ec-4b69-93d9-d7538aea7a69/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Judge-Bass-Practices-Procedures.pdf?language=en"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/f0b93bb8-80ec-4b69-93d9-d7538aea7a69/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Judge-Bass-Practices-Procedures.pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-9284bd4ca0ed4370",
+      "entity_type": "judge",
+      "name": "Meredith Charbula",
+      "court": "4th Circuit",
+      "counties": [
+        "Nassau"
+      ],
+      "assignment_scope": "Nassau",
+      "phone": "904-548-4922",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Sarah Meeks",
+      "assistant_contact": "Not publicly verified",
+      "address": "76347 Veterans Way, Yulee, FL 32097",
+      "notes": "JA phone shown; directory separately lists judge at 904-548-4921. Search located older Duval CR-G procedures, not verified for current Nassau assignment; excluded as current procedures.",
+      "sources": [
+        "https://www.nassauclerk.com/m/directory",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/clay-judges",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/nassau-judges",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/ex-parte-dates-judge-s-procedures",
+          "type": "court_index_only"
+        }
+      ],
+      "procedure_status": "individual_procedure_not_verified"
+    },
+    {
+      "entity_id": "judge-0d4622dfd74a4503",
+      "entity_type": "judge",
+      "name": "Steven M. Fahlgren",
+      "court": "4th Circuit",
+      "counties": [
+        "Nassau"
+      ],
+      "assignment_scope": "Nassau",
+      "phone": "904-548-4910",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Ashley Strickland",
+      "assistant_contact": "astrickland@coj.net",
+      "address": "76347 Veterans Way, Yulee, FL 32097",
+      "notes": "Shared chambers / JA office phone.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/ae77dae1-6ca2-4ecc-ad53-6d4ddc4c60d8/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Div-A-Procedures.pdf?language=en"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/ae77dae1-6ca2-4ecc-ad53-6d4ddc4c60d8/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Div-A-Procedures.pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-27897e6ce6f44c7f",
+      "entity_type": "judge",
+      "name": "Jenny S. Higginbotham",
+      "court": "Nassau County Court",
+      "counties": [
+        "Nassau"
+      ],
+      "assignment_scope": "Nassau",
+      "phone": "904-548-4945",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Victoria Hester",
+      "assistant_contact": "vhester@coj.net",
+      "address": "76347 Veterans Way, Yulee, FL 32097",
+      "notes": "Shared chambers / JA office phone.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/27b54fc4-4d70-4a78-a7f9-e25c09346a64/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Practices-Procedures-(FSC-Template)-(1).pdf?language=en"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/27b54fc4-4d70-4a78-a7f9-e25c09346a64/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Practices-Procedures-(FSC-Template)-(1).pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-dbbf0bc7c89c4762",
+      "entity_type": "judge",
+      "name": "Sarah A. Bell",
+      "court": "Nassau County Court",
+      "counties": [
+        "Nassau"
+      ],
+      "assignment_scope": "Nassau",
+      "phone": "904-548-4673",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Jamie Caliendo",
+      "assistant_contact": "jcaliendo@coj.net",
+      "address": "76347 Veterans Way, Yulee, FL 32097",
+      "notes": "Shared chambers / JA office phone.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/8567f300-1b52-4e9a-8c35-9afaceb2231f/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Bell-Practices-Procedures-(FSC-Template)-Sarah-A-Bell-9-15-26.pdf?language=en"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/8567f300-1b52-4e9a-8c35-9afaceb2231f/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Bell-Practices-Procedures-(FSC-Template)-Sarah-A-Bell-9-15-26.pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-d6ac929b88f342d0",
+      "entity_type": "judge",
+      "name": "Alicia R. Washington",
+      "court": "7th Circuit",
+      "counties": [
+        "Putnam"
+      ],
+      "assignment_scope": "Putnam",
+      "phone": "386-329-0266",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Teresa Blaha",
+      "assistant_contact": "tblaha@circuit7.org",
+      "address": "P.O. Box 758, Palatka, FL 32178",
+      "notes": "Shared chambers / JA office phone.",
+      "sources": [
+        "https://circuit7.org/judges/judge-alicia-r-washington/"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://circuit7.org/wp-content/uploads/PUTNAM-COUNTY-DIVISION-52-PROCEDURES.pdf",
+          "type": "individual_procedure",
+          "title": "Judge-specific division practices and procedures",
+          "verification": "official_document_located"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-5713cc6e51914d6e",
+      "entity_type": "judge",
+      "name": "Christopher A. France",
+      "court": "7th Circuit",
+      "counties": [
+        "Putnam"
+      ],
+      "assignment_scope": "Putnam",
+      "phone": "386-313-4515",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Jennifer Sirman",
+      "assistant_contact": "jsirman@circuit7.org",
+      "address": "1769 E. Moody Boulevard, Building 1, Bunnell, FL 32110",
+      "notes": "Shared chambers / JA office phone. Based in Flagler County; assigned Putnam cases.",
+      "sources": [
+        "https://circuit7.org/judges/judge-christopher-a-france/"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://circuit7.org/wp-content/uploads/FRANCE-PUTNAM-PROCEDURES-oct-1.pdf",
+          "type": "individual_procedure",
+          "title": "Judge-specific division practices and procedures",
+          "verification": "official_document_located"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-49f68cc62c2b4a59",
+      "entity_type": "judge",
+      "name": "Katherine H. Miller",
+      "court": "7th Circuit",
+      "counties": [
+        "Putnam"
+      ],
+      "assignment_scope": "Putnam",
+      "phone": "386-329-0471",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Katelyn Lee",
+      "assistant_contact": "klee@circuit7.org",
+      "address": "P.O. Box 758, Palatka, FL 32178",
+      "notes": "Shared chambers / JA office phone.",
+      "sources": [
+        "https://circuit7.org/judges/judge-katherine-h-miller/"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://circuit7.org/wp-content/uploads/DIVISION-54-Judicial-Practices-and-Procedures-August.pdf",
+          "type": "individual_procedure",
+          "title": "Judge-specific division practices and procedures",
+          "verification": "official_document_located"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-dc1484d52f6b4544",
+      "entity_type": "judge",
+      "name": "Sandra C. Upchurch",
+      "court": "7th Circuit",
+      "counties": [
+        "Putnam"
+      ],
+      "assignment_scope": "Putnam",
+      "phone": "386-313-4530",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Katie Smith",
+      "assistant_contact": "kasmith@circuit7.org",
+      "address": "1769 E. Moody Boulevard, Building 1, Bunnell, FL 32110",
+      "notes": "Shared chambers / JA office phone. Based in Flagler County; assigned Putnam cases.",
+      "sources": [
+        "https://circuit7.org/judges/judge-sandra-c-upchurch/"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://circuit7.org/wp-content/uploads/Div-53-procedures-FSCtemplacecourtprocedures4-15.pdf",
+          "type": "individual_procedure",
+          "title": "Judge-specific division practices and procedures",
+          "verification": "official_document_located"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-a3ea459410d840b7",
+      "entity_type": "judge",
+      "name": "George A. Young",
+      "court": "Putnam County Court",
+      "counties": [
+        "Putnam"
+      ],
+      "assignment_scope": "Putnam",
+      "phone": "386-329-0269",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Kristy Lofton",
+      "assistant_contact": "klofton@circuit7.org",
+      "address": "P.O. Box 758, Palatka, FL 32178",
+      "notes": "Shared chambers / JA office phone.",
+      "sources": [
+        "https://circuit7.org/judges/division-62-vacant/"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://circuit7.org/wp-content/uploads/JUDICIAL-PRACTICES-AND-PROCEDURES-2026.pdf",
+          "type": "individual_procedure",
+          "title": "Judge-specific division practices and procedures",
+          "verification": "official_document_located"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-edd0bcb535c14bd0",
+      "entity_type": "judge",
+      "name": "K. Mark Johnson",
+      "court": "Putnam County Court",
+      "counties": [
+        "Putnam"
+      ],
+      "assignment_scope": "Putnam",
+      "phone": "386-326-2736",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Julie Richter",
+      "assistant_contact": "jrichter@circuit7.org",
+      "address": "P.O. Box 758, Palatka, FL 32178",
+      "notes": "Shared chambers / JA office phone.",
+      "sources": [
+        "https://circuit7.org/judges/division-63-division-25-vacant/"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://circuit7.org/wp-content/uploads/Judicial-Practices-and-Procedures-Final-Version.pdf",
+          "type": "individual_procedure",
+          "title": "Judge-specific division practices and procedures",
+          "verification": "official_document_located"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-8dc2192ab06149fc",
+      "entity_type": "judge",
+      "name": "Christopher Ferebee",
+      "court": "7th Circuit",
+      "counties": [
+        "St. Johns"
+      ],
+      "assignment_scope": "St. Johns",
+      "phone": "904-827-5647",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Marlene Germany",
+      "assistant_contact": "mgermany@circuit7.org",
+      "address": "4010 Lewis Speedway, St. Augustine, FL 32084",
+      "notes": "Shared chambers / JA office phone.",
+      "sources": [
+        "https://circuit7.org/judges/judge-christopher-ferebee/"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://circuit7.org/wp-content/uploads/CSF-Judicial-Practices-and-Procedures_Criminal.pdf",
+          "type": "individual_procedure",
+          "title": "Judge-specific division practices and procedures",
+          "verification": "official_document_located"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-7c28d1e83dc34ae7",
+      "entity_type": "judge",
+      "name": "Howard M. Maltz",
+      "court": "7th Circuit",
+      "counties": [
+        "St. Johns"
+      ],
+      "assignment_scope": "St. Johns",
+      "phone": "904-827-5600",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Susan Miller",
+      "assistant_contact": "smiller@circuit7.org",
+      "address": "4010 Lewis Speedway, St. Augustine, FL 32084",
+      "notes": "Shared chambers / JA office phone.",
+      "sources": [
+        "https://circuit7.org/judges/judge-howard-m-maltz/"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://circuit7.org/wp-content/uploads/Standing-Order-for-Civil-Procedures-1.25-maltz.pdf",
+          "type": "individual_procedure",
+          "title": "Judge-specific division practices and procedures",
+          "verification": "official_document_located"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-6bf8b178182f48e7",
+      "entity_type": "judge",
+      "name": "Kenneth J. Janesk II",
+      "court": "7th Circuit",
+      "counties": [
+        "St. Johns"
+      ],
+      "assignment_scope": "St. Johns",
+      "phone": "904-827-5654",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Megan Lapinski",
+      "assistant_contact": "mlapinski@circuit7.org",
+      "address": "4010 Lewis Speedway, St. Augustine, FL 32084",
+      "notes": "Shared chambers / JA office phone.",
+      "sources": [
+        "https://circuit7.org/judges/judge-kenneth-j-janesk-ii/"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://circuit7.org/wp-content/uploads/Family-division-procedures.pdf",
+          "type": "individual_procedure",
+          "title": "Judge-specific division practices and procedures",
+          "verification": "official_document_located"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-49d86a3f904f4316",
+      "entity_type": "judge",
+      "name": "R. Lee Smith",
+      "court": "7th Circuit",
+      "counties": [
+        "St. Johns"
+      ],
+      "assignment_scope": "St. Johns",
+      "phone": "904-827-5606",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Traci Davis",
+      "assistant_contact": "tdavis@circuit7.org",
+      "address": "4010 Lewis Speedway, St. Augustine, FL 32084",
+      "notes": "Shared chambers / JA office phone.",
+      "sources": [
+        "https://circuit7.org/judges/judge-r-lee-smith/"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://circuit7.org/wp-content/uploads/Standing-Order-for-Civil-Procedures-1.25-1.pdf",
+          "type": "individual_procedure",
+          "title": "Judge-specific division practices and procedures",
+          "verification": "official_document_located"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-aa2313b0c0844221",
+      "entity_type": "judge",
+      "name": "Rose Marie Karadsheh Preddy",
+      "court": "7th Circuit",
+      "counties": [
+        "St. Johns"
+      ],
+      "assignment_scope": "St. Johns",
+      "phone": "904-827-5665",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Gabriella Delgado",
+      "assistant_contact": "gdelgado@circuit7.org",
+      "address": "4010 Lewis Speedway, St. Augustine, FL 32084",
+      "notes": "Shared chambers / JA office phone.",
+      "sources": [
+        "https://circuit7.org/judges/judge-rose-marie-karadsheh-preddy/"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://circuit7.org/wp-content/uploads/Family-division-procedures-57-final-2-9-26.pdf",
+          "type": "individual_procedure",
+          "title": "Judge-specific division practices and procedures",
+          "verification": "official_document_located"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-e4e8c525a07a4fa9",
+      "entity_type": "judge",
+      "name": "Alexander R. Christine Jr.",
+      "court": "St. Johns County Court",
+      "counties": [
+        "St. Johns"
+      ],
+      "assignment_scope": "St. Johns",
+      "phone": "904-827-5613",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Libby Mahoney",
+      "assistant_contact": "emahoney@circuit7.org",
+      "address": "4010 Lewis Speedway, St. Augustine, FL 32084",
+      "notes": "Shared chambers / JA office phone.",
+      "sources": [
+        "https://circuit7.org/judges/judge-alexander-r-christine-jr/"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://circuit7.org/wp-content/uploads/Division-65-Procedures.pdf",
+          "type": "individual_procedure",
+          "title": "Judge-specific division practices and procedures",
+          "verification": "official_document_located"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-bee78ca683d24308",
+      "entity_type": "judge",
+      "name": "Benjamin J. Rich",
+      "court": "St. Johns County Court",
+      "counties": [
+        "St. Johns"
+      ],
+      "assignment_scope": "St. Johns",
+      "phone": "904-827-5652",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Carolyn Ryan",
+      "assistant_contact": "cryan@circuit7.org",
+      "address": "4010 Lewis Speedway, St. Augustine, FL 32084",
+      "notes": "Shared chambers / JA office phone.",
+      "sources": [
+        "https://circuit7.org/judges/judge-benjamin-j-rich/"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://circuit7.org/wp-content/uploads/Division-67-Procedures-amended-002.pdf",
+          "type": "individual_procedure",
+          "title": "Judge-specific division practices and procedures",
+          "verification": "official_document_located"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-d67fcd1175db4d19",
+      "entity_type": "judge",
+      "name": "Casey L. Woolsey",
+      "court": "St. Johns County Court",
+      "counties": [
+        "St. Johns"
+      ],
+      "assignment_scope": "St. Johns",
+      "phone": "904-827-5611",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Tammy Sites",
+      "assistant_contact": "tsites@circuit7.org",
+      "address": "4010 Lewis Speedway, St. Augustine, FL 32084",
+      "notes": "Shared chambers / JA office phone.",
+      "sources": [
+        "https://circuit7.org/judges/judge-casey-l-woolsey/"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://circuit7.org/wp-content/uploads/DIVISION-66-PROCEDURES.pdf",
+          "type": "individual_procedure",
+          "title": "Judge-specific division practices and procedures",
+          "verification": "official_document_located"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-797ba8f90ce84a89",
+      "entity_type": "judge",
+      "name": "Howard O. McGillin Jr.",
+      "court": "7th Circuit",
+      "counties": [
+        "St. Johns",
+        "Putnam"
+      ],
+      "assignment_scope": "St. Johns; Putnam",
+      "phone": "904-827-5603",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Veronica Griffis",
+      "assistant_contact": "vgriffis@circuit7.org",
+      "address": "4010 Lewis Speedway, St. Augustine, FL 32084",
+      "notes": "Shared chambers / JA office phone.",
+      "sources": [
+        "https://circuit7.org/judges/judge-howard-o-mcgillin-jr/"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://circuit7.org/wp-content/uploads/Div-46-standard-practices-2-11.pdf",
+          "type": "individual_procedure",
+          "title": "Judge-specific division practices and procedures",
+          "verification": "linked_from_official_judge_page; document_fetch_failed_503"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-f6b8f58855bd41cd",
+      "entity_type": "judge",
+      "name": "Donna M. Keim",
+      "court": "8th Circuit",
+      "counties": [
+        "Union"
+      ],
+      "assignment_scope": "Union",
+      "phone": "352-374-3646",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Theresa Hall",
+      "assistant_contact": "hallt@circuit8.org",
+      "address": "201 East University Avenue, Room 416, Gainesville, FL 32601",
+      "notes": "Shared chambers / JA office phone. Gainesville address is chambers base for regional circuit judges.",
+      "sources": [
+        "https://circuit8.org/courts-judges/judge-donna-m-keim/"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://circuit8.org/wp-content/uploads/Alachua-County-Circuit-Civil-Division-CA1-Civil-Policies-and-Procedures.pdf",
+          "type": "individual_procedure",
+          "title": "Judge Keim Division Policies and Procedures",
+          "verification": "linked_from_official_judge_page"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-84022382fc86468a",
+      "entity_type": "judge",
+      "name": "Sean D. Brewer",
+      "court": "8th Circuit",
+      "counties": [
+        "Union"
+      ],
+      "assignment_scope": "Union",
+      "phone": "352-374-3617",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Jenna Morgan",
+      "assistant_contact": "MorganJ@circuit8.org",
+      "address": "201 East University Avenue, Room 417, Gainesville, FL 32601",
+      "notes": "Shared chambers / JA office phone. Gainesville address is chambers base for regional circuit judges.",
+      "sources": [
+        "https://circuit8.org/courts-judges/judge-sean-brewer/"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://circuit8.org/courts-judges/judge-sean-brewer/judge-sean-brewers-division-procedures/",
+          "type": "individual_procedure",
+          "title": "Judge Brewer\u2019s Division Procedures",
+          "verification": "linked_from_official_judge_page"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-0b25527c241642f5",
+      "entity_type": "judge",
+      "name": "Mitchell D. Bishop",
+      "court": "Union County Court / circuit assignments",
+      "counties": [
+        "Union"
+      ],
+      "assignment_scope": "Union",
+      "phone": "386-496-2621",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Hannah Seay",
+      "assistant_contact": "seayh@circuit8.org",
+      "address": "55 West Main Street, Lake Butler, FL 32054",
+      "notes": "Shared chambers / JA office phone. Gainesville address is chambers base for regional circuit judges.",
+      "sources": [
+        "https://circuit8.org/courts-judges/judge-mitchell-bishop/"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://circuit8.org/courts-judges/judge-mitchell-bishop/judge-mitchel-bishop-division-procedures/",
+          "type": "individual_procedure",
+          "title": "Judge Bishop\u2019s Division Procedures",
+          "verification": "linked_from_official_judge_page"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-c7b6973a0cd5480b",
+      "entity_type": "judge",
+      "name": "Steven B. Whittington",
+      "court": "4th Circuit",
+      "counties": [
+        "Clay"
+      ],
+      "assignment_scope": "Clay",
+      "phone": "904-269-6302",
+      "phone_type": "Published shared office number",
+      "assistant": "Lori Durham",
+      "assistant_contact": "durhaml@clayclerk.com",
+      "address": "825 North Orange Avenue, Green Cove Springs, FL 32043; mail: P.O. Drawer 1018, Green Cove Springs, FL 32043",
+      "notes": "Contact as published in linked procedures.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/2901f040-a4d4-41d7-96eb-71bf3224ec35/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Judge-Whittington-Judicial-Practices-and-Procedures.pdf?language=en",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/clay-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/2901f040-a4d4-41d7-96eb-71bf3224ec35/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Judge-Whittington-Judicial-Practices-and-Procedures.pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-f0483b9a0ca841a7",
+      "entity_type": "judge",
+      "name": "James E. Kallaher",
+      "court": "4th Circuit",
+      "counties": [
+        "Clay"
+      ],
+      "assignment_scope": "Clay",
+      "phone": "904-284-6302",
+      "phone_type": "Published shared office number",
+      "assistant": "Melissa Brewer",
+      "assistant_contact": "brewerm@clayclerk.com",
+      "address": "825 North Orange Avenue, Green Cove Springs, FL 32043; mail: P.O. Drawer 1018, Green Cove Springs, FL 32043",
+      "notes": "Contact as published in linked procedures.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/bb56e12b-b24f-4f15-bacc-d12b822552d9/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Kallaher-Division-B-Procedures-Judge-Kallaher-updated-MAY-2026.pdf?language=en",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/clay-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/bb56e12b-b24f-4f15-bacc-d12b822552d9/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Kallaher-Division-B-Procedures-Judge-Kallaher-updated-MAY-2026.pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-32ae524c4cc9484c",
+      "entity_type": "judge",
+      "name": "Angela M. Cox",
+      "court": "4th Circuit",
+      "counties": [
+        "Clay"
+      ],
+      "assignment_scope": "Clay",
+      "phone": "904-529-2704",
+      "phone_type": "Chambers / JA office",
+      "assistant": "Donna Gonzalez",
+      "assistant_contact": "gonzalezd@clayclerk.com",
+      "address": "825 North Orange Avenue, Green Cove Springs, FL 32043; mail: P.O. Drawer 1018, Green Cove Springs, FL 32043",
+      "notes": "Contact as published in linked procedures.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/34a368be-e372-4ec1-ba3b-9bfdaf1ff735/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Dependency-Division-Procedures.pdf?language=en",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/clay-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/34a368be-e372-4ec1-ba3b-9bfdaf1ff735/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Dependency-Division-Procedures.pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-d1995de7712a4db0",
+      "entity_type": "judge",
+      "name": "Gary L. Wilkinson",
+      "court": "4th Circuit",
+      "counties": [
+        "Clay"
+      ],
+      "assignment_scope": "Clay",
+      "phone": "904-284-6302",
+      "phone_type": "Published shared office number",
+      "assistant": "Kathryn Claxton",
+      "assistant_contact": "claxtonk@clayclerk.com",
+      "address": "825 North Orange Avenue, Green Cove Springs, FL 32043; mail: P.O. Drawer 1018, Green Cove Springs, FL 32043",
+      "notes": "Contact as published in linked procedures.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/58129a75-b8f9-4684-a332-c0449c4e29b7/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Civil-Procedures-Wilkinson-2026.pdf?language=en",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/clay-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/58129a75-b8f9-4684-a332-c0449c4e29b7/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Civil-Procedures-Wilkinson-2026.pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-b7588f11fcf042a3",
+      "entity_type": "judge",
+      "name": "Kristina K. Mobley",
+      "court": "4th Circuit",
+      "counties": [
+        "Clay"
+      ],
+      "assignment_scope": "Clay",
+      "phone": "904-269-6302",
+      "phone_type": "Published shared office number",
+      "assistant": "Melissa Bishop",
+      "assistant_contact": "BishopM@clayclerk.com",
+      "address": "825 North Orange Avenue, Green Cove Springs, FL 32043; mail: P.O. Drawer 1018, Green Cove Springs, FL 32043",
+      "notes": "Contact as published in linked procedures.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/22e30422-d3d2-4836-884b-febc79ab8f6f/135b97c9-84fa-4e82-b956-0fbccec4aa1f/J-Mobley-Practices-Procedures.pdf?language=en",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/clay-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/22e30422-d3d2-4836-884b-febc79ab8f6f/135b97c9-84fa-4e82-b956-0fbccec4aa1f/J-Mobley-Practices-Procedures.pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-5fa61872f14042d5",
+      "entity_type": "judge",
+      "name": "Raymond E. Forbess Jr.",
+      "court": "Clay County Court",
+      "counties": [
+        "Clay"
+      ],
+      "assignment_scope": "Clay",
+      "phone": "904-269-6302",
+      "phone_type": "Published shared office number",
+      "assistant": "Michele (Shelly) Hatalski",
+      "assistant_contact": "shellyh@clayclerk.com",
+      "address": "825 North Orange Avenue, Green Cove Springs, FL 32043; mail: P.O. Drawer 1018, Green Cove Springs, FL 32043",
+      "notes": "Published number may route through clerk. Forbess JA spelling confirmed on clerk biography.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/67402d5b-f9d9-4ba2-a773-651037176db0/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Forbess-Standard-Procedures.pdf?language=en",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/clay-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/67402d5b-f9d9-4ba2-a773-651037176db0/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Forbess-Standard-Procedures.pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "judge-6bfaa452c3b243f7",
+      "entity_type": "judge",
+      "name": "Hector Murcia Bustos",
+      "court": "Clay County Court",
+      "counties": [
+        "Clay"
+      ],
+      "assignment_scope": "Clay",
+      "phone": "904-269-6302",
+      "phone_type": "Published shared office number",
+      "assistant": "Megan Blunck",
+      "assistant_contact": "blunckm@clayclerk.com",
+      "address": "825 North Orange Avenue, Green Cove Springs, FL 32043; mail: P.O. Drawer 1018, Green Cove Springs, FL 32043",
+      "notes": "Contact as published in linked procedures.",
+      "sources": [
+        "https://www.jud4.org/getContentAsset/2d7d0fc6-6837-45c4-aaa7-a76e6d3b6bed/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Murcia-Bustos-Standard-Procedures.pdf?language=en",
+        "https://www.jud4.org/ex-parte-dates-judge-s-procedures/clay-judges"
+      ],
+      "checked_on": "2026-10-11",
+      "procedures": [
+        {
+          "url": "https://www.jud4.org/getContentAsset/2d7d0fc6-6837-45c4-aaa7-a76e6d3b6bed/135b97c9-84fa-4e82-b956-0fbccec4aa1f/Murcia-Bustos-Standard-Procedures.pdf?language=en",
+          "type": "individual_procedure"
+        }
+      ],
+      "procedure_status": "individual_document_located"
+    },
+    {
+      "entity_id": "clerk-013a2070422f494c",
+      "entity_type": "clerk",
+      "name": "John A. Tomasino",
+      "court": "Florida Supreme Court",
+      "counties": [],
+      "phone": "850-488-0125",
+      "contact": "Not publicly verified",
+      "address": "500 South Duval Street, Tallahassee, FL 32399-1927",
+      "notes": "",
+      "sources": [
+        "https://supremecourt.flcourts.gov/the-court/clerk"
+      ],
+      "checked_on": "2026-10-11"
+    },
+    {
+      "entity_id": "clerk-34e6a996a4e84e2a",
+      "entity_type": "clerk",
+      "name": "Kristina Samuels",
+      "court": "1st DCA",
+      "counties": [],
+      "phone": "850-488-6151",
+      "contact": "Not publicly verified",
+      "address": "2000 Drayton Drive, Tallahassee, FL 32399-0950",
+      "notes": "",
+      "sources": [
+        "https://1dca.flcourts.gov/Clerk/Filings-Information",
+        "https://1dca.flcourts.gov/clerk/Clerk-of-the-Court"
+      ],
+      "checked_on": "2026-10-11"
+    },
+    {
+      "entity_id": "clerk-94dcefe0b08b44ea",
+      "entity_type": "clerk",
+      "name": "Mary Elizabeth (Mary Beth) Kuenzel",
+      "court": "2nd DCA",
+      "counties": [],
+      "phone": "727-610-3741",
+      "contact": "Not publicly verified",
+      "address": "525 Mirror Lake Drive North, St. Petersburg, FL 33701",
+      "notes": "",
+      "sources": [
+        "https://2dca.flcourts.gov/About-the-Court/Clerk-s-Office/Clerk-of-Court-Mary-Beth-Kuenzel"
+      ],
+      "checked_on": "2026-10-11"
+    },
+    {
+      "entity_id": "clerk-2464b233769d4406",
+      "entity_type": "clerk",
+      "name": "Benjamin F. Reaveley",
+      "court": "3rd DCA",
+      "counties": [],
+      "phone": "305-229-3200",
+      "contact": "Not publicly verified",
+      "address": "2001 SW 117th Avenue, Miami, FL 33175",
+      "notes": "Became clerk October 1, 2026; succeeded Mercedes Prieto.",
+      "sources": [
+        "https://3dca.flcourts.gov/"
+      ],
+      "checked_on": "2026-10-11"
+    },
+    {
+      "entity_id": "clerk-7b4bf6cf47254134",
+      "entity_type": "clerk",
+      "name": "Lonn Weissblum",
+      "court": "4th DCA",
+      "counties": [],
+      "phone": "561-242-2000",
+      "contact": "4thDCAClerk@flcourts.org",
+      "address": "110 South Tamarind Avenue, West Palm Beach, FL 33401",
+      "notes": "Email published in clerk office recruitment notice; call for case-specific inquiry channel.",
+      "sources": [
+        "https://4dca.flcourts.gov/About-the-Court/Clerk-s-Office",
+        "https://4dca.flcourts.gov/About-the-Court/employment/job-posting-clerk-s-office-deputy-clerk-ii-part-time"
+      ],
+      "checked_on": "2026-10-11"
+    },
+    {
+      "entity_id": "clerk-28f039f266fa4233",
+      "entity_type": "clerk",
+      "name": "Sandra Williams",
+      "court": "5th DCA",
+      "counties": [],
+      "phone": "386-947-1530",
+      "contact": "Not publicly verified",
+      "address": "300 South Beach Street, Daytona Beach, FL 32114",
+      "notes": "",
+      "sources": [
+        "https://5dca.flcourts.gov/Clerk-s-Office"
+      ],
+      "checked_on": "2026-10-11"
+    },
+    {
+      "entity_id": "clerk-ff0e46499eb14c57",
+      "entity_type": "clerk",
+      "name": "Stacey Pectol",
+      "court": "6th DCA",
+      "counties": [],
+      "phone": "863-940-6041",
+      "contact": "6DCA-clerkoffice@flcourts.gov",
+      "address": "811 East Main Street, Lakeland, FL 33801",
+      "notes": "Email published for photocopy / certified-copy requests.",
+      "sources": [
+        "https://6dca.flcourts.gov/Clerk-s-Office"
+      ],
+      "checked_on": "2026-10-11"
+    },
+    {
+      "entity_id": "clerk-b8d43c21969e44a9",
+      "entity_type": "clerk",
+      "name": "Jody Phillips",
+      "court": "Duval circuit and county courts",
+      "counties": [
+        "Duval"
+      ],
+      "phone": "904-255-2000",
+      "contact": "Contact page: https://www.duvalclerk.gov/contact-us",
+      "address": "501 West Adams Street, Jacksonville, FL 32202",
+      "notes": "",
+      "sources": [
+        "https://www.duvalclerk.gov/contact-us",
+        "https://www.duvalclerk.gov/about/meet-the-clerk"
+      ],
+      "checked_on": "2026-10-11"
+    },
+    {
+      "entity_id": "clerk-c00575076d5d414f",
+      "entity_type": "clerk",
+      "name": "Brandon J. Patty",
+      "court": "St. Johns circuit and county courts",
+      "counties": [
+        "St. Johns"
+      ],
+      "phone": "904-819-3600; clerk: 904-819-3601",
+      "contact": "bpatty@stjohnsclerk.com",
+      "address": "4010 Lewis Speedway, St. Augustine, FL 32084",
+      "notes": "",
+      "sources": [
+        "https://stjohnsclerk.com/amo-team/brandon-j-patty/"
+      ],
+      "checked_on": "2026-10-11"
+    },
+    {
+      "entity_id": "clerk-df195450c4544531",
+      "entity_type": "clerk",
+      "name": "Matt Reynolds",
+      "court": "Putnam circuit and county courts",
+      "counties": [
+        "Putnam"
+      ],
+      "phone": "386-326-7600; clerk: 386-326-7603",
+      "contact": "Contact page: https://putnamclerk.com/",
+      "address": "Mail: P.O. Box 758, Palatka, FL 32178; office: 410 St. Johns Avenue, Building 1-B, Palatka, FL 32177",
+      "notes": "",
+      "sources": [
+        "https://putnamclerk.com/about-the-clerk/introducing-matt-reynolds/",
+        "https://circuit7.org/clerks-of-the-court/"
+      ],
+      "checked_on": "2026-10-11"
+    },
+    {
+      "entity_id": "clerk-da9db5cf75d14d04",
+      "entity_type": "clerk",
+      "name": "Mitch L. Keiter",
+      "court": "Nassau circuit and county courts",
+      "counties": [
+        "Nassau"
+      ],
+      "phone": "904-548-4600",
+      "contact": "Contact page: https://www.nassauclerk.com/",
+      "address": "76347 Veterans Way, Yulee, FL 32097",
+      "notes": "Fernandina Beach branch: 416 Centre Street, FL 32034; 904-491-6430.",
+      "sources": [
+        "https://www.nassauclerk.com/m/directory"
+      ],
+      "checked_on": "2026-10-11"
+    },
+    {
+      "entity_id": "clerk-7c3512abcb334ee3",
+      "entity_type": "clerk",
+      "name": "Stacie D. Harvey",
+      "court": "Baker circuit and county courts",
+      "counties": [
+        "Baker"
+      ],
+      "phone": "904-259-8113",
+      "contact": "Stacie.Harvey@BakerClerk.com",
+      "address": "339 E. Macclenny Avenue, Macclenny, FL 32063",
+      "notes": "Email is published as public-records contact; website has general contact form.",
+      "sources": [
+        "https://bakerclerk.com/contact-us/",
+        "https://www.flclerks.com/page/sunshineweek"
+      ],
+      "checked_on": "2026-10-11"
+    },
+    {
+      "entity_id": "clerk-1d4e51176b4e4369",
+      "entity_type": "clerk",
+      "name": "Kellie Hendricks Rhoades",
+      "court": "Union circuit and county courts",
+      "counties": [
+        "Union"
+      ],
+      "phone": "386-496-3711",
+      "contact": "Contact page: https://unionclerk.com/",
+      "address": "55 West Main Street, Lake Butler, FL 32054",
+      "notes": "",
+      "sources": [
+        "https://unionclerk.com/",
+        "https://unionclerk.com/departments-services/court-services/"
+      ],
+      "checked_on": "2026-10-11"
+    },
+    {
+      "entity_id": "clerk-39db6fec89894531",
+      "entity_type": "clerk",
+      "name": "Tara S. Green",
+      "court": "Clay circuit and county courts",
+      "counties": [
+        "Clay"
+      ],
+      "phone": "904-284-6302 / 904-269-6302",
+      "contact": "info@clayclerk.com",
+      "address": "825 North Orange Avenue, Green Cove Springs, FL 32043; mail: P.O. Box 698, Green Cove Springs, FL 32043",
+      "notes": "",
+      "sources": [
+        "https://clayclerk.com/about/contact-us/"
+      ],
+      "checked_on": "2026-10-11"
+    },
+    {
+      "entity_id": "circuit-4",
+      "entity_type": "circuit",
+      "name": "4th Circuit",
+      "counties": [
+        "Duval",
+        "Nassau",
+        "Clay"
+      ],
+      "sources": [
+        "https://www.jud4.org/administrative-orders"
+      ],
+      "administrative_orders_url": "https://www.jud4.org/administrative-orders",
+      "statewide_rules_url": "https://www.floridabar.org/rules/ctproc/",
+      "checked_on": "2026-10-11"
+    },
+    {
+      "entity_id": "circuit-7",
+      "entity_type": "circuit",
+      "name": "7th Circuit",
+      "counties": [
+        "St. Johns",
+        "Putnam"
+      ],
+      "sources": [
+        "https://circuit7.org/administrative-orders/"
+      ],
+      "administrative_orders_url": "https://circuit7.org/administrative-orders/",
+      "statewide_rules_url": "https://www.floridabar.org/rules/ctproc/",
+      "checked_on": "2026-10-11"
+    },
+    {
+      "entity_id": "circuit-8",
+      "entity_type": "circuit",
+      "name": "8th Circuit",
+      "counties": [
+        "Baker",
+        "Union"
+      ],
+      "sources": [
+        "https://circuit8.org/eighth-judicial-circuit-court/administrative-orders/"
+      ],
+      "administrative_orders_url": "https://circuit8.org/eighth-judicial-circuit-court/administrative-orders/",
+      "statewide_rules_url": "https://www.floridabar.org/rules/ctproc/",
+      "checked_on": "2026-10-11"
+    }
+  ]
+}

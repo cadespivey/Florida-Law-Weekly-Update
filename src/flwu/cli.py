@@ -66,6 +66,12 @@ def main(argv: list[str] | None = None) -> int:
         help="Report window end date (YYYY-MM-DD).",
     )
 
+    directory_parser = subparsers.add_parser("directory", help="Import the reviewed judicial directory and render its appendix.")
+    directory_parser.add_argument("--database", required=True, type=Path)
+    directory_parser.add_argument("--output", required=True, type=Path)
+
+    preview_parser.add_argument("--directory-db", type=Path, default=None, help="Read the current reviewed directory snapshot from this SQLite database.")
+
     # Future subcommand placeholders (C34, C37, C39, C40)
     subparsers.add_parser("registry", help="Manage source registries (future).")
     subparsers.add_parser("fetch", help="Acquire source data (future).")
@@ -78,6 +84,25 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.command is None:
         parser.print_help()
+        return 0
+
+    if args.command == "directory":
+        from flwu.directory import load_directory, import_directory, read_directory
+        from flwu.directory_render import render_directory
+        from flwu.state import open_db, migrate
+        import json
+        args.database.parent.mkdir(parents=True, exist_ok=True)
+        args.output.mkdir(parents=True, exist_ok=True)
+        conn = open_db(args.database)
+        try:
+            migrate(conn)
+            result = import_directory(conn, load_directory())
+            data = read_directory(conn)
+            (args.output / "judicial-directory.html").write_text(render_directory(data), encoding="utf-8")
+            (args.output / "judicial-directory.json").write_text(json.dumps(data, indent=2), encoding="utf-8")
+            print(json.dumps(result))
+        finally:
+            conn.close()
         return 0
 
     if args.command == "preview":
@@ -102,8 +127,19 @@ def _handle_preview(args: argparse.Namespace) -> int:
         state_root = Path(args.state_root)
         output_dir = Path(args.output_path)
 
+        directory = None
+        if args.directory_db:
+            import sqlite3
+            from flwu.directory import read_directory
+            conn = sqlite3.connect(args.directory_db.resolve().as_uri() + "?mode=ro", uri=True)
+            try:
+                directory = read_directory(conn)
+            finally:
+                conn.close()
+
         issue = run_fixture(
             input_path=fixture_path,
+            directory=directory,
             state_root=state_root,
             output_dir=output_dir,
             observed_at=args.observed_at,

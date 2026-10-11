@@ -10,6 +10,8 @@ Uses only records and analyses from fixture_pipeline; no live model calls.
 from __future__ import annotations
 
 from typing import Any
+import json
+from flwu.directory_render import render_appendix
 
 
 def render_issue(records: list[dict], analyses: list[dict], *, issue: dict) -> str:
@@ -27,7 +29,6 @@ def render_issue(records: list[dict], analyses: list[dict], *, issue: dict) -> s
     """
     mode = issue.get("mode", "fixture")
     categories = _categorize(records, analyses)
-    categories_html = _render_categories(categories, mode)
     window_start = issue.get("window_start", "")
     window_end = issue.get("window_end", "")
     title = _escape(issue.get("title", "FLWU Report"))
@@ -80,8 +81,8 @@ def render_issue(records: list[dict], analyses: list[dict], *, issue: dict) -> s
         if not section_records:
             parts.append(f'<p>No {heading_id.replace("_", " ")} in this report window.</p>\n')
         else:
-            for rec in section_records:
-                parts.append(_render_record(rec, analyses))
+            for rec, anas in section_records:
+                parts.append(_render_record(rec, anas))
             parts.append('\n')
 
         parts.append('</div>\n')
@@ -94,6 +95,7 @@ def render_issue(records: list[dict], analyses: list[dict], *, issue: dict) -> s
         '<p>This is a machine-generated informational publication. ',
         'It is not a substitute for professional legal advice.</p>',
         '</footer>\n',
+        render_appendix(issue.get('directory')),
         '</body>\n</html>\n',
     ])
 
@@ -137,13 +139,14 @@ def render_markdown_issue(records: list[dict], analyses: list[dict], *, issue: d
         if not section_records:
             parts.append(f"No {heading_id.replace('_', ' ')} in this report window.\n\n")
         else:
-            for rec in section_records:
-                parts.append(_render_markdown_record(rec, analyses))
+            for rec, anas in section_records:
+                parts.append(_render_markdown_record(rec, anas))
             parts.append("\n")
 
     parts.append("---\n")
     parts.append("*Florida Litigator Weekly Update — machine-generated informational publication.*\n")
 
+    parts.append(render_appendix(issue.get("directory")))
     return "".join(parts)
 
 
