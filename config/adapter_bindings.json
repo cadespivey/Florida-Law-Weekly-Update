@@ -1,0 +1,23 @@
+{
+  "default": {"max_pages": 100, "max_bytes": 10000000, "timeout_seconds": 30, "max_retries": 3},
+  "fl_statutes": {"max_pages": 50, "max_bytes": 5000000, "timeout_seconds": 30, "max_retries": 3},
+  "fl_bills": {"max_pages": 50, "max_bytes": 5000000, "timeout_seconds": 30, "max_retries": 3},
+  "fl_supreme": {"max_pages": 20, "max_bytes": 3000000, "timeout_seconds": 30, "max_retries": 3},
+  "dca_first": {"max_pages": 20, "max_bytes": 3000000, "timeout_seconds": 30, "max_retries": 3},
+  "dca_second": {"max_pages": 20, "max_bytes": 3000000, "timeout_seconds": 30, "max_retries": 3},
+  "dca_third": {"max_pages": 20, "max_bytes": 3000000, "timeout_seconds": 30, "max_retries": 3},
+  "dca_fourth": {"max_pages": 20, "max_bytes": 3000000, "timeout_seconds": 30, "max_retries": 3},
+  "dca_fifth": {"max_pages": 20, "max_bytes": 3000000, "timeout_seconds": 30, "max_retries": 3},
+  "dca_sixth": {"max_pages": 20, "max_bytes": 3000000, "timeout_seconds": 30, "max_retries": 3},
+  "court_bar_rules": {"max_pages": 20, "max_bytes": 3000000, "timeout_seconds": 30, "max_retries": 3},
+  "agency_rules": {"max_pages": 50, "max_bytes": 5000000, "timeout_seconds": 30, "max_retries": 3},
+  "circuit_fourth": {"max_pages": 15, "max_bytes": 2000000, "timeout_seconds": 30, "max_retries": 3},
+  "circuit_seventh": {"max_pages": 15, "max_bytes": 2000000, "timeout_seconds": 30, "max_retries": 3},
+  "circuit_eighth": {"max_pages": 15, "max_bytes": 2000000, "timeout_seconds": 30, "max_retries": 3},
+  "clerk_duval": {"max_pages": 30, "max_bytes": 3000000, "timeout_seconds": 30, "max_retries": 3},
+  "clerk_st_johns": {"max_pages": 30, "max_bytes": 3000000, "timeout_seconds": 30, "max_retries": 3},
+  "clerk_clay": {"max_pages": 30, "max_bytes": 3000000, "timeout_seconds": 30, "max_retries": 3},
+  "clerk_nassau": {"max_pages": 20, "max_bytes": 2000000, "timeout_seconds": 30, "max_retries": 3},
+  "clerk_baker": {"max_pages": 20, "max_bytes": 2000000, "timeout_seconds": 30, "max_retries": 3},
+  "clerk_union": {"max_pages": 20, "max_bytes": 2000000, "timeout_seconds": 30, "max_retries": 3}
+}

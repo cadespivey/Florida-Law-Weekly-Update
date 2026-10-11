@@ -1,0 +1,14 @@
+{
+  "synthetic": true,
+  "document_ids": {
+    "SYN-001": "doc_c4db52dae4aa6a38b3e48fed",
+    "SYN-002": "doc_15e15dca5a5bf6a22d6de513"
+  },
+  "expected_record_count": 2,
+  "withdrawal_changes": [
+    "SYN-001"
+  ],
+  "unchanged": [
+    "SYN-002"
+  ]
+}

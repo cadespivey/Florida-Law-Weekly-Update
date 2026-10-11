@@ -1,0 +1,7 @@
+# Synthetic test fixture contract
+
+Every item in this directory is synthetic, not Florida law, a real judge’s procedure or a weekly report. These files may be copied into explicitly labeled public source-test fixtures. They must never enter production research records, production issue archives or production search indexes.
+
+synthetic-source.json exact shape: schema_version=1, synthetic=true, source_id prefixed fixture:, records list. Each raw record has official_key, kind, title, body_text, canonical_url, scope_ids, three nullable day dates, legal_status and kind-specific facts. Normalize to the frozen DocumentRecord in C04: document_key=official_key; mode=fixture; observed_at is injected; exact_sha256 hashes canonical raw-record JSON; pinpoints=[{page:null, paragraph:"fixture:1", excerpt:body_text}]; supersedes_revision_id=null; use stamp_ids for semantic hashes. Dates remain exact supplied test dates. Preserve facts and validate them; do not call a live source.
+
+The initial fixture has exactly two records in distinct county/topic filters. expected-identities.json contains deterministic document IDs as a check independent of the implementation. The withdrawal fixture changes only SYN-001’s legal status/status date; SYN-002 remains unchanged. The old operative revision must remain only in its archived snapshot, never current after withdrawal. C35 adds fixture snapshot catalogs/indexes by generating from these inputs; do not invent real legal data to make demos look populated.

@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "source_id": "fixture:two-procedures",
+  "records": [
+    {
+      "official_key": "SYN-001",
+      "kind": "judge_procedure",
+      "title": "Synthetic filing procedure A",
+      "body_text": "SYNTHETIC TEST ONLY. File a test notice through the example portal.",
+      "canonical_url": "https://example.invalid/synthetic/procedure-a",
+      "scope_ids": ["county:duval"],
+      "publication_date": "2026-09-28",
+      "effective_date": "2026-10-01",
+      "status_date": "2026-10-01",
+      "legal_status": "operative",
+      "facts": {
+        "official_number": "SYN-001",
+        "county_ids": ["duval"],
+        "circuit_id": "fourth",
+        "judge_ids": [],
+        "division": null,
+        "subject_tags": ["filing"],
+        "applicability_notes": "Synthetic test fixture only."
+      }
+    },
+    {
+      "official_key": "SYN-002",
+      "kind": "circuit_order",
+      "title": "Synthetic hearing procedure B",
+      "body_text": "SYNTHETIC TEST ONLY. A mock hearing notice contains the example date.",
+      "canonical_url": "https://example.invalid/synthetic/procedure-b",
+      "scope_ids": ["county:union", "circuit:eighth"],
+      "publication_date": "2026-09-29",
+      "effective_date": "2026-10-02",
+      "status_date": "2026-10-02",
+      "legal_status": "operative",
+      "facts": {
+        "official_number": "SYN-002",
+        "county_ids": ["union"],
+        "circuit_id": "eighth",
+        "judge_ids": [],
+        "division": null,
+        "subject_tags": ["hearing"],
+        "applicability_notes": "Synthetic test fixture only."
+      }
+    },
+    {
+      "official_key": "SYN-003",
+      "kind": "court_rule",
+      "title": "Amendments to Florida Rules of Civil Procedure (Effective April 1, 2026)",
+      "body_text": "The Supreme Court of Florida adopted comprehensive amendments to the Florida Rules of Civil Procedure, effective April 1, 2026. Key changes include: expanded scope of discovery under Rule 1.280(b) permitting deposition of non-parties with demonstrated materiality; revised summary judgment standard under Rule 1.510(c) requiring evidentiary burden-shifting analysis; mandatory early case management conferences under Rule 1.200(f) within 90 days of filing; revised service-of-process methods under Rule 1.070(d) allowing electronic service with recipient consent; and updated venue-transfer rules under Rule 3.030 shifting default venue determination to 60 days post-answer. These amendments affect all civil actions filed on or after April 1, 2026. Actions pending prior to that date continue under prior rules unless the court exercises discretion to apply amended procedures.",
+      "canonical_url": "https://www.flsupremecourt.org/rules/florida-rules-civil-procedure-2026",
+      "scope_ids": ["florida"],
+      "publication_date": "2026-03-15",
+      "effective_date": "2026-04-01",
+      "status_date": "2026-04-01",
+      "legal_status": "operative",
+      "facts": {
+        "official_number": "Fla. R. Civ. P. (2026 Amendment)",
+        "county_ids": [],
+        "circuit_id": "florida",
+        "judge_ids": [],
+        "division": null,
+        "subject_tags": ["civil procedure", "discovery", "summary judgment", "venue", "service of process"],
+        "applicability_notes": "Amended April 1, 2026. Affects all civil cases filed on or after effective date.",
+        "date_details": {
+          "publication_date": {"value": "2026-03-15", "precision": "day", "source_text": "Supreme Court Order No. 26-215"},
+          "effective_date": {"value": "2026-04-01", "precision": "day", "source_text": "Rule text"},
+          "status_date": {"value": "2026-04-01", "precision": "day", "source_text": "Rule text"}
+        },
+        "status_detail": "Major comprehensive amendments affecting discovery, summary judgment, venue, service of process, and case management procedures."
+      }
+    }
+  ]
+}

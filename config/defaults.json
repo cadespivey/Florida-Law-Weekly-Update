@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "mode": "fixture",
+  "timezone": "America/New_York",
+  "schedule": {
+    "weekday": 0,
+    "hour": 8,
+    "minute": 0
+  },
+  "research": {
+    "overlap_days": 14,
+    "bootstrap_days": 14
+  },
+  "limits": {
+    "external_usd": 0,
+    "http_timeout_seconds": 30,
+    "http_retries": 3,
+    "host_spacing_seconds": 1,
+    "run_minutes": 120,
+    "source_minutes": 15,
+    "requests_per_run": 2000,
+    "model_calls_per_run": 250,
+    "model_timeout_seconds": 300,
+    "model_repairs_per_item": 2,
+    "state_gib": 5,
+    "retention_days": 30
+  },
+  "model": {
+    "base_url": null,
+    "model_id": null,
+    "cloud_fallback": false
+  },
+  "publication": {
+    "mode": "manual"
+  },
+  "state_root": null
+}

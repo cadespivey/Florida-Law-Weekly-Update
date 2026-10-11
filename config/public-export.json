@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "mode": "manual",
+  "release_prefix": "rel_",
+  "data_dir": "public/data",
+  "allowed_paths": ["public/index.html", "public/procedures/", "public/assets/", "public/data/"],
+  "block_paths": ["config/", ".github/", ".git/", "src/"],
+  "export_policy": "public",
+  "alias_file": "config/document-aliases.json"
+}
