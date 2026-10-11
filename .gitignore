@@ -10,3 +10,9 @@ __pycache__/
 .env
 *.tar.gz
 public/data/
+
+# Local research evidence and build products
+runs/
+dist/
+build/
+output/web-preview/

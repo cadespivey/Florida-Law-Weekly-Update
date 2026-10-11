@@ -1,0 +1,90 @@
+{
+  "name": "GitHub Pages",
+  "on": {
+    "push": {
+      "branches": [
+        "main"
+      ],
+      "paths": [
+        "website/updates/**",
+        "src/flwu/**",
+        "pyproject.toml",
+        ".github/workflows/pages.yml"
+      ]
+    },
+    "pull_request": {
+      "paths": [
+        "website/updates/**",
+        "src/flwu/**",
+        "tests/**",
+        "pyproject.toml",
+        ".github/workflows/pages.yml"
+      ]
+    },
+    "workflow_dispatch": {}
+  },
+  "permissions": {
+    "contents": "read"
+  },
+  "concurrency": {
+    "group": "pages-${{ github.ref }}",
+    "cancel-in-progress": false
+  },
+  "jobs": {
+    "build": {
+      "runs-on": "ubuntu-latest",
+      "steps": [
+        {
+          "uses": "actions/checkout@v6"
+        },
+        {
+          "uses": "actions/setup-python@v6",
+          "with": {
+            "python-version": "3.13"
+          }
+        },
+        {
+          "name": "Install",
+          "run": "python -m pip install . pytest"
+        },
+        {
+          "name": "Test",
+          "run": "PYTHONDONTWRITEBYTECODE=1 python -m pytest -q"
+        },
+        {
+          "name": "Build reviewed public archive",
+          "run": "PYTHONDONTWRITEBYTECODE=1 flwu publish --archive website/updates --output build/site"
+        },
+        {
+          "uses": "actions/upload-pages-artifact@v4",
+          "with": {
+            "path": "build/site"
+          }
+        }
+      ]
+    },
+    "deploy": {
+      "if": "github.event_name != 'pull_request' && github.ref == 'refs/heads/main'",
+      "needs": "build",
+      "runs-on": "ubuntu-latest",
+      "permissions": {
+        "pages": "write",
+        "id-token": "write"
+      },
+      "environment": {
+        "name": "github-pages",
+        "url": "${{ steps.deployment.outputs.page_url }}"
+      },
+      "steps": [
+        {
+          "uses": "actions/configure-pages@v5"
+        },
+        {
+          "name": "Deploy",
+          "id": "deployment",
+          "uses": "actions/deploy-pages@v4"
+        }
+      ]
+    }
+  }
+}

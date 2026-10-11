@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Florida legal research updates and historical judicial procedures, organized by reporting period.">
+  <title>Florida Law Weekly Update</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/search.js" defer></script>
+</head>
+<body data-page="updates">
+  <a class="skip" href="#report">Skip to content</a>
+  <header>
+    <div class="masthead"><h1>Florida Law Weekly Update</h1><!--NAVIGATION--></div>
+    <!--PAGE-TITLE-->
+    <p>In Florida’s legal system, the justice is shaped by the judges who interpret the law and the court personnel who oversee its administration. These are their updates. Dun-dun.</p>
+    <p id="status" role="status" aria-live="polite"></p>
+    <nav id="periods" aria-label="Matching updates"></nav>
+  </header>
+  <form id="period-form" aria-label="Find updates by reporting period">
+    <div class="date-fields">
+      <label for="from">From<input id="from" name="from" type="date" required></label>
+      <label for="to">Through<input id="to" name="to" type="date" required></label>
+      <button type="submit">Find updates</button>
+      <button type="button" id="latest">Latest update</button>
+    </div>
+    <p class="hint">Find updates whose reporting periods overlap these dates. Both dates are included.</p>
+  </form>
+  <main id="report" tabindex="-1"></main>
+  <noscript><p>Enable JavaScript to browse this date-range archive.</p></noscript>
+  <footer>Florida Law Weekly Update · Nonofficial informational publication. Consult the linked authorities and current court procedures.</footer>
+  <script id="archive-data" type="application/json"><!--ARCHIVE--></script>
+</body>
+</html>

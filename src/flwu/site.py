@@ -1,105 +1,107 @@
-"""Static site generation (C36).
-
-Generates HTML, CSS, and JS for the public website.
-Produces public/index.html, public/procedures/index.html,
-public/assets/site.css, and public/assets/search.js.
-"""
+"""Deterministic static archive; public builds read only reviewed public exports."""
 from __future__ import annotations
-from typing import Any
+import hashlib
+import json
 from pathlib import Path
+import shutil
+import tempfile
+from datetime import datetime
+from html import escape
+from flwu.publication import validate_issue, safe_url
+
+ASSETS = Path(__file__).parent / 'data' / 'web'
+
+
+def navigation(page):
+    """Official destinations restricted to the packaged research registry's scope."""
+    groups = {row['group_id'] for row in json.loads((ASSETS.parent / 'sources.json').read_text())}
+    sections, personnel = {}, {}
+    for row in json.loads((ASSETS / 'courts.json').read_text()):
+        if row['group_id'] in groups:
+            url = escape(safe_url(row['url']), quote=True)
+            label = escape(row['label'])
+            sections.setdefault(row['category'], []).append(f'<li><a href="{url}">{label}</a></li>')
+            court = escape(row['group_id'], quote=True)
+            personnel.setdefault(row['category'], []).append(f'<li><a data-court="{court}" href="directory.html?court={court}">{label}</a></li>')
+    def panel(items):
+        return ''.join(f'<div><h2>{escape(title)}</h2><ul>{"".join(links)}</ul></div>' for title, links in items.items())
+    current = ' aria-current="page"'
+    return ('<nav class="site-nav" aria-label="Main navigation">'
+            f'<a id="updates-link" href="./"{current if page == "updates" else ""}>Updates</a>'
+            '<details class="court-menu"><summary>Courts</summary>'
+            f'<div class="court-links">{panel(sections)}<a href="https://www.courtlistener.com/">CourtListener</a></div></details>'
+            '<details class="personnel-menu"><summary>Personnel Directory</summary>'
+            f'<div class="court-links"><a id="directory-link" href="directory.html"{current if page == "directory" else ""}>All covered courts</a>{panel(personnel)}</div></details></nav>')
+
+
+def build_site(archive, output, *, preview=False):
+    archive, output = Path(archive).resolve(), Path(output).resolve()
+    if not archive.is_dir():
+        raise ValueError('Public archive directory does not exist')
+    if output == archive or output in archive.parents or archive in output.parents:
+        raise ValueError('Build output and source archive must be separate')
+    if output.exists():
+        raise ValueError('Use a new output directory; existing builds are preserved')
+    issues, evidence = [], {}
+    for path in sorted(archive.glob('*.json')):
+        if path.is_symlink():
+            raise ValueError('Archive symlinks are not permitted')
+        issue = validate_issue(json.loads(path.read_text(encoding='utf-8')), preview=preview)
+        if any(i['id'] == issue['id'] for i in issues):
+            raise ValueError('Duplicate public issue ID')
+        issues.append(issue)
+        for record in [p for s in issue['sections'].values() for p in s['items']] + issue['directory']:
+            for citation in record['citations']:
+                relative = citation['url']
+                if relative.startswith('evidence/'):
+                    source = archive / relative
+                    if (archive / 'evidence').is_symlink() or source.resolve().parent != (archive / 'evidence').resolve() or source.is_symlink():
+                        raise ValueError('Invalid preview evidence path')
+                    content = source.read_bytes()
+                    if hashlib.sha256(content).hexdigest() != source.stem:
+                        raise ValueError('Preview evidence checksum mismatch')
+                    evidence[relative] = content
+    issues.sort(key=lambda i: (i['window_end'], i['window_start'], datetime.fromisoformat(i['published_at'].replace('Z', '+00:00')), i['id']), reverse=True)
+    output.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory(prefix='.flwu-site-', dir=output.parent) as staging:
+        root = Path(staging) / 'site'
+        (root / 'assets').mkdir(parents=True)
+        for name in ('site.css', 'search.js'):
+            shutil.copyfile(ASSETS / name, root / 'assets' / name)
+        data = json.dumps({'preview': preview, 'issues': issues, 'courts': json.loads((ASSETS / 'courts.json').read_text())}, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c').replace('&', '\\u0026')
+        template = (ASSETS / 'index.html').read_text(encoding='utf-8').replace('<!--ARCHIVE-->', data)
+        for page, filename in [('updates', 'index.html'), ('directory', 'directory.html')]:
+            html = template.replace('<!--NAVIGATION-->', navigation(page)).replace('data-page="updates"', f'data-page="{page}"')
+            if page == 'directory':
+                html = html.replace('<title>Florida Law Weekly Update</title>', '<title>Court Personnel Directory — Florida Law Weekly Update</title>')
+                html = html.replace('<!--PAGE-TITLE-->', '<h2 class="page-title">Personnel Directory</h2>')
+                html = html.replace('In Florida’s legal system, the justice is shaped by the judges who interpret the law and the court personnel who oversee its administration. These are their updates. Dun-dun.', 'Court contacts, judicial assistants, and individual procedures.')
+            (root / filename).write_text(html.replace('<!--PAGE-TITLE-->', ''), encoding='utf-8')
+        (root / '.nojekyll').touch()
+        for relative, content in evidence.items():
+            target = root / relative
+            target.parent.mkdir(exist_ok=True)
+            target.write_bytes(content)
+        (root / 'procedures').mkdir()
+        (root / 'procedures' / 'index.html').write_text('<!doctype html><html lang="en"><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=../directory.html"><title>Judicial directory</title><a href="../directory.html">Open the judicial directory</a></html>', encoding='utf-8')
+        root.rename(output)
+    return output
+
 
 def generate_site(issue, inventory_rows, output_dir):
-    """Generate the full static site."""
-    (output_dir / "public").mkdir(parents=True, exist_ok=True)
-    (output_dir / "public" / "assets").mkdir(parents=True, exist_ok=True)
-
-    # index.html
-    (output_dir / "public" / "index.html").write_text(_generate_index(issue), encoding="utf-8")
-
-    # procedures/index.html
-    (output_dir / "public" / "procedures").mkdir(parents=True, exist_ok=True)
-    (output_dir / "public" / "procedures" / "index.html").write_text(
-        _generate_procedures_page(inventory_rows), encoding="utf-8")
-
-    # Static assets
-    (output_dir / "public" / "assets" / "site.css").write_text(_site_css(), encoding="utf-8")
-    (output_dir / "public" / "assets" / "search.js").write_text(_search_js(), encoding="utf-8")
-
-    return output_dir / "public"
-
-
-def _generate_index(issue):
-    title = _esc(issue.get("title", "FLWU"))
-    return f"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
-<title>{title} — FLWU</title>
-<link rel="stylesheet" href="assets/site.css">
-</head><body><h1>{title}</h1>
-<p><a href="procedures/">Search Procedures</a></p>
-<footer>Florida Litigator Weekly Update — nonofficial informational publication.</footer>
-</body></html>"""
-
-
-def _generate_procedures_page(rows):
-    return f"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
-<title>FLWU Search</title>
-<link rel="stylesheet" href="assets/site.css">
-</head><body>
-<h1 id="search-header">Search Procedures</h1>
-<form id="search-form">
-<label for="query">Query:</label><input id="query" type="text">
-<label for="county">County:</label><input id="county" type="text">
-<label for="circuit">Circuit:</label><input id="circuit" type="text">
-<label for="topic">Topic:</label><input id="topic" type="text">
-<button id="search-submit" type="button">Search</button>
-<div id="search-status" role="status" aria-live="polite"></div>
-<div id="results"></div>
-</form>
-<script src="assets/search.js"></script>
-<footer>FLWU public site. Not a substitute for legal advice.</footer>
-</body></html>"""
+    """Legacy callers must now supply a complete public export."""
+    validate_issue(issue, preview=issue.get('synthetic', False))
+    if inventory_rows:
+        raise ValueError('Put reviewed directory entries in the public issue export')
+    with tempfile.TemporaryDirectory() as temporary:
+        archive = Path(temporary)
+        (archive / 'issue.json').write_text(json.dumps(issue), encoding='utf-8')
+        return build_site(archive, Path(output_dir) / 'public', preview=issue['synthetic'])
 
 
 def _site_css():
-    return """body{font-family:system-ui,sans-serif;max-width:800px;margin:2em auto;}
-h1{color:#222}#search-form{margin:1em 0}#results{margin:1em 0}
-.result{border:1px solid #ddd;padding:0.5em;margin:0.5em 0}
-footer{font-size:0.85em;color:#666}"""
+    return (ASSETS / 'site.css').read_text(encoding='utf-8')
 
 
 def _search_js():
-    return """(function(){
-  function filterRows(rows,filters){
-    return rows.filter(function(r){
-      return Object.keys(filters).every(function(k){
-        var v=filters[k];
-        if(!v)return true;
-        if(k==='query'){
-          var ql=v.toLowerCase();
-          return r.title.toLowerCase().indexOf(ql)!==-1||r.text.toLowerCase().indexOf(ql)!==-1;
-        }
-        if(k==='county'||k==='circuit'||k==='court_level'||k==='division'||k==='topic')
-          return (r[k]||[]).indexOf(v)!==-1;
-        return true;
-      });
-    });
-  }
-  document.getElementById('search-submit').addEventListener('click',function(){
-    var filters={
-      query:document.getElementById('query').value,
-      county:document.getElementById('county').value,
-      circuit:document.getElementById('circuit').value,
-      topic:document.getElementById('topic').value,
-    };
-    var results=filterRows(window._inventoryRows||[],filters);
-    var div=document.getElementById('results');
-    div.innerHTML=results.map(function(r){
-      return '<article class="result" data-record-id="'+r.record_id+'"><h3>'+r.title+'</h3>';
-    }).join('');
-  });
-})();"""
-
-
-def _esc(text):
-    if not isinstance(text, str):
-        text = str(text)
-    return text.replace("&","&amp;").replace("<","&lt;").replace(">","&gt;")
+    return (ASSETS / 'search.js').read_text(encoding='utf-8')
