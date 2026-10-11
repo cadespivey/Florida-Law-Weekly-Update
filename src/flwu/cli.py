@@ -77,7 +77,16 @@ def main(argv: list[str] | None = None) -> int:
     subparsers.add_parser("fetch", help="Acquire source data (future).")
     subparsers.add_parser("analyze", help="Run analysis jobs (future).")
     subparsers.add_parser("produce", help="Produce a report (future).")
-    subparsers.add_parser("publish", help="Publish to GitHub Pages (future).")
+    site = subparsers.add_parser("site", help="Export reviewed history or build the date-range website.")
+    site.add_argument("action", choices=["export", "build"])
+    site.add_argument("--archive", type=Path, required=True)
+    site.add_argument("--database", type=Path)
+    site.add_argument("--capture-id")
+    site.add_argument("--output", type=Path)
+    site.add_argument("--preview", action="store_true", help="Allow synthetic/unpublished data; never use for public deployment")
+    publish = subparsers.add_parser("publish", help="Build a validated production Pages artifact; deployment uses GitHub Actions.")
+    publish.add_argument("--archive", type=Path, default=Path("website/updates"))
+    publish.add_argument("--output", type=Path, required=True)
     subparsers.add_parser("schedule", help="Schedule recurring runs (future).")
 
     args = parser.parse_args(argv)
@@ -85,6 +94,25 @@ def main(argv: list[str] | None = None) -> int:
     if args.command is None:
         parser.print_help()
         return 0
+
+    if args.command in ("site", "publish"):
+        from flwu.publication import export_capture
+        from flwu.site import build_site
+        import sqlite3
+        try:
+            if args.command == "site" and args.action == "export":
+                if not args.database or not args.capture_id:
+                    raise ValueError("export requires --database and --capture-id")
+                result = export_capture(args.database, args.capture_id, args.archive, preview=args.preview)
+            else:
+                if not args.output:
+                    raise ValueError("build requires --output (a new directory)")
+                result = build_site(args.archive, args.output, preview=getattr(args, "preview", False))
+            print(result)
+            return 0
+        except (ValueError, OSError, KeyError, TypeError, sqlite3.Error) as exc:
+            print(f"Website error: {exc}", file=sys.stderr)
+            return 1
 
     if args.command == "directory":
         from flwu.directory import load_directory, import_directory, read_directory

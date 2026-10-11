@@ -176,8 +176,8 @@ def test_search_index_io(tmp_path):
 
 def test_generate_site(tmp_path):
     """Site generation produces expected files."""
-    issue = {"title": "FLWU Test", "mode": "fixture", "window_start": "2026-01-01",
-             "window_end": "2026-01-08", "cutoff_utc": "2026-01-01T00:00:00Z"}
+    from tests.test_publication import example_issue
+    issue = example_issue()
     output_dir = tmp_path / "site"
     generate_site(issue, [], output_dir)
 
@@ -186,7 +186,8 @@ def test_generate_site(tmp_path):
     assert (public / "procedures" / "index.html").exists()
     assert (public / "assets" / "site.css").exists()
     assert (public / "assets" / "search.js").exists()
-    assert "SYNTHETIC" not in (public / "index.html").read_text()  # Index doesn't have synthetic banner
+    assert '"preview":true' in (public / "index.html").read_text()
+    assert 'id="preview-notice"' not in (public / "index.html").read_text()
 
 def test_site_css_and_js():
     """CSS and JS are generated."""

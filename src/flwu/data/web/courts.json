@@ -1,0 +1,104 @@
+[
+  {
+    "category": "Supreme Court",
+    "group_id": "supreme_court",
+    "label": "Florida Supreme Court",
+    "url": "https://supremecourt.flcourts.gov/"
+  },
+  {
+    "category": "District Courts of Appeal",
+    "group_id": "dca_first",
+    "label": "First District Court of Appeal",
+    "url": "https://1dca.flcourts.gov/"
+  },
+  {
+    "category": "District Courts of Appeal",
+    "group_id": "dca_second",
+    "label": "Second District Court of Appeal",
+    "url": "https://2dca.flcourts.gov/"
+  },
+  {
+    "category": "District Courts of Appeal",
+    "group_id": "dca_third",
+    "label": "Third District Court of Appeal",
+    "url": "https://3dca.flcourts.gov/"
+  },
+  {
+    "category": "District Courts of Appeal",
+    "group_id": "dca_fourth",
+    "label": "Fourth District Court of Appeal",
+    "url": "https://4dca.flcourts.gov/"
+  },
+  {
+    "category": "District Courts of Appeal",
+    "group_id": "dca_fifth",
+    "label": "Fifth District Court of Appeal",
+    "url": "https://5dca.flcourts.gov/"
+  },
+  {
+    "category": "District Courts of Appeal",
+    "group_id": "dca_sixth",
+    "label": "Sixth District Court of Appeal",
+    "url": "https://6dca.flcourts.gov/"
+  },
+  {
+    "category": "Circuit Courts",
+    "group_id": "circuit_fourth",
+    "label": "Fourth Judicial Circuit",
+    "url": "https://www.jud4.org/"
+  },
+  {
+    "category": "Circuit Courts",
+    "group_id": "circuit_seventh",
+    "label": "Seventh Judicial Circuit",
+    "url": "https://circuit7.org/"
+  },
+  {
+    "category": "Circuit Courts",
+    "group_id": "circuit_eighth",
+    "label": "Eighth Judicial Circuit",
+    "url": "https://circuit8.org/"
+  },
+  {
+    "category": "County Courts",
+    "group_id": "clerk_baker",
+    "label": "Baker County",
+    "url": "https://circuit8.org/courts-judges/baker-county/"
+  },
+  {
+    "category": "County Courts",
+    "group_id": "clerk_clay",
+    "label": "Clay County",
+    "url": "https://www.jud4.org/ex-parte-dates-judge-s-procedures/clay-judges"
+  },
+  {
+    "category": "County Courts",
+    "group_id": "clerk_duval",
+    "label": "Duval County",
+    "url": "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+  },
+  {
+    "category": "County Courts",
+    "group_id": "clerk_nassau",
+    "label": "Nassau County",
+    "url": "https://www.jud4.org/ex-parte-dates-judge-s-procedures/nassau-judges"
+  },
+  {
+    "category": "County Courts",
+    "group_id": "clerk_putnam",
+    "label": "Putnam County",
+    "url": "https://circuit7.org/putnam-county/"
+  },
+  {
+    "category": "County Courts",
+    "group_id": "clerk_st_johns",
+    "label": "St. Johns County",
+    "url": "https://circuit7.org/st-johns-county/"
+  },
+  {
+    "category": "County Courts",
+    "group_id": "clerk_union",
+    "label": "Union County",
+    "url": "https://circuit8.org/courts-judges/union-county/"
+  }
+]

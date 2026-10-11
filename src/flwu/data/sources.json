@@ -1,0 +1,401 @@
+[
+  {
+    "source_id": "S01-01",
+    "group_id": "statutes",
+    "url": "https://www.flsenate.gov/Laws/Statutes",
+    "authority": "binding_rule",
+    "scope_ids": [
+      "florida"
+    ],
+    "critical": true,
+    "adapter_id": "fl_statutes",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S01-02",
+    "group_id": "statutes",
+    "url": "https://leg.state.fl.us/statutes/index.cfm",
+    "authority": "binding_rule",
+    "scope_ids": [
+      "florida"
+    ],
+    "critical": true,
+    "adapter_id": "fl_statutes",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S01-03",
+    "group_id": "statutes",
+    "url": "https://www.flsenate.gov/Session/Bill",
+    "authority": "binding_rule",
+    "scope_ids": [
+      "florida"
+    ],
+    "critical": true,
+    "adapter_id": "fl_bills",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S02-01",
+    "group_id": "bills",
+    "url": "https://www.flsenate.gov/Session/Bill",
+    "authority": "proposal",
+    "scope_ids": [
+      "florida"
+    ],
+    "critical": true,
+    "adapter_id": "fl_bills",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S03-01",
+    "group_id": "supreme_court",
+    "url": "https://supremecourt.flcourts.gov/Opinions",
+    "authority": "binding_rule",
+    "scope_ids": [
+      "florida"
+    ],
+    "critical": true,
+    "adapter_id": "fl_supreme",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S03-02",
+    "group_id": "supreme_court",
+    "url": "https://supremecourt.flcourts.gov/",
+    "authority": "binding_order",
+    "scope_ids": [
+      "florida"
+    ],
+    "critical": true,
+    "adapter_id": "fl_supreme",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S04-01",
+    "group_id": "dca_first",
+    "url": "https://1dca.flcourts.gov/",
+    "authority": "binding_order",
+    "scope_ids": [
+      "first_dca"
+    ],
+    "critical": true,
+    "adapter_id": "dca_first",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S04-02",
+    "group_id": "dca_second",
+    "url": "https://2dca.flcourts.gov/",
+    "authority": "binding_order",
+    "scope_ids": [
+      "second_dca"
+    ],
+    "critical": true,
+    "adapter_id": "dca_second",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S04-03",
+    "group_id": "dca_third",
+    "url": "https://3dca.flcourts.gov/",
+    "authority": "binding_order",
+    "scope_ids": [
+      "third_dca"
+    ],
+    "critical": true,
+    "adapter_id": "dca_third",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S04-04",
+    "group_id": "dca_fourth",
+    "url": "https://4dca.flcourts.gov/",
+    "authority": "binding_order",
+    "scope_ids": [
+      "fourth_dca"
+    ],
+    "critical": true,
+    "adapter_id": "dca_fourth",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S04-05",
+    "group_id": "dca_fifth",
+    "url": "https://5dca.flcourts.gov/",
+    "authority": "binding_order",
+    "scope_ids": [
+      "fifth_dca"
+    ],
+    "critical": true,
+    "adapter_id": "dca_fifth",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S04-06",
+    "group_id": "dca_sixth",
+    "url": "https://6dca.flcourts.gov/",
+    "authority": "binding_order",
+    "scope_ids": [
+      "sixth_dca"
+    ],
+    "critical": true,
+    "adapter_id": "dca_sixth",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S05-01",
+    "group_id": "court_rules",
+    "url": "https://supremecourt.flcourts.gov/",
+    "authority": "binding_rule",
+    "scope_ids": [
+      "florida"
+    ],
+    "critical": true,
+    "adapter_id": "court_bar_rules",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S05-02",
+    "group_id": "bar_rules",
+    "url": "https://www.flbar.org/rules/",
+    "authority": "advisory_preference",
+    "scope_ids": [
+      "florida"
+    ],
+    "critical": true,
+    "adapter_id": "court_bar_rules",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S06-01",
+    "group_id": "agency_rules",
+    "url": "https://www.flrules.org/",
+    "authority": "binding_rule",
+    "scope_ids": [
+      "florida"
+    ],
+    "critical": true,
+    "adapter_id": "agency_rules",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S06-02",
+    "group_id": "agency_rules",
+    "url": "https://www.flrules.org/",
+    "authority": "binding_rule",
+    "scope_ids": [
+      "florida"
+    ],
+    "critical": true,
+    "adapter_id": "agency_rules",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S07-01",
+    "group_id": "circuit_fourth",
+    "url": "https://www.jud4.org/",
+    "authority": "binding_order",
+    "scope_ids": [
+      "fourth",
+      "duval",
+      "clay",
+      "nassau"
+    ],
+    "critical": true,
+    "adapter_id": "circuit_fourth",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S07-02",
+    "group_id": "circuit_seventh",
+    "url": "https://circuit7.org/",
+    "authority": "binding_order",
+    "scope_ids": [
+      "seventh",
+      "st_johns",
+      "putnam"
+    ],
+    "critical": true,
+    "adapter_id": "circuit_seventh",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S07-03",
+    "group_id": "circuit_eighth",
+    "url": "https://circuit8.org/",
+    "authority": "binding_order",
+    "scope_ids": [
+      "eighth",
+      "baker",
+      "union"
+    ],
+    "critical": true,
+    "adapter_id": "circuit_eighth",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S08-01",
+    "group_id": "clerk_duval",
+    "url": "https://www.duvalclerk.gov/",
+    "authority": "clerk_operation",
+    "scope_ids": [
+      "duval"
+    ],
+    "critical": true,
+    "adapter_id": "clerk_duval",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S08-02",
+    "group_id": "clerk_st_johns",
+    "url": "https://stjohnsclerk.com/",
+    "authority": "clerk_operation",
+    "scope_ids": [
+      "st_johns"
+    ],
+    "critical": true,
+    "adapter_id": "clerk_st_johns",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S08-03",
+    "group_id": "clerk_clay",
+    "url": "https://clayclerk.com/",
+    "authority": "clerk_operation",
+    "scope_ids": [
+      "clay"
+    ],
+    "critical": true,
+    "adapter_id": "clerk_clay",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S08-04",
+    "group_id": "clerk_nassau",
+    "url": "https://www.nassauclerk.com/",
+    "authority": "clerk_operation",
+    "scope_ids": [
+      "nassau"
+    ],
+    "critical": true,
+    "adapter_id": "clerk_nassau",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S08-05",
+    "group_id": "clerk_baker",
+    "url": "https://bakerclerk.com/",
+    "authority": "clerk_operation",
+    "scope_ids": [
+      "baker"
+    ],
+    "critical": true,
+    "adapter_id": "clerk_baker",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S08-06",
+    "group_id": "clerk_union",
+    "url": "https://unionclerk.com/",
+    "authority": "clerk_operation",
+    "scope_ids": [
+      "union"
+    ],
+    "critical": true,
+    "adapter_id": "clerk_union",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S13-01",
+    "group_id": "supplemental",
+    "url": "https://www.flbar.org",
+    "authority": "advisory_preference",
+    "scope_ids": [
+      "florida"
+    ],
+    "critical": false,
+    "adapter_id": "fl_bar",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S13-02",
+    "group_id": "supplemental",
+    "url": "https://www.flcourts.gov/",
+    "authority": "advisory_preference",
+    "scope_ids": [
+      "florida"
+    ],
+    "critical": false,
+    "adapter_id": "fl_judiciary",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Discovery entry point only; availability and coverage must be established in each run."
+  },
+  {
+    "source_id": "S08-07",
+    "group_id": "clerk_putnam",
+    "url": "https://putnamclerk.com/",
+    "authority": "clerk_operation",
+    "scope_ids": [
+      "putnam"
+    ],
+    "critical": true,
+    "adapter_id": "manual_review",
+    "access_status": "uninspected",
+    "checked_at": null,
+    "notes": "Clerk notices and contacts; no automated adapter."
+  }
+]
