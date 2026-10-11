@@ -31,7 +31,7 @@
 - **Pathway 6:** Circuit court procedures (CourtListener + web search)
 
 ### Problem:
-CourtListener API key provided by user (`599b5f333264cc46de7b20b71f2b37144c9df5a9`) not being picked up by MCP server.
+CourtListener API key provided by user (`[REDACTED — use configured credential]`) not being picked up by MCP server.
 
 ### Error Messages:
 ```
@@ -54,7 +54,7 @@ servers:
     command: "python"
     args: ["-m", "courtlistener_mcp"]
     env:
-      COURTLISTENER_API_KEY: "599b5f333264cc46de7b20b71f2b37144c9df5a9"
+      COURTLISTENER_API_KEY: "[REDACTED — use configured credential]"
 ```
 
 Or set environment variable before starting the MCP server.
