@@ -1,0 +1,12 @@
+__pycache__/
+.venv/
+.pytest_cache/
+*.pyc
+*.so
+flwu.db
+flwu.db-shm
+flwu.db-wal
+__pycache__/
+.env
+*.tar.gz
+public/data/
