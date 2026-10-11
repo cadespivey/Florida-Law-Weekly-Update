@@ -13,6 +13,9 @@ input,button{font:inherit;line-height:1.4;border:1px solid #999;border-radius:3p
 input{display:block;margin-top:.25rem;min-width:0;width:100%;max-width:100%;height:44px;font-size:.875rem}button{cursor:pointer;font-size:.875rem;height:44px;width:100%;min-width:0;white-space:nowrap}button[type=submit]{background:#225985;color:#fff;border-color:#225985}
 #report>section:first-child>h2{border-top:0;padding-top:0}
 .hint{margin:.7rem 0 0}.notice{border-left:3px solid #b16b1b;padding:.6rem 1rem;background:#fff7e9}
+.quick-ranges{display:flex;flex-wrap:wrap;align-items:baseline;gap:.25rem 1rem;margin-top:.75rem;font-size:14px;color:#555}
+.quick-ranges button{width:auto;height:auto;padding:.2rem 0;border:0;background:transparent;color:#225985;text-decoration:underline;text-underline-offset:.18em}
+.quick-ranges button:hover{color:#103a5a}
 #status{font-size:14px;font-weight:400;color:#555;margin-top:-.5rem;margin-bottom:.75rem}nav ul{padding-left:1.3rem}article{margin-bottom:1.7rem}.meta{margin-bottom:.6rem}
 .summary{white-space:pre-line;overflow-wrap:anywhere}details{margin:.6rem 0 1rem}summary{cursor:pointer}blockquote{margin:.5rem 0 1rem 1rem;font-size:.875rem;white-space:pre-line;overflow-wrap:anywhere}
 .directory{font-family:Arial,sans-serif;line-height:1.15}.directory h2{font-family:Arial,sans-serif;font-size:16px}.directory h3{font-family:Arial,sans-serif;font-size:11px;line-height:1.3}
