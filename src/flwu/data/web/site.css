@@ -28,6 +28,10 @@ footer{font-size:.85em;color:#666;border-top:1px solid #d9d9d9;padding-top:1rem;
 .court-menu{margin:0;min-width:0}.court-menu>summary{color:#225985;font-size:14px;padding:.3rem 0}
 .court-menu[open]{flex-basis:100%}.court-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,15rem),1fr));gap:1rem;padding:1rem;border:1px solid #d9d9d9;margin-top:.5rem;background:#fafafa}
 .court-links h2{font-size:14px;margin:0 0 .5rem;padding:0;border:0}.court-links ul{list-style:none;margin:0;padding:0}.court-links li{margin:.35rem 0}.court-links a{display:inline-block;padding:.15rem 0}
+.court-links .county-section{grid-column:1/-1}
+.court-links .county-section>ul,.court-links .resource-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,13rem),1fr));gap:.5rem 1.5rem;grid-column:1/-1}
+.court-links .county-resources{padding-left:1rem}.court-links .county-resources li{margin:0}
+.court-menu .county-section>ul>li>a{font-weight:600}
 @media print{.site-nav{display:none}}
 /* Title and navigation share one masthead; menus stay inside that container. */
 .masthead{display:flex;align-items:center;justify-content:space-between;gap:1rem;position:relative;margin:.4rem 0 1rem}

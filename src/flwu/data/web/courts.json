@@ -63,42 +63,140 @@
     "category": "County Courts",
     "group_id": "clerk_baker",
     "label": "Baker County",
-    "url": "https://circuit8.org/courts-judges/baker-county/"
+    "url": "https://circuit8.org/courts-judges/baker-county/",
+    "resources": [
+      {
+        "label": "Official Records",
+        "url": "https://recording.bakerclerk.com/DuProcessWebInquiry/index.html"
+      },
+      {
+        "label": "Court Records",
+        "url": "https://www.civitekflorida.com/ocrs/county/02/"
+      },
+      {
+        "label": "Tax Assessor",
+        "url": "https://bakerpa.com/"
+      }
+    ]
   },
   {
     "category": "County Courts",
     "group_id": "clerk_clay",
     "label": "Clay County",
-    "url": "https://www.jud4.org/ex-parte-dates-judge-s-procedures/clay-judges"
+    "url": "https://www.jud4.org/ex-parte-dates-judge-s-procedures/clay-judges",
+    "resources": [
+      {
+        "label": "Official Records",
+        "url": "https://landmark.clayclerk.com/landmarkweb"
+      },
+      {
+        "label": "Court Records",
+        "url": "https://inquiry.clayclerk.com/Home.aspx/Search"
+      },
+      {
+        "label": "Tax Assessor",
+        "url": "https://www.ccpao.com/"
+      }
+    ]
   },
   {
     "category": "County Courts",
     "group_id": "clerk_duval",
     "label": "Duval County",
-    "url": "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges"
+    "url": "https://www.jud4.org/ex-parte-dates-judge-s-procedures/duval-judges",
+    "resources": [
+      {
+        "label": "Official Records",
+        "url": "https://or.duvalclerk.com/"
+      },
+      {
+        "label": "Court Records",
+        "url": "https://core.duvalclerk.com/"
+      },
+      {
+        "label": "Tax Assessor",
+        "url": "https://www.jacksonville.gov/departments/property-appraiser/"
+      }
+    ]
   },
   {
     "category": "County Courts",
     "group_id": "clerk_nassau",
     "label": "Nassau County",
-    "url": "https://www.jud4.org/ex-parte-dates-judge-s-procedures/nassau-judges"
+    "url": "https://www.jud4.org/ex-parte-dates-judge-s-procedures/nassau-judges",
+    "resources": [
+      {
+        "label": "Official Records",
+        "url": "https://www.myfloridacounty.com/orisearch/45"
+      },
+      {
+        "label": "Court Records",
+        "url": "https://www.civitekflorida.com/ocrs/county/45/"
+      },
+      {
+        "label": "Tax Assessor",
+        "url": "https://ncpafl.com/"
+      }
+    ]
   },
   {
     "category": "County Courts",
     "group_id": "clerk_putnam",
     "label": "Putnam County",
-    "url": "https://circuit7.org/putnam-county/"
+    "url": "https://circuit7.org/putnam-county/",
+    "resources": [
+      {
+        "label": "Official Records",
+        "url": "https://www.myfloridacounty.com/orisearch/54"
+      },
+      {
+        "label": "Court Records",
+        "url": "https://www.civitekflorida.com/ocrs/county/54/"
+      },
+      {
+        "label": "Tax Assessor",
+        "url": "https://pa.putnam-fl.com/"
+      }
+    ]
   },
   {
     "category": "County Courts",
     "group_id": "clerk_st_johns",
     "label": "St. Johns County",
-    "url": "https://circuit7.org/st-johns-county/"
+    "url": "https://circuit7.org/st-johns-county/",
+    "resources": [
+      {
+        "label": "Official Records",
+        "url": "https://apps.stjohnsclerk.com/Landmark"
+      },
+      {
+        "label": "Court Records",
+        "url": "https://apps.stjohnsclerk.com/Benchmark/Home.aspx/Search"
+      },
+      {
+        "label": "Tax Assessor",
+        "url": "https://www.sjcpa.gov/"
+      }
+    ]
   },
   {
     "category": "County Courts",
     "group_id": "clerk_union",
     "label": "Union County",
-    "url": "https://circuit8.org/courts-judges/union-county/"
+    "url": "https://circuit8.org/courts-judges/union-county/",
+    "resources": [
+      {
+        "label": "Official Records",
+        "url": "https://recording.unionclerk.com/DuProcessWebInquiry/index.html"
+      },
+      {
+        "label": "Court Records",
+        "url": "https://www.civitekflorida.com/ocrs/county/63/"
+      },
+      {
+        "label": "Tax Assessor",
+        "url": "https://union.floridapa.com/"
+      }
+    ]
   }
 ]
