@@ -75,7 +75,7 @@ def build_site(archive, output, *, preview=False):
             if page == 'directory':
                 html = html.replace('<title>Florida Law Weekly Update</title>', '<title>Court Personnel Directory — Florida Law Weekly Update</title>')
                 html = html.replace('<!--PAGE-TITLE-->', '<h2 class="page-title">Personnel Directory</h2>')
-                html = html.replace('In Florida’s legal system, the justice is shaped by the judges who interpret the law and the court personnel who oversee its administration. These are their updates. Dun-dun.', 'Court contacts, judicial assistants, and individual procedures.')
+                html = html.replace('In Florida’s legal system, justice is shaped by judges, who interpret the law, and court personnel, who oversee its administration. These are their updates... <em>Dun-dun.</em>', 'Court contacts, judicial assistants, and individual procedures.')
             (root / filename).write_text(html.replace('<!--PAGE-TITLE-->', ''), encoding='utf-8')
         (root / '.nojekyll').touch()
         for relative, content in evidence.items():

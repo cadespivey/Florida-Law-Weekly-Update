@@ -31,7 +31,7 @@
     sources.forEach((c,n)=>{if(n)line.append(' · ');const a=node('a',c.label.split(' · ')[0]);a.href=c.url;line.append(a);});parent.append(line);
   }
   function render(selected, description){
-    report.replaceChildren();periods.replaceChildren();status.textContent=description;
+    report.replaceChildren();periods.replaceChildren();status.textContent=description;status.hidden=!description;
     if(!selected.length){report.append(node('p',issues.length?'No published updates match this period. This does not establish that no legal changes occurred.':'No reviewed updates have been published yet.'));return;}
     const list=node('ul');
     selected.forEach(i=>{const li=node('li'),a=node('a',period(i));const q=new URLSearchParams({issue:i.id}),court=new URLSearchParams(location.search).get('court');if(court)q.set('court',court);a.href='?'+q;a.addEventListener('click',e=>{if(e.button===0&&!e.metaKey&&!e.ctrlKey&&!e.shiftKey&&!e.altKey){e.preventDefault();navigate(a.getAttribute('href'));}});li.append(a);list.append(li);});
@@ -103,7 +103,7 @@
     const query=new URLSearchParams(location.search),start=query.get('from'),end=query.get('to'),id=query.get('issue');
     if(id){const issue=data.issues.find(i=>i.id===id);from.value=issue?.window_start||'';to.value=issue?.window_end||'';render(issue?[issue]:[],issue?`Update: ${period(issue)}`:'The requested update was not found.');return;}
     if(start!==null||end!==null){from.value=start||'';to.value=end||'';if(!validDate(start||'')||!validDate(end||'')||start>end){render([],'Enter a valid date range with From on or before Through.');return;}const selected=filterRows(start,end);render(selected,`${selected.length} update${selected.length===1?'':'s'} for ${start} – ${end}`);return;}
-    const latest=issues[0];from.value=latest?.window_start||'';to.value=latest?.window_end||'';render(latest?[latest]:[],latest?`Latest update: ${period(latest)}`:'Update archive');
+    const latest=issues[0];from.value=latest?.window_start||'';to.value=latest?.window_end||'';render(latest?[latest]:[],latest?`Latest update: ${period(latest)}`:'');
   }
   function navigate(search){const q=new URLSearchParams(search),court=new URLSearchParams(location.search).get('court');if(court)q.set('court',court);history.pushState(null,'',location.pathname+(q.size?'?'+q:''));route();}
   document.getElementById('period-form').addEventListener('submit',e=>{e.preventDefault();navigate('?'+new URLSearchParams({from:from.value,to:to.value}));});
