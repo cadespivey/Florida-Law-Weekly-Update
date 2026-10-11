@@ -1,0 +1,42 @@
+[
+  {
+    "label": "Florida E-Filing Portal",
+    "url": "https://www.myflcourtaccess.com/"
+  },
+  {
+    "label": "Florida Statutes — Online Sunshine",
+    "url": "https://www.leg.state.fl.us/Statutes/"
+  },
+  {
+    "label": "Florida Sunbiz Search",
+    "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ByName"
+  },
+  {
+    "label": "Florida UCC Search",
+    "url": "https://floridaucc.com/search"
+  },
+  {
+    "label": "The Florida Bar",
+    "url": "https://www.floridabar.org/"
+  },
+  {
+    "label": "Florida Style Manual",
+    "url": "https://www.fsulawreview.com/florida-style-manual/"
+  },
+  {
+    "label": "The Indigo Book",
+    "url": "https://law.resource.org/pub/us/code/blue/indigobook-2.1.html"
+  },
+  {
+    "label": "Typography for Lawyers",
+    "url": "https://typographyforlawyers.com/"
+  },
+  {
+    "label": "CourtListener",
+    "url": "https://www.courtlistener.com/"
+  },
+  {
+    "label": "Cade Spivey on GitHub",
+    "url": "https://github.com/cadespivey"
+  }
+]

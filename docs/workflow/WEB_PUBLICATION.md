@@ -30,14 +30,23 @@ from the private cumulative research database.
   `?from=YYYY-MM-DD&to=YYYY-MM-DD`. Reload, Back and Forward preserve selection.
 - The personnel directory is a separate `directory.html` page, linked in the top
   masthead beside the site title. Navigation order is Updates, Courts, Personnel
-  Directory. Both Courts and Personnel Directory are dropdowns; CourtListener
-  remains accessible within Courts. The personnel dropdown supplies an all-courts
+  Directory, Links. Courts, Personnel Directory and Links are dropdowns;
+  CourtListener appears in Links only. The personnel dropdown supplies an all-courts
   view and individual `directory.html?court=GROUP-ID` links.
   The menu lists the Supreme Court, six DCAs, circuits 4/7/8 and the seven counties
   in the packaged research registry. `data/web/courts.json` supplies their official
   destinations; registry group membership limits the menu's scope. These links
   describe configured research coverage, not proof of completed source review.
   Court-specific county pages were discovered through the official circuit sites.
+- Each county court link retains its destination and has three indented links:
+  Official Records, Court Records, Tax Assessor. Tax Assessor points to the county
+  property appraiser. Keep these in `data/web/courts.json` under `resources`;
+  use clerk-published records destinations, not third-party people-search sites.
+  `data/web/links.json` supplies the general Links menu: e-filing, Online Sunshine
+  statutes, Sunbiz, UCC search, Florida Bar, FSU's Florida Style Manual, Indigo Book,
+  Typography for Lawyers, CourtListener and Cade Spivey's GitHub profile.
+  These menus are identical on Updates and Directory. Keep panels within the
+  masthead width, scrollable vertically, and operable by keyboard and touch.
 - The directory page uses the newest selected issue's saved snapshot. Selecting
   one older issue shows its contacts and personal/governing procedures. Do not
   merge current contacts into historical results. Navigation between Updates and

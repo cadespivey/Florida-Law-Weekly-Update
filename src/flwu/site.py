@@ -20,18 +20,30 @@ def navigation(page):
         if row['group_id'] in groups:
             url = escape(safe_url(row['url']), quote=True)
             label = escape(row['label'])
-            sections.setdefault(row['category'], []).append(f'<li><a href="{url}">{label}</a></li>')
+            resources = ''.join(
+                f'<li><a href="{escape(safe_url(link["url"]), quote=True)}" '
+                f'aria-label="{label}: {escape(link["label"], quote=True)}">{escape(link["label"])}</a></li>'
+                for link in row.get('resources', [])
+            )
+            children = f'<ul class="county-resources">{resources}</ul>' if resources else ''
+            sections.setdefault(row['category'], []).append(f'<li><a href="{url}">{label}</a>{children}</li>')
             court = escape(row['group_id'], quote=True)
             personnel.setdefault(row['category'], []).append(f'<li><a data-court="{court}" href="directory.html?court={court}">{label}</a></li>')
     def panel(items):
-        return ''.join(f'<div><h2>{escape(title)}</h2><ul>{"".join(links)}</ul></div>' for title, links in items.items())
+        return ''.join(f'<div class="{"county-section" if title == "County Courts" else "court-section"}"><h2>{escape(title)}</h2><ul>{"".join(links)}</ul></div>' for title, links in items.items())
+    resources = ''.join(
+        f'<li><a href="{escape(safe_url(link["url"]), quote=True)}">{escape(link["label"])}</a></li>'
+        for link in json.loads((ASSETS / 'links.json').read_text())
+    )
     current = ' aria-current="page"'
     return ('<nav class="site-nav" aria-label="Main navigation">'
             f'<a id="updates-link" href="./"{current if page == "updates" else ""}>Updates</a>'
             '<details class="court-menu"><summary>Courts</summary>'
-            f'<div class="court-links">{panel(sections)}<a href="https://www.courtlistener.com/">CourtListener</a></div></details>'
+            f'<div class="court-links">{panel(sections)}</div></details>'
             '<details class="personnel-menu"><summary>Personnel Directory</summary>'
-            f'<div class="court-links"><a id="directory-link" href="directory.html"{current if page == "directory" else ""}>All covered courts</a>{panel(personnel)}</div></details></nav>')
+            f'<div class="court-links"><a id="directory-link" href="directory.html"{current if page == "directory" else ""}>All covered courts</a>{panel(personnel)}</div></details>'
+            '<details class="resources-menu"><summary>Links</summary>'
+            f'<div class="court-links"><ul class="resource-links">{resources}</ul></div></details></nav>')
 
 
 def build_site(archive, output, *, preview=False):

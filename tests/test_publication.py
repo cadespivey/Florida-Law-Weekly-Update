@@ -54,7 +54,7 @@ def test_deterministic_archive_order_safe_embedding_and_no_private_files(tmp_pat
     assert homepage.body['data-page'] == 'updates'
     assert directory.select_one('#directory-link')['aria-current'] == 'page'
     assert homepage.select_one('#updates-link')['aria-current'] == 'page'
-    assert len(homepage.select('.court-menu .court-links a')) == 18
+    assert len(homepage.select('.court-menu .court-links a')) == 38
     assert len(directory.select('.personnel-menu [data-court]')) == 17
     assert directory.select_one('script[src]')['src'] == 'assets/search.js'
 
