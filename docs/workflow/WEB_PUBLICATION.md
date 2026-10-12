@@ -158,3 +158,33 @@ source links (without quoted-source panels), historical directory identity, keyb
 Inspect screenshots. Publication success additionally requires an observed green
 Actions deployment and an HTTP/browser check of the live URL; local tests alone
 must never be reported as live deployment.
+
+## Evidence-baseline date semantics (public schema version 2)
+
+Existing version 1 archives retain their exact schema and publication-window
+checks. For a reviewed evidence-baseline capture, set the immutable contract's
+`report_type` to `opening_baseline` or `period_update` and supply `coverage` with
+exact fields `summary` (nonempty text), `limitations` (list of nonempty strings),
+and `directory_observed_at` (timezone timestamp or null). A nonempty directory
+requires a timestamp and limitations explaining its historical scope. Record the
+actual observation time even when later than the report cutoff; never represent
+current contacts as a reconstructed historical roster. The website displays this
+coverage and the observation timestamp on the directory.
+
+Every included version 2 candidate must explicitly supply `inclusion_basis`:
+
+- `opening_baseline`: only for a single-date opening baseline. Known issuance
+  must be on or before cutoff; if issuance is unknown, a known effective date on
+  or before cutoff is required. An already-issued future-effective authority may
+  be included, retaining its future effective date.
+- `publication`: issuance must fall within the inclusive report window.
+- `effective`: the stated effective date must fall within that window; known
+  issuance may be older but cannot be later than cutoff.
+
+Opening reports require the opening basis; period reports allow publication or
+effective basis. Preserve original publication/effective dates in stored and
+exported items. The display labels baseline and effective-event inclusions.
+Coverage statements describe evidence limitations; they do not certify missing
+research complete. All existing original/text checksum, quotation, synthetic
+separation, complete-capture and finalization checks remain mandatory. Version 2
+is an export representation, not a change to ordinary research receipt gates.

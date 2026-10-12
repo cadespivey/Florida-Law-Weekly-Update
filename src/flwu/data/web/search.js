@@ -36,6 +36,12 @@
     const list=node('ul');
     selected.forEach(i=>{const li=node('li'),a=node('a',period(i));const q=new URLSearchParams({issue:i.id}),court=new URLSearchParams(location.search).get('court');if(court)q.set('court',court);a.href='?'+q;a.addEventListener('click',e=>{if(e.button===0&&!e.metaKey&&!e.ctrlKey&&!e.shiftKey&&!e.altKey){e.preventDefault();navigate(a.getAttribute('href'));}});li.append(a);list.append(li);});
     if(selected.length>1)periods.append(list);
+    for(const issue of (isDirectory?selected.slice(0,1):selected)){
+      if(!issue.coverage)continue;
+      const coverage=node('aside');coverage.className='evidence-coverage';
+      coverage.append(node('h2','Evidence coverage'),node('p',issue.coverage.summary));
+      const limits=node('ul');issue.coverage.limitations.forEach(text=>limits.append(node('li',text)));coverage.append(limits);report.append(coverage);
+    }
     if(isDirectory){renderDirectory(selected[0]);return;}
     for(const [key,title] of sections){
       const section=node('section');section.append(node('h2',title));
@@ -45,6 +51,8 @@
         const part=issue.sections[key];
         part.items.forEach(item=>{const article=node('article');article.append(node('h3',item.title));
           const dates=[];if(item.publication_date)dates.push(`Published: ${item.publication_date}`);if(item.effective_date)dates.push(`Effective: ${item.effective_date}`);if(item.legal_status!=='unknown')dates.push(item.legal_status);
+          if(item.inclusion_basis==='opening_baseline')dates.push('Opening evidence baseline');
+          if(item.inclusion_basis==='effective')dates.push('Included for its stated effective date');
           if(dates.length)article.append(node('p',dates.join(' · '),'meta'));
           article.append(summary(item.summary,key==='case_law'));citations(article,item.citations);section.append(article);
         });
@@ -56,7 +64,9 @@
     const court=(data.courts||[]).find(c=>c.group_id===courtId);
     const directory=node('section',undefined,'directory');directory.id='directory';
     directory.append(node('h2',court?court.label+' — Personnel': 'All covered courts — Personnel'));
-    directory.append(node('p',`Directory snapshot for ${period(snapshot)}. A date range shows the newest matching snapshot.`));
+    directory.append(node('p',snapshot.coverage?.directory_observed_at
+      ? `Directory observed at ${snapshot.coverage.directory_observed_at}. Observation time is distinct from the report period. A date range shows the newest matching snapshot.`
+      : `Directory snapshot for ${period(snapshot)}. A date range shows the newest matching snapshot.`));
     if(courtId&&!court){directory.append(node('p','This court is not in the covered directory.'));report.append(directory);return;}
     const circuitCounties={circuit_fourth:['Duval','Clay','Nassau'],circuit_seventh:['Putnam','St. Johns'],circuit_eighth:['Baker','Union']};
     const matches=person=>{
