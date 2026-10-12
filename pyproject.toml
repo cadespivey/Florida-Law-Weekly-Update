@@ -3,6 +3,7 @@ name = "flwu"
 version = "0.1.0"
 description = "Florida Litigator Weekly Update"
 authors = ["Cade Spivey"]
+license = "Apache-2.0"
 readme = "README.md"
 
 [tool.poetry.dependencies]

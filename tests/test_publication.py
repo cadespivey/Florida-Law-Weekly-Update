@@ -52,11 +52,14 @@ def test_deterministic_archive_order_safe_embedding_and_no_private_files(tmp_pat
     homepage = BeautifulSoup(text, 'html.parser')
     assert directory.body['data-page'] == 'directory'
     assert homepage.body['data-page'] == 'updates'
+    embedded=json.loads(homepage.select_one('#archive-data').string)
+    for item in embedded['issues']:validate_issue(item,preview=True)
+    assert embedded['directory_contacts']['test-one']['person-example']['office']
     assert directory.select_one('#directory-link')['aria-current'] == 'page'
     assert homepage.select_one('#updates-link')['aria-current'] == 'page'
     assert len(homepage.select('.court-menu .court-links a')) == 38
     assert len(directory.select('.personnel-menu [data-court]')) == 17
-    assert directory.select_one('script[src]')['src'] == 'assets/search.js'
+    assert directory.select_one('script[src]')['src'].startswith('assets/search.js?v=')
     about = BeautifulSoup((first/'about.html').read_text(), 'html.parser')
     assert about.body['data-page'] == 'about'
     assert about.select_one('#about-link')['aria-current'] == 'page'

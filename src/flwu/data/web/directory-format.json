@@ -1,0 +1,5321 @@
+{
+  "addresses": {
+    "500 South Duval Street, Tallahassee, FL 32399-1925": [
+      {
+        "label": "Address",
+        "lines": [
+          "500 South Duval Street",
+          "Tallahassee, FL 32399-1925"
+        ],
+        "type": "address"
+      }
+    ],
+    "55 West Main Street, Room 103, Lake Butler, FL 32054": [
+      {
+        "label": "Address",
+        "lines": [
+          "55 West Main Street, Room 103",
+          "Lake Butler, FL 32054"
+        ],
+        "type": "address"
+      }
+    ],
+    "2001 S.W. 117th Avenue, Miami, FL 33175-1716": [
+      {
+        "label": "Address",
+        "lines": [
+          "2001 S.W. 117th Avenue",
+          "Miami, FL 33175-1716"
+        ],
+        "type": "address"
+      }
+    ],
+    "300 South Beach Street, Daytona Beach, FL 32114": [
+      {
+        "label": "Address",
+        "lines": [
+          "300 South Beach Street",
+          "Daytona Beach, FL 32114"
+        ],
+        "type": "address"
+      }
+    ],
+    "2000 Drayton Drive, Tallahassee, FL 32399-0950": [
+      {
+        "label": "Address",
+        "lines": [
+          "2000 Drayton Drive",
+          "Tallahassee, FL 32399-0950"
+        ],
+        "type": "address"
+      }
+    ],
+    "825 North Orange Avenue, Green Cove Springs, FL 32043; mail to P.O. Box 698, Green Cove Springs, FL 32043": [
+      {
+        "label": "Office",
+        "lines": [
+          "825 North Orange Avenue",
+          "Green Cove Springs, FL 32043"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Mailing",
+        "lines": [
+          "P.O. Box 698",
+          "Green Cove Springs, FL 32043"
+        ],
+        "type": "address"
+      }
+    ],
+    "110 South Tamarind Ave., West Palm Beach, FL 33401": [
+      {
+        "label": "Address",
+        "lines": [
+          "110 South Tamarind Ave.",
+          "West Palm Beach, FL 33401"
+        ],
+        "type": "address"
+      }
+    ],
+    "339 E Macclenny Avenue, Macclenny, Florida 32063": [
+      {
+        "label": "Address",
+        "lines": [
+          "339 E Macclenny Avenue",
+          "Macclenny, FL 32063"
+        ],
+        "type": "address"
+      }
+    ],
+    "525 Mirror Lake Drive North, St. Petersburg, FL 33701": [
+      {
+        "label": "Address",
+        "lines": [
+          "525 Mirror Lake Drive North",
+          "St. Petersburg, FL 33701"
+        ],
+        "type": "address"
+      }
+    ],
+    "Downtown Courthouse, 501 W. Adams St., Jacksonville, Florida; Beaches Branch: 1543 Atlantic Blvd., Neptune Beach": [
+      {
+        "label": "Downtown Courthouse",
+        "lines": [
+          "501 W. Adams St.",
+          "Jacksonville, FL"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Beaches Branch",
+        "lines": [
+          "1543 Atlantic Blvd.",
+          "Neptune Beach"
+        ],
+        "type": "address"
+      }
+    ],
+    "Richard O. Watson Judicial Center, 4010 Lewis Speedway, St. Augustine, FL32084": [
+      {
+        "label": "Richard O. Watson Judicial Center",
+        "lines": [
+          "4010 Lewis Speedway",
+          "St. Augustine, FL 32084"
+        ],
+        "type": "address"
+      }
+    ],
+    "Full-service office: 76347 Veterans Way, Yulee, FL 32097; branch: 416 Centre Street, Fernandina Beach, FL 32034": [
+      {
+        "label": "Full-service office",
+        "lines": [
+          "76347 Veterans Way",
+          "Yulee, FL 32097"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Branch",
+        "lines": [
+          "416 Centre Street",
+          "Fernandina Beach, FL 32034"
+        ],
+        "type": "address"
+      }
+    ],
+    "Mailing: P.O. Box758, Palatka, FL32178; courthouse410St.JohnsAve, Palatka; CustomerServiceCenter1076thSt, Palatka": [
+      {
+        "label": "Mailing",
+        "lines": [
+          "P.O. Box 758",
+          "Palatka, FL 32178"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Courthouse",
+        "lines": [
+          "410 St. Johns Ave.",
+          "Palatka"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Customer Service Center",
+        "lines": [
+          "107 6th St.",
+          "Palatka"
+        ],
+        "type": "address"
+      }
+    ],
+    "811 East Main Street, Lakeland, FL 33801": [
+      {
+        "label": "Address",
+        "lines": [
+          "811 East Main Street",
+          "Lakeland, FL 33801"
+        ],
+        "type": "address"
+      }
+    ],
+    "Court mailing address: 811 East Main Street, Lakeland, FL 33801; individual chambers location not established": [
+      {
+        "label": "Court mailing address",
+        "lines": [
+          "811 East Main Street",
+          "Lakeland, FL 33801"
+        ],
+        "type": "address"
+      }
+    ],
+    "501 West Adams Street, Room7038, Jacksonville FL32202; civil HearingRoom703": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 West Adams Street, Room 7038",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Hearing room",
+        "lines": [
+          "703"
+        ]
+      }
+    ],
+    "Court mailing address via Clerk: 300 South Beach Street, Daytona Beach, FL 32114; individual chambers location not established": [
+      {
+        "label": "Court mailing address",
+        "lines": [
+          "300 South Beach Street",
+          "Daytona Beach, FL 32114"
+        ],
+        "type": "address"
+      }
+    ],
+    "500 South Duval Street, Tallahassee FL 32399-1925": [
+      {
+        "label": "Address",
+        "lines": [
+          "500 South Duval Street",
+          "Tallahassee, FL 32399-1925"
+        ],
+        "type": "address"
+      }
+    ],
+    "Union County Courthouse, 55 West Main Street, Suite 207, Lake Butler, FL 32054": [
+      {
+        "label": "Union County Courthouse",
+        "lines": [
+          "55 West Main Street, Suite 207",
+          "Lake Butler, FL 32054"
+        ],
+        "type": "address"
+      }
+    ],
+    "Court address: 2001 S.W. 117th Avenue, Miami, FL 33175-1716; individual room not published": [
+      {
+        "label": "Court address",
+        "lines": [
+          "2001 S.W. 117th Avenue",
+          "Miami, FL 33175-1716"
+        ],
+        "type": "address"
+      }
+    ],
+    "501WestAdamsStreet,JacksonvilleFL32202;mailing/physical address as published": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 West Adams Street",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      }
+    ],
+    "Court mailing address: 2000 Drayton Drive, Tallahassee, FL 32399-0950; individual room not published": [
+      {
+        "label": "Court mailing address",
+        "lines": [
+          "2000 Drayton Drive",
+          "Tallahassee, FL 32399-0950"
+        ],
+        "type": "address"
+      }
+    ],
+    "76347 Veterans Way, Yulee, FL 32097 (mailing and physical); additional physical location 416 Centre St., Fernandina Beach, FL 32034": [
+      {
+        "label": "Mailing / physical",
+        "lines": [
+          "76347 Veterans Way",
+          "Yulee, FL 32097"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Additional location",
+        "lines": [
+          "416 Centre St.",
+          "Fernandina Beach, FL 32034"
+        ],
+        "type": "address"
+      }
+    ],
+    "501WestAdamsStreet,Suite7164,JacksonvilleFL32202": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 West Adams Street, Suite 7164",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      }
+    ],
+    "501 West Adams Street, Suite7259, Jacksonville FL32202; civil HearingRoom734": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 West Adams Street, Suite 7259",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Hearing room",
+        "lines": [
+          "734"
+        ]
+      }
+    ],
+    "Duval County Courthouse,501 West Adams Street,Jacksonville FL32202; official roster courtroom/hearing room 605/710": [
+      {
+        "label": "Duval County Courthouse",
+        "lines": [
+          "501 West Adams Street",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Courtroom / hearing room",
+        "lines": [
+          "605/710"
+        ]
+      }
+    ],
+    "501W.AdamsStreet,Suite7036,JacksonvilleFL32202;page1Courtroom508;page5says505": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 W. Adams Street, Suite 7036",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Courtroom — page 1",
+        "lines": [
+          "508"
+        ]
+      },
+      {
+        "label": "Courtroom — page 5",
+        "lines": [
+          "505"
+        ]
+      }
+    ],
+    "Duval County Courthouse,501 West Adams Street,Jacksonville FL32202; public hearing room 711;private chambers suite not independently published in main procedure": [
+      {
+        "label": "Duval County Courthouse",
+        "lines": [
+          "501 West Adams Street",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Hearing room",
+        "lines": [
+          "711"
+        ]
+      }
+    ],
+    "Duval County Courthouse,501 West Adams Street,Jacksonville FL32202; official roster courtroom/hearing room 306/730": [
+      {
+        "label": "Duval County Courthouse",
+        "lines": [
+          "501 West Adams Street",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Courtroom / hearing room",
+        "lines": [
+          "306/730"
+        ]
+      }
+    ],
+    "Robert M. Foster Justice Center, 76347 Veterans Way, Yulee, Florida 32097 (physical and mailing)": [
+      {
+        "label": "Robert M. Foster Justice Center",
+        "lines": [
+          "76347 Veterans Way",
+          "Yulee, FL 32097"
+        ],
+        "type": "address"
+      }
+    ],
+    "Duval County Courthouse,501 West Adams Street,Jacksonville FL32202; roster courtroom/hearing room 308/747": [
+      {
+        "label": "Duval County Courthouse",
+        "lines": [
+          "501 West Adams Street",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Courtroom / hearing room",
+        "lines": [
+          "308/747"
+        ]
+      }
+    ],
+    "501WestAdamsStreet,Suite/Room7164,JacksonvilleFL32202": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 West Adams Street, Suite/Room 7164",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      }
+    ],
+    "Duval County Courthouse,501 West Adams Street,Jacksonville FL32202;HearingRoom705": [
+      {
+        "label": "Duval County Courthouse",
+        "lines": [
+          "501 West Adams Street",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Hearing room",
+        "lines": [
+          "705"
+        ]
+      }
+    ],
+    "825 N.Orange Avenue, Chamber4-081, Green Cove Springs FL32043 (PDF); mail P.O.Box1867 (profile)": [
+      {
+        "label": "Procedure address",
+        "lines": [
+          "825 N. Orange Avenue, Chamber 4-081",
+          "Green Cove Springs, FL 32043"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Mailing — profile",
+        "lines": [
+          "P.O. Box 1867"
+        ]
+      }
+    ],
+    "501 W.Adams Street,Suite7036,Jacksonville FL32202;physicalCourtroom505": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 W. Adams Street, Suite 7036",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Courtroom",
+        "lines": [
+          "505"
+        ]
+      }
+    ],
+    "501WestAdamsStreet,Suite/Room7120,JacksonvilleFL32202": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 West Adams Street, Suite/Room 7120",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      }
+    ],
+    "501WestAdamsStreet,Suite/Room7108,JacksonvilleFL32202": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 West Adams Street, Suite/Room 7108",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      }
+    ],
+    "501WestAdamsStreet,Suite7180,JacksonvilleFL32202": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 West Adams Street, Suite 7180",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      }
+    ],
+    "Court address: 525 Mirror Lake Drive North, St. Petersburg, FL 33701; individual room not published": [
+      {
+        "label": "Court address",
+        "lines": [
+          "525 Mirror Lake Drive North",
+          "St. Petersburg, FL 33701"
+        ],
+        "type": "address"
+      }
+    ],
+    "Duval County Courthouse,501 West Adams Street,Jacksonville FL32202; public hearing room 707;private chambers suite not independently published in main procedure": [
+      {
+        "label": "Duval County Courthouse",
+        "lines": [
+          "501 West Adams Street",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Hearing room",
+        "lines": [
+          "707"
+        ]
+      }
+    ],
+    "Duval County Courthouse,501 West Adams Street,Jacksonville FL32202; official roster courtroom/hearing room 408/733": [
+      {
+        "label": "Duval County Courthouse",
+        "lines": [
+          "501 West Adams Street",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Courtroom / hearing room",
+        "lines": [
+          "408/733"
+        ]
+      }
+    ],
+    "Court address: 110 South Tamarind Ave., West Palm Beach, FL 33401; individual room not published": [
+      {
+        "label": "Court address",
+        "lines": [
+          "110 South Tamarind Ave.",
+          "West Palm Beach, FL 33401"
+        ],
+        "type": "address"
+      }
+    ],
+    "825 N. Orange Ave., Green Cove Springs, FL 32043; mail: P.O. Drawer 1018, Green Cove Springs, FL 32043": [
+      {
+        "label": "Office",
+        "lines": [
+          "825 N. Orange Ave.",
+          "Green Cove Springs, FL 32043"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Mailing",
+        "lines": [
+          "P.O. Drawer 1018",
+          "Green Cove Springs, FL 32043"
+        ],
+        "type": "address"
+      }
+    ],
+    "4010 Lewis Speedway,Room316,St.Augustine,FL32084": [
+      {
+        "label": "Address",
+        "lines": [
+          "4010 Lewis Speedway, Room 316",
+          "St. Augustine, FL 32084"
+        ],
+        "type": "address"
+      }
+    ],
+    "Physical: 410 St. Johns Avenue, Palatka, FL 32177. Mailing: P.O. Box 758, Palatka; ZIP disputed between profile 32178 and procedure 32177.": [
+      {
+        "label": "Physical",
+        "lines": [
+          "410 St. Johns Avenue",
+          "Palatka, FL 32177"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Mailing",
+        "lines": [
+          "P.O. Box 758",
+          "Palatka"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Mailing ZIP — profile",
+        "lines": [
+          "32178"
+        ]
+      },
+      {
+        "label": "Mailing ZIP — procedure",
+        "lines": [
+          "32177"
+        ]
+      }
+    ],
+    "501WestAdamsStreet,Suite7169,JacksonvilleFL32202": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 West Adams Street, Suite 7169",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      }
+    ],
+    "201 East University Avenue, Room 301, Gainesville, FL 32601; Baker County Courthouse, 339 East Macclenny Avenue, Macclenny, FL 32063": [
+      {
+        "label": "Gainesville office",
+        "lines": [
+          "201 East University Avenue, Room 301",
+          "Gainesville, FL 32601"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Baker County Courthouse",
+        "lines": [
+          "339 East Macclenny Avenue",
+          "Macclenny, FL 32063"
+        ],
+        "type": "address"
+      }
+    ],
+    "Judge Stephan P. Mickle, Sr. Criminal Courthouse, 220 South Main Street, Gainesville, FL 32601": [
+      {
+        "label": "Judge Stephan P. Mickle, Sr. Criminal Courthouse",
+        "lines": [
+          "220 South Main Street",
+          "Gainesville, FL 32601"
+        ],
+        "type": "address"
+      }
+    ],
+    "Mailing: Kim C. Hammond Justice Center, 1769 E. Moody Blvd., Bldg. 1, Bunnell, FL 32110; Putnam hearings use a separate courthouse address": [
+      {
+        "label": "Mailing — Kim C. Hammond Justice Center",
+        "lines": [
+          "1769 E. Moody Blvd., Bldg. 1",
+          "Bunnell, FL 32110"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Putnam hearings",
+        "lines": [
+          "Separate courthouse location"
+        ]
+      }
+    ],
+    "Alachua County Family and Civil Justice Center, 201 East University Avenue, Room 305, Gainesville, FL 32601": [
+      {
+        "label": "Alachua County Family and Civil Justice Center",
+        "lines": [
+          "201 East University Avenue, Room 305",
+          "Gainesville, FL 32601"
+        ],
+        "type": "address"
+      }
+    ],
+    "825 N. Orange Ave., Green Cove Springs, FL32043; mail P.O.Drawer1018": [
+      {
+        "label": "Address",
+        "lines": [
+          "825 North Orange Avenue",
+          "Green Cove Springs, FL 32043"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Mailing",
+        "lines": [
+          "P.O. Drawer 1018"
+        ]
+      }
+    ],
+    "S.JamesFoxmanJusticeCenter,251N.RidgewoodAvenue,Room294,DaytonaBeach,FL32114": [
+      {
+        "label": "S. James Foxman Justice Center",
+        "lines": [
+          "251 N. Ridgewood Avenue, Room 294",
+          "Daytona Beach, FL 32114"
+        ],
+        "type": "address"
+      }
+    ],
+    "501 West Adams Street, Suite7271, Jacksonville FL32202; Chambers736": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 West Adams Street, Suite 7271",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Chambers",
+        "lines": [
+          "736"
+        ]
+      }
+    ],
+    "Alachua County Family and Civil Justice Center, 201 East University Avenue, Room 409, Gainesville, FL 32601": [
+      {
+        "label": "Alachua County Family and Civil Justice Center",
+        "lines": [
+          "201 East University Avenue, Room 409",
+          "Gainesville, FL 32601"
+        ],
+        "type": "address"
+      }
+    ],
+    "220 South Main Street, Room A303, Gainesville, FL 32601; Baker County Courthouse, 339 East Macclenny Avenue, Macclenny, FL 32063": [
+      {
+        "label": "Gainesville office",
+        "lines": [
+          "220 South Main Street, Room A303",
+          "Gainesville, FL 32601"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Baker County Courthouse",
+        "lines": [
+          "339 East Macclenny Avenue",
+          "Macclenny, FL 32063"
+        ],
+        "type": "address"
+      }
+    ],
+    "501WestAdamsStreet,Room7202,JacksonvilleFL32202 (order letter);hearingroom740": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 West Adams Street, Room 7202",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Hearing room",
+        "lines": [
+          "740"
+        ]
+      }
+    ],
+    "Richard O. Watson Judicial Center,4010 Lewis Speedway,Suite277,St.Augustine,FL32084.": [
+      {
+        "label": "Richard O. Watson Judicial Center",
+        "lines": [
+          "4010 Lewis Speedway, Suite 277",
+          "St. Augustine, FL 32084"
+        ],
+        "type": "address"
+      }
+    ],
+    "825 N. Orange Ave., Green Cove Springs, FL32043; mail P.O.Drawer1018 (Bustos profile says P.O.Box1018)": [
+      {
+        "label": "Address",
+        "lines": [
+          "825 N. Orange Ave.",
+          "Green Cove Springs, FL 32043"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Mailing — procedure",
+        "lines": [
+          "P.O. Drawer 1018"
+        ]
+      },
+      {
+        "label": "Mailing — profile",
+        "lines": [
+          "P.O. Box 1018"
+        ]
+      }
+    ],
+    "501 West Adams Street,Suite7008,Jacksonville FL32202;HearingRoom712": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 West Adams Street, Suite 7008",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Hearing room",
+        "lines": [
+          "712"
+        ]
+      }
+    ],
+    "501WestAdamsStreet,Suite7174,JacksonvilleFL32202": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 West Adams Street, Suite 7174",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      }
+    ],
+    "501WestAdamsStreet,Suite7173,JacksonvilleFL32202": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 West Adams Street, Suite 7173",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      }
+    ],
+    "501WestAdamsStreet,suite not stated,JacksonvilleFL32202": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 West Adams Street",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      }
+    ],
+    "501WestAdamsStreet,suite not separately stated,JacksonvilleFL32202": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 West Adams Street",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      }
+    ],
+    "4010 Lewis Speedway, Chambers347, St. Augustine, FL32084; Courtroom355, Richard O. Watson Judicial Center.": [
+      {
+        "label": "Address",
+        "lines": [
+          "4010 Lewis Speedway, Chambers 347",
+          "St. Augustine, FL 32084"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Courtroom",
+        "lines": [
+          "355"
+        ]
+      }
+    ],
+    "501W.AdamsStreet,JacksonvilleFL32202;Courtroom202;source leaves Suite number blank": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 W. Adams Street",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Courtroom",
+        "lines": [
+          "202"
+        ]
+      }
+    ],
+    "4010 Lewis Speedway, Room 365, St. Augustine, FL 32084": [
+      {
+        "label": "Address",
+        "lines": [
+          "4010 Lewis Speedway, Room 365",
+          "St. Augustine, FL 32084"
+        ],
+        "type": "address"
+      }
+    ],
+    "501WestAdamsStreet,Room7276,JacksonvilleFL32202 (order letter);hearingroom737": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 West Adams Street, Room 7276",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Hearing room",
+        "lines": [
+          "737"
+        ]
+      }
+    ],
+    "201 East University Avenue, Room 417, Gainesville, FL 32601; Union County Courthouse, 55 West Main Street, Lake Butler, FL 32054": [
+      {
+        "label": "Gainesville office",
+        "lines": [
+          "201 East University Avenue, Room 417",
+          "Gainesville, FL 32601"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Union County Courthouse",
+        "lines": [
+          "55 West Main Street",
+          "Lake Butler, FL 32054"
+        ],
+        "type": "address"
+      }
+    ],
+    "4010 Lewis Speedway, Suite344, St.Augustine, FL32084; hearings Courtroom328": [
+      {
+        "label": "Address",
+        "lines": [
+          "4010 Lewis Speedway, Suite 344",
+          "St. Augustine, FL 32084"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Courtroom",
+        "lines": [
+          "328"
+        ]
+      }
+    ],
+    "Court mailing address: 76347 Veterans Way, Yulee, FL 32097; individual room not published on checked pages": [
+      {
+        "label": "Court mailing address",
+        "lines": [
+          "76347 Veterans Way",
+          "Yulee, FL 32097"
+        ],
+        "type": "address"
+      }
+    ],
+    "Duval County Courthouse,501 West Adams Street,Jacksonville FL32202;public roster hearing room715;private chambers suite not separately stated in reviewed sources": [
+      {
+        "label": "Duval County Courthouse",
+        "lines": [
+          "501 West Adams Street",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Hearing room",
+        "lines": [
+          "715"
+        ]
+      }
+    ],
+    "Steven C.Henderson Judicial Center,125EastOrangeAvenue,Room307,DaytonaBeach,FL32114;Courtroom7": [
+      {
+        "label": "Steven C. Henderson Judicial Center",
+        "lines": [
+          "125 East Orange Avenue, Room 307",
+          "Daytona Beach, FL 32114"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Courtroom",
+        "lines": [
+          "7"
+        ]
+      }
+    ],
+    "501 West Adams Street, Room7207, Jacksonville FL32202; civil hearing room743": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 West Adams Street, Room 7207",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Hearing room",
+        "lines": [
+          "743"
+        ]
+      }
+    ],
+    "501W.AdamsStreet,Suite7207,JacksonvilleFL32202;Courtroom204": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 W. Adams Street, Suite 7207",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Courtroom",
+        "lines": [
+          "204"
+        ]
+      }
+    ],
+    "Procedure mailing:410St.JohnsAve.,Suite300,Palatka,FL32177; hearingsCourtroom302. Officialprofile additionally listsP.O.Box758,Palatka,FL32178.": [
+      {
+        "label": "Mailing — procedure",
+        "lines": [
+          "410 St. Johns Ave., Suite 300",
+          "Palatka, FL 32177"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Mailing — profile",
+        "lines": [
+          "P.O. Box 758",
+          "Palatka, FL 32178"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Courtroom",
+        "lines": [
+          "302"
+        ]
+      }
+    ],
+    "Richard O. Watson Judicial Center, 4010 Lewis Speedway, Suite277, St. Augustine, FL32084 (mailing); same street physical address.": [
+      {
+        "label": "Richard O. Watson Judicial Center",
+        "lines": [
+          "4010 Lewis Speedway, Suite 277",
+          "St. Augustine, FL 32084"
+        ],
+        "type": "address"
+      }
+    ],
+    "Mailing address: 76347 Veterans Way, Yulee, Florida 32097": [
+      {
+        "label": "Address",
+        "lines": [
+          "76347 Veterans Way",
+          "Yulee, FL 32097"
+        ],
+        "type": "address"
+      }
+    ],
+    "Baker County Courthouse, 339 East Macclenny Avenue, Suite 219, Macclenny, FL 32063": [
+      {
+        "label": "Baker County Courthouse",
+        "lines": [
+          "339 East Macclenny Avenue, Suite 219",
+          "Macclenny, FL 32063"
+        ],
+        "type": "address"
+      }
+    ],
+    "501WestAdamsStreet,Suite7241,JacksonvilleFL32202": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 West Adams Street, Suite 7241",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      }
+    ],
+    "825 North Orange Avenue, Green Cove Springs FL32043; mailP.O.Drawer1018 ClayCountyCourthouse": [
+      {
+        "label": "Address",
+        "lines": [
+          "825 North Orange Avenue",
+          "Green Cove Springs, FL 32043"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Mailing",
+        "lines": [
+          "P.O. Drawer 1018"
+        ]
+      }
+    ],
+    "501WestAdamsStreet,Suite7050,JacksonvilleFL32202": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 West Adams Street, Suite 7050",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      }
+    ],
+    "Richard O. Watson Judicial Center,4010 Lewis Speedway,Suite244,St.Augustine,FL32084 (mailing); same street physical address.": [
+      {
+        "label": "Richard O. Watson Judicial Center",
+        "lines": [
+          "4010 Lewis Speedway, Suite 244",
+          "St. Augustine, FL 32084"
+        ],
+        "type": "address"
+      }
+    ],
+    "501WestAdamsStreet,Suite/Room7180,JacksonvilleFL32202": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 West Adams Street, Suite/Room 7180",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      }
+    ],
+    "Scheduling office mailing address: 76347 Veterans Way, Yulee, FL 32097. Individual Foster chambers room not verified. In-person probate hearings generally use the Grand Jury Room, third floor, Robert M. Foster Justice Center.": [
+      {
+        "label": "Scheduling office mailing",
+        "lines": [
+          "76347 Veterans Way",
+          "Yulee, FL 32097"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Probate hearings",
+        "lines": [
+          "Grand Jury Room, third floor",
+          "Robert M. Foster Justice Center"
+        ]
+      }
+    ],
+    "825 North Orange Avenue, Green Cove Springs FL32043; mail P.O.Drawer1018": [
+      {
+        "label": "Address",
+        "lines": [
+          "825 North Orange Avenue",
+          "Green Cove Springs, FL 32043"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Mailing",
+        "lines": [
+          "P.O. Drawer 1018"
+        ]
+      }
+    ],
+    "825 North Orange Avenue, Hearing Room4-093, Green Cove Springs FL32043; mail P.O.Drawer1866 (profile)": [
+      {
+        "label": "Address",
+        "lines": [
+          "825 North Orange Avenue",
+          "Green Cove Springs, FL 32043"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Mailing",
+        "lines": [
+          "P.O. Drawer 1866"
+        ]
+      },
+      {
+        "label": "Hearing room",
+        "lines": [
+          "4-093"
+        ]
+      }
+    ],
+    "Duval County Courthouse,501 West Adams Street,Jacksonville FL32202; public hearing room 709;private chambers suite not independently published in main procedure": [
+      {
+        "label": "Duval County Courthouse",
+        "lines": [
+          "501 West Adams Street",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Hearing room",
+        "lines": [
+          "709"
+        ]
+      }
+    ],
+    "4010 Lewis Speedway,St.Augustine,FL32084": [
+      {
+        "label": "Address",
+        "lines": [
+          "4010 Lewis Speedway",
+          "St. Augustine, FL 32084"
+        ],
+        "type": "address"
+      }
+    ],
+    "Mailing:P.O.Box758,Palatka,FL32178;physical410St.JohnsAvenue,Palatka,FL32177": [
+      {
+        "label": "Mailing",
+        "lines": [
+          "P.O. Box 758",
+          "Palatka, FL 32178"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Physical",
+        "lines": [
+          "410 St. Johns Avenue",
+          "Palatka, FL 32177"
+        ],
+        "type": "address"
+      }
+    ],
+    "Robert M. Foster Justice Center, 76347 Veterans Way, Yulee, FL 32097 (physical and mailing)": [
+      {
+        "label": "Robert M. Foster Justice Center",
+        "lines": [
+          "76347 Veterans Way",
+          "Yulee, FL 32097"
+        ],
+        "type": "address"
+      }
+    ],
+    "Kim C. Hammond Justice Center, 1769 E. Moody Boulevard, Building 1, Bunnell, FL 32110; mailing office serves Putnam Division 53 as well as Flagler.": [
+      {
+        "label": "Kim C. Hammond Justice Center",
+        "lines": [
+          "1769 E. Moody Boulevard, Building 1",
+          "Bunnell, FL 32110"
+        ],
+        "type": "address"
+      }
+    ],
+    "Judge Stephan P. Mickle, Sr. Criminal Courthouse, 220 South Main Street, Room A325, Gainesville, FL 32601": [
+      {
+        "label": "Judge Stephan P. Mickle, Sr. Criminal Courthouse",
+        "lines": [
+          "220 South Main Street, Room A325",
+          "Gainesville, FL 32601"
+        ],
+        "type": "address"
+      }
+    ],
+    "Duval County Courthouse,501 West Adams Street,Jacksonville FL32202;public roster hearing room746;private chambers suite not separately stated in reviewed sources": [
+      {
+        "label": "Duval County Courthouse",
+        "lines": [
+          "501 West Adams Street",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Hearing room",
+        "lines": [
+          "746"
+        ]
+      }
+    ],
+    "501 West Adams Street,Room7003,Jacksonville FL32202;roster hearing room704": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 West Adams Street, Room 7003",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Hearing room",
+        "lines": [
+          "704"
+        ]
+      }
+    ],
+    "Richard O. Watson Judicial Center,4010 Lewis Speedway,Suite205,St.Augustine,FL32084.": [
+      {
+        "label": "Richard O. Watson Judicial Center",
+        "lines": [
+          "4010 Lewis Speedway, Suite 205",
+          "St. Augustine, FL 32084"
+        ],
+        "type": "address"
+      }
+    ],
+    "Alachua County Family and Civil Justice Center, 201 East University Avenue, Room 415, Gainesville, FL 32601": [
+      {
+        "label": "Alachua County Family and Civil Justice Center",
+        "lines": [
+          "201 East University Avenue, Room 415",
+          "Gainesville, FL 32601"
+        ],
+        "type": "address"
+      }
+    ],
+    "501 West Adams Street, Suite7259, Jacksonville FL32202; HearingRoom739": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 West Adams Street, Suite 7259",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Hearing room",
+        "lines": [
+          "739"
+        ]
+      }
+    ],
+    "501 West Adams Street, Suite7029, Jacksonville FL32202; HearingRoom701": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 West Adams Street, Suite 7029",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Hearing room",
+        "lines": [
+          "701"
+        ]
+      }
+    ],
+    "Mailing:P.O.Box758,Palatka,FL32178. Physical:410St.JohnsAve.,Room310,Palatka (procedure prints32178; use POBox address for mail).": [
+      {
+        "label": "Mailing",
+        "lines": [
+          "P.O. Box 758",
+          "Palatka, FL 32178"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Physical",
+        "lines": [
+          "410 St. Johns Ave., Room 310",
+          "Palatka, FL 32178 (procedure)"
+        ],
+        "type": "address"
+      }
+    ],
+    "825NorthOrangeAvenue,HearingRoom4-077,GreenCoveSpringsFL32043;mailP.O.Drawer1845": [
+      {
+        "label": "Address",
+        "lines": [
+          "825 North Orange Avenue",
+          "Green Cove Springs, FL 32043"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Mailing",
+        "lines": [
+          "P.O. Drawer 1845"
+        ]
+      },
+      {
+        "label": "Hearing room",
+        "lines": [
+          "4-077"
+        ]
+      }
+    ],
+    "Duval County Courthouse,501 West Adams Street,Jacksonville FL32202; public hearing room 742;private chambers suite not independently published in main procedure": [
+      {
+        "label": "Duval County Courthouse",
+        "lines": [
+          "501 West Adams Street",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Hearing room",
+        "lines": [
+          "742"
+        ]
+      }
+    ],
+    "Alachua County Family and Civil Justice Center, 201 East University Avenue, Room 416, Gainesville, FL 32601": [
+      {
+        "label": "Alachua County Family and Civil Justice Center",
+        "lines": [
+          "201 East University Avenue, Room 416",
+          "Gainesville, FL 32601"
+        ],
+        "type": "address"
+      }
+    ],
+    "Duval County Courthouse,501WestAdamsStreet,JacksonvilleFL32202;roster room7139": [
+      {
+        "label": "Duval County Courthouse",
+        "lines": [
+          "501 West Adams Street",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Room",
+        "lines": [
+          "7139"
+        ]
+      }
+    ],
+    "Duval County Courthouse,501 West Adams Street,Jacksonville FL32202; roster courtroom/hearing room 608/745": [
+      {
+        "label": "Duval County Courthouse",
+        "lines": [
+          "501 West Adams Street",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Courtroom / hearing room",
+        "lines": [
+          "608/745"
+        ]
+      }
+    ],
+    "Duval County Courthouse,501 West Adams Street,Jacksonville FL32202; official roster courtroom/hearing room 307/702": [
+      {
+        "label": "Duval County Courthouse",
+        "lines": [
+          "501 West Adams Street",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      },
+      {
+        "label": "Courtroom / hearing room",
+        "lines": [
+          "307/702"
+        ]
+      }
+    ],
+    "501WestAdamsStreet,Suite7159,JacksonvilleFL32202": [
+      {
+        "label": "Address",
+        "lines": [
+          "501 West Adams Street, Suite 7159",
+          "Jacksonville, FL 32202"
+        ],
+        "type": "address"
+      }
+    ]
+  },
+  "names": {
+    "Not published in checked sources": [],
+    "Alexis Gainers": [
+      {
+        "label": "Name",
+        "lines": [
+          "Alexis Gainers"
+        ]
+      }
+    ],
+    "Kristin Spilker": [
+      {
+        "label": "Name",
+        "lines": [
+          "Kristin Spilker"
+        ]
+      }
+    ],
+    "Hannah Seay": [
+      {
+        "label": "Name",
+        "lines": [
+          "Hannah Seay"
+        ]
+      }
+    ],
+    "April Williams": [
+      {
+        "label": "Name",
+        "lines": [
+          "April Williams"
+        ]
+      }
+    ],
+    "Ashley Strickland": [
+      {
+        "label": "Name",
+        "lines": [
+          "Ashley Strickland"
+        ]
+      }
+    ],
+    "Marilyn Springer": [
+      {
+        "label": "Name",
+        "lines": [
+          "Marilyn Springer"
+        ]
+      }
+    ],
+    "Linda Blackman": [
+      {
+        "label": "Name",
+        "lines": [
+          "Linda Blackman"
+        ]
+      }
+    ],
+    "Sarah Kaleel": [
+      {
+        "label": "Name",
+        "lines": [
+          "Sarah Kaleel"
+        ]
+      }
+    ],
+    "Becci Powell": [
+      {
+        "label": "Name",
+        "lines": [
+          "Becci Powell"
+        ]
+      }
+    ],
+    "Victoria Hester": [
+      {
+        "label": "Name",
+        "lines": [
+          "Victoria Hester"
+        ]
+      }
+    ],
+    "Sylvia Wilk": [
+      {
+        "label": "Name",
+        "lines": [
+          "Sylvia Wilk"
+        ]
+      }
+    ],
+    "Jessica Outlaw": [
+      {
+        "label": "Name",
+        "lines": [
+          "Jessica Outlaw"
+        ]
+      }
+    ],
+    "Sharon Shoup": [
+      {
+        "label": "Name",
+        "lines": [
+          "Sharon Shoup"
+        ]
+      }
+    ],
+    "Lisa Carpenter": [
+      {
+        "label": "Name",
+        "lines": [
+          "Lisa Carpenter"
+        ]
+      }
+    ],
+    "Carmen Arnold": [
+      {
+        "label": "Name",
+        "lines": [
+          "Carmen Arnold"
+        ]
+      }
+    ],
+    "Donna Gonzalez": [
+      {
+        "label": "Name",
+        "lines": [
+          "Donna Gonzalez"
+        ]
+      }
+    ],
+    "Dara Radtke": [
+      {
+        "label": "Name",
+        "lines": [
+          "Dara Radtke"
+        ]
+      }
+    ],
+    "Melanie Stott": [
+      {
+        "label": "Name",
+        "lines": [
+          "Melanie Stott"
+        ]
+      }
+    ],
+    "Akeisha Wright": [
+      {
+        "label": "Name",
+        "lines": [
+          "Akeisha Wright"
+        ]
+      }
+    ],
+    "Tianna (Tia) Levine": [
+      {
+        "label": "Name",
+        "lines": [
+          "Tianna (Tia) Levine"
+        ]
+      }
+    ],
+    "B.J. Vickers": [
+      {
+        "label": "Name",
+        "lines": [
+          "B.J. Vickers"
+        ]
+      }
+    ],
+    "Brittany Bowen": [
+      {
+        "label": "Name",
+        "lines": [
+          "Brittany Bowen"
+        ]
+      }
+    ],
+    "Kristy Bend": [
+      {
+        "label": "Name",
+        "lines": [
+          "Kristy Bend"
+        ]
+      }
+    ],
+    "Jeannie Reilly": [
+      {
+        "label": "Name",
+        "lines": [
+          "Jeannie Reilly"
+        ]
+      }
+    ],
+    "Traci Davis": [
+      {
+        "label": "Name",
+        "lines": [
+          "Traci Davis"
+        ]
+      }
+    ],
+    "Katelyn Lee": [
+      {
+        "label": "Name",
+        "lines": [
+          "Katelyn Lee"
+        ]
+      }
+    ],
+    "Margaret Copeland": [
+      {
+        "label": "Name",
+        "lines": [
+          "Margaret Copeland"
+        ]
+      }
+    ],
+    "Amber Allen": [
+      {
+        "label": "Name",
+        "lines": [
+          "Amber Allen"
+        ]
+      }
+    ],
+    "Wendy Laudicina": [
+      {
+        "label": "Name",
+        "lines": [
+          "Wendy Laudicina"
+        ]
+      }
+    ],
+    "Jennifer Sirman": [
+      {
+        "label": "Name",
+        "lines": [
+          "Jennifer Sirman"
+        ]
+      }
+    ],
+    "Lynn Rees": [
+      {
+        "label": "Name",
+        "lines": [
+          "Lynn Rees"
+        ]
+      }
+    ],
+    "Kelsey Wable": [
+      {
+        "label": "Name",
+        "lines": [
+          "Kelsey Wable"
+        ]
+      }
+    ],
+    "Michele (Shelly) Hatalski; PDF spells Shelly Hatalksi": [
+      {
+        "label": "Name",
+        "lines": [
+          "Michele (Shelly) Hatalski"
+        ]
+      },
+      {
+        "label": "PDF spelling",
+        "lines": [
+          "Shelly Hatalksi"
+        ]
+      }
+    ],
+    "Cathy Brick": [
+      {
+        "label": "Name",
+        "lines": [
+          "Cathy Brick"
+        ]
+      }
+    ],
+    "Jennie Prather": [
+      {
+        "label": "Name",
+        "lines": [
+          "Jennie Prather"
+        ]
+      }
+    ],
+    "Lindsey Polk": [
+      {
+        "label": "Name",
+        "lines": [
+          "Lindsey Polk"
+        ]
+      }
+    ],
+    "Raina Feagle": [
+      {
+        "label": "Name",
+        "lines": [
+          "Raina Feagle"
+        ]
+      }
+    ],
+    "Francesca Giannini": [
+      {
+        "label": "Name",
+        "lines": [
+          "Francesca Giannini"
+        ]
+      }
+    ],
+    "Shannon Hudson": [
+      {
+        "label": "Name",
+        "lines": [
+          "Shannon Hudson"
+        ]
+      }
+    ],
+    "Megan Lapinski": [
+      {
+        "label": "Name",
+        "lines": [
+          "Megan Lapinski"
+        ]
+      }
+    ],
+    "Megan Blunck": [
+      {
+        "label": "Name",
+        "lines": [
+          "Megan Blunck"
+        ]
+      }
+    ],
+    "Megan Garwood": [
+      {
+        "label": "Name",
+        "lines": [
+          "Megan Garwood"
+        ]
+      }
+    ],
+    "Debra A. Kelley": [
+      {
+        "label": "Name",
+        "lines": [
+          "Debra A. Kelley"
+        ]
+      }
+    ],
+    "Erin Jacobs": [
+      {
+        "label": "Name",
+        "lines": [
+          "Erin Jacobs"
+        ]
+      }
+    ],
+    "Tracy Healy": [
+      {
+        "label": "Name",
+        "lines": [
+          "Tracy Healy"
+        ]
+      }
+    ],
+    "Rosi Rogers": [
+      {
+        "label": "Name",
+        "lines": [
+          "Rosi Rogers"
+        ]
+      }
+    ],
+    "Veronica Griffis": [
+      {
+        "label": "Name",
+        "lines": [
+          "Veronica Griffis"
+        ]
+      }
+    ],
+    "Maiela Ruiz": [
+      {
+        "label": "Name",
+        "lines": [
+          "Maiela Ruiz"
+        ]
+      }
+    ],
+    "Susan Miller": [
+      {
+        "label": "Name",
+        "lines": [
+          "Susan Miller"
+        ]
+      }
+    ],
+    "Connie Pfeifer": [
+      {
+        "label": "Name",
+        "lines": [
+          "Connie Pfeifer"
+        ]
+      }
+    ],
+    "Jenna Morgan": [
+      {
+        "label": "Name",
+        "lines": [
+          "Jenna Morgan"
+        ]
+      }
+    ],
+    "Genese Staples": [
+      {
+        "label": "Name",
+        "lines": [
+          "Genese Staples"
+        ]
+      }
+    ],
+    "Marlene Germany": [
+      {
+        "label": "Name",
+        "lines": [
+          "Marlene Germany"
+        ]
+      }
+    ],
+    "Sarah Meeks": [
+      {
+        "label": "Name",
+        "lines": [
+          "Sarah Meeks"
+        ]
+      }
+    ],
+    "Priscilla Watts": [
+      {
+        "label": "Name",
+        "lines": [
+          "Priscilla Watts"
+        ]
+      }
+    ],
+    "Justy Turberville": [
+      {
+        "label": "Name",
+        "lines": [
+          "Justy Turberville"
+        ]
+      }
+    ],
+    "Ivette Roldan": [
+      {
+        "label": "Name",
+        "lines": [
+          "Ivette Roldan"
+        ]
+      }
+    ],
+    "Rachel Wynn": [
+      {
+        "label": "Name",
+        "lines": [
+          "Rachel Wynn"
+        ]
+      }
+    ],
+    "Bethany E. Kennicutt": [
+      {
+        "label": "Name",
+        "lines": [
+          "Bethany E. Kennicutt"
+        ]
+      }
+    ],
+    "Kristy Lofton": [
+      {
+        "label": "Name",
+        "lines": [
+          "Kristy Lofton"
+        ]
+      }
+    ],
+    "Gabriella Delgado": [
+      {
+        "label": "Name",
+        "lines": [
+          "Gabriella Delgado"
+        ]
+      }
+    ],
+    "Tiffany Rozear": [
+      {
+        "label": "Name",
+        "lines": [
+          "Tiffany Rozear"
+        ]
+      }
+    ],
+    "Amber Collie": [
+      {
+        "label": "Name",
+        "lines": [
+          "Amber Collie"
+        ]
+      }
+    ],
+    "Kristina Crews": [
+      {
+        "label": "Name",
+        "lines": [
+          "Kristina Crews"
+        ]
+      }
+    ],
+    "Trish Bennett": [
+      {
+        "label": "Name",
+        "lines": [
+          "Trish Bennett"
+        ]
+      }
+    ],
+    "Melissa Bishop": [
+      {
+        "label": "Name",
+        "lines": [
+          "Melissa Bishop"
+        ]
+      }
+    ],
+    "Sakoya M. Francis": [
+      {
+        "label": "Name",
+        "lines": [
+          "Sakoya M. Francis"
+        ]
+      }
+    ],
+    "Carolyn Ryan": [
+      {
+        "label": "Name",
+        "lines": [
+          "Carolyn Ryan"
+        ]
+      }
+    ],
+    "No dedicated assistant. Ashley Strickland primarily schedules hearings; Sarah Meeks primarily processes proposed orders.": [
+      {
+        "label": "Scheduling",
+        "lines": [
+          "Ashley Strickland"
+        ]
+      },
+      {
+        "label": "Proposed orders",
+        "lines": [
+          "Sarah Meeks"
+        ]
+      }
+    ],
+    "Suzanne Smith": [
+      {
+        "label": "Name",
+        "lines": [
+          "Suzanne Smith"
+        ]
+      }
+    ],
+    "Lori Durham": [
+      {
+        "label": "Name",
+        "lines": [
+          "Lori Durham"
+        ]
+      }
+    ],
+    "Kathryn Claxton": [
+      {
+        "label": "Name",
+        "lines": [
+          "Kathryn Claxton"
+        ]
+      }
+    ],
+    "Norma Ponder": [
+      {
+        "label": "Name",
+        "lines": [
+          "Norma Ponder"
+        ]
+      }
+    ],
+    "Tammy Sites": [
+      {
+        "label": "Name",
+        "lines": [
+          "Tammy Sites"
+        ]
+      }
+    ],
+    "Teresa E. Blaha": [
+      {
+        "label": "Name",
+        "lines": [
+          "Teresa E. Blaha"
+        ]
+      }
+    ],
+    "Jamie Caliendo": [
+      {
+        "label": "Name",
+        "lines": [
+          "Jamie Caliendo"
+        ]
+      }
+    ],
+    "Katie Smith": [
+      {
+        "label": "Name",
+        "lines": [
+          "Katie Smith"
+        ]
+      }
+    ],
+    "Kayla Courtney": [
+      {
+        "label": "Name",
+        "lines": [
+          "Kayla Courtney"
+        ]
+      }
+    ],
+    "Barbara Elrod": [
+      {
+        "label": "Name",
+        "lines": [
+          "Barbara Elrod"
+        ]
+      }
+    ],
+    "Jennifer L. Keen": [
+      {
+        "label": "Name",
+        "lines": [
+          "Jennifer L. Keen"
+        ]
+      }
+    ],
+    "Libby Mahoney": [
+      {
+        "label": "Name",
+        "lines": [
+          "Libby Mahoney"
+        ]
+      }
+    ],
+    "Charisma Calloway": [
+      {
+        "label": "Name",
+        "lines": [
+          "Charisma Calloway"
+        ]
+      }
+    ],
+    "Paula Fields": [
+      {
+        "label": "Name",
+        "lines": [
+          "Paula Fields"
+        ]
+      }
+    ],
+    "Sandra Powell": [
+      {
+        "label": "Name",
+        "lines": [
+          "Sandra Powell"
+        ]
+      }
+    ],
+    "Julie Richter": [
+      {
+        "label": "Name",
+        "lines": [
+          "Julie Richter"
+        ]
+      }
+    ],
+    "Melissa Brewer": [
+      {
+        "label": "Name",
+        "lines": [
+          "Melissa Brewer"
+        ]
+      }
+    ],
+    "Jennifer Weigel": [
+      {
+        "label": "Name",
+        "lines": [
+          "Jennifer Weigel"
+        ]
+      }
+    ],
+    "Theresa Hall": [
+      {
+        "label": "Name",
+        "lines": [
+          "Theresa Hall"
+        ]
+      }
+    ],
+    "Elizabeth Boozer": [
+      {
+        "label": "Name",
+        "lines": [
+          "Elizabeth Boozer"
+        ]
+      }
+    ]
+  },
+  "contacts": {
+    "Clerk’s Office telephone (850) 488-0125; https://supremecourt.flcourts.gov/the-court/clerk": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(850) 488-0125"
+        ],
+        "type": "phone",
+        "href": "tel:8504880125"
+      }
+    ],
+    "(850) 488-0125": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(850) 488-0125"
+        ],
+        "type": "phone",
+        "href": "tel:8504880125"
+      }
+    ],
+    "Office telephone (386) 496-3711; public contact form https://unionclerk.com/contact/": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(386) 496-3711"
+        ],
+        "type": "phone",
+        "href": "tel:3864963711"
+      }
+    ],
+    "(386) 496-3711": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(386) 496-3711"
+        ],
+        "type": "phone",
+        "href": "tel:3864963711"
+      }
+    ],
+    "3DCArecords@flcourts.gov for photocopy/certified-copy requests; general court telephone (305)229-3200": [
+      {
+        "label": "Records copies",
+        "lines": [
+          "3DCArecords@flcourts.gov"
+        ],
+        "type": "email",
+        "href": "mailto:3DCArecords@flcourts.gov"
+      }
+    ],
+    "(305) 229-3200 (published court telephone)": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(305) 229-3200"
+        ],
+        "type": "phone",
+        "href": "tel:3052293200"
+      }
+    ],
+    "Clerk telephone (386)947-1530 for procedure or case-status inquiries; https://5dca.flcourts.gov/Clerk-s-Office": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(386) 947-1530"
+        ],
+        "type": "phone",
+        "href": "tel:3869471530"
+      }
+    ],
+    "(386) 947-1530": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(386) 947-1530"
+        ],
+        "type": "phone",
+        "href": "tel:3869471530"
+      }
+    ],
+    "Clerk’s Office telephone (850) 488-6151; https://1dca.flcourts.gov/clerk": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(850) 488-6151"
+        ],
+        "type": "phone",
+        "href": "tel:8504886151"
+      }
+    ],
+    "(850) 488-6151": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(850) 488-6151"
+        ],
+        "type": "phone",
+        "href": "tel:8504886151"
+      }
+    ],
+    "info@clayclerk.com (general office email); 904-284-6302 / 904-269-6302": [
+      {
+        "label": "Email",
+        "lines": [
+          "info@clayclerk.com"
+        ],
+        "type": "email",
+        "href": "mailto:info@clayclerk.com"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 284-6302"
+        ],
+        "type": "phone",
+        "href": "tel:9042846302"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 269-6302"
+        ],
+        "type": "phone",
+        "href": "tel:9042696302"
+      }
+    ],
+    "904-284-6302 or 904-269-6302 (general office)": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 284-6302"
+        ],
+        "type": "phone",
+        "href": "tel:9042846302"
+      },
+      {
+        "label": "Phone — general office",
+        "lines": [
+          "(904) 269-6302"
+        ],
+        "type": "phone",
+        "href": "tel:9042696302"
+      }
+    ],
+    "Court public telephone (561)242-2000; https://4dca.flcourts.gov/About-the-Court/clerk-s-office": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(561) 242-2000"
+        ],
+        "type": "phone",
+        "href": "tel:5612422000"
+      }
+    ],
+    "(561) 242-2000 (court public telephone)": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(561) 242-2000"
+        ],
+        "type": "phone",
+        "href": "tel:5612422000"
+      }
+    ],
+    "Office telephone (904) 259-8113; public contact form https://bakerclerk.com/contact-us/": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 259-8113"
+        ],
+        "type": "phone",
+        "href": "tel:9042598113"
+      }
+    ],
+    "(904) 259-8113": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 259-8113"
+        ],
+        "type": "phone",
+        "href": "tel:9042598113"
+      }
+    ],
+    "Clerk’s Office telephone (727) 610-3741; https://2dca.flcourts.gov/About-the-Court/clerk-s-office": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(727) 610-3741"
+        ],
+        "type": "phone",
+        "href": "tel:7276103741"
+      }
+    ],
+    "(727) 610-3741": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(727) 610-3741"
+        ],
+        "type": "phone",
+        "href": "tel:7276103741"
+      }
+    ],
+    "Call 904-255-2000 for general office routing; official contact page https://www.duvalclerk.gov/contact-us/": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-2000"
+        ],
+        "type": "phone",
+        "href": "tel:9042552000"
+      }
+    ],
+    "904-255-2000 (general departments); jury 904-255-2087; traffic 904-255-2300": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-2000"
+        ],
+        "type": "phone",
+        "href": "tel:9042552000"
+      },
+      {
+        "label": "Jury",
+        "lines": [
+          "(904) 255-2087"
+        ],
+        "type": "phone",
+        "href": "tel:9042552087"
+      },
+      {
+        "label": "Traffic",
+        "lines": [
+          "(904) 255-2300"
+        ],
+        "type": "phone",
+        "href": "tel:9042552300"
+      }
+    ],
+    "info@stjohnsclerk.com (Administration); contact form https://stjohnsclerk.com/contact/": [
+      {
+        "label": "Email",
+        "lines": [
+          "info@stjohnsclerk.com"
+        ],
+        "type": "email",
+        "href": "mailto:info@stjohnsclerk.com"
+      }
+    ],
+    "904-819-3600 (general office)": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 819-3600"
+        ],
+        "type": "phone",
+        "href": "tel:9048193600"
+      }
+    ],
+    "General office routing by telephone: 904-548-4600": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 548-4600"
+        ],
+        "type": "phone",
+        "href": "tel:9045484600"
+      }
+    ],
+    "904-548-4600 (Yulee full-service office); 904-491-6430 (Fernandina Beach office)": [
+      {
+        "label": "Yulee",
+        "lines": [
+          "(904) 548-4600"
+        ],
+        "type": "phone",
+        "href": "tel:9045484600"
+      },
+      {
+        "label": "Fernandina Beach",
+        "lines": [
+          "(904) 491-6430"
+        ],
+        "type": "phone",
+        "href": "tel:9044916430"
+      }
+    ],
+    "matt.reynolds@putnam-fl.gov (published contact for Clerk Reynolds); general office386-326-7600": [
+      {
+        "label": "Email",
+        "lines": [
+          "matt.reynolds@putnam-fl.gov"
+        ],
+        "type": "email",
+        "href": "mailto:matt.reynolds@putnam-fl.gov"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(386) 326-7600"
+        ],
+        "type": "phone",
+        "href": "tel:3863267600"
+      }
+    ],
+    "386-326-7603 (published contact for Clerk Reynolds); general office386-326-7600": [
+      {
+        "label": "Clerk",
+        "lines": [
+          "(386) 326-7603"
+        ],
+        "type": "phone",
+        "href": "tel:3863267603"
+      },
+      {
+        "label": "General office",
+        "lines": [
+          "(386) 326-7600"
+        ],
+        "type": "phone",
+        "href": "tel:3863267600"
+      }
+    ],
+    "6DCA-clerkoffice@flcourts.gov for photocopy/certified-copy requests; Clerk telephone (863)940-6041": [
+      {
+        "label": "Records copies",
+        "lines": [
+          "6DCA-clerkoffice@flcourts.gov"
+        ],
+        "type": "email",
+        "href": "mailto:6DCA-clerkoffice@flcourts.gov"
+      }
+    ],
+    "(863)940-6041": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(863) 940-6041"
+        ],
+        "type": "phone",
+        "href": "tel:8639406041"
+      }
+    ],
+    "Not published in checked sources": [],
+    "Againers@coj.net;904-255-1300": [
+      {
+        "label": "Email",
+        "lines": [
+          "Againers@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:Againers@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1300"
+        ],
+        "type": "phone",
+        "href": "tel:9042551300"
+      }
+    ],
+    "904-255-1300": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1300"
+        ],
+        "type": "phone",
+        "href": "tel:9042551300"
+      }
+    ],
+    "Via chambers telephone (850) 488-8421": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(850) 488-8421"
+        ],
+        "type": "phone",
+        "href": "tel:8504888421"
+      }
+    ],
+    "(850) 488-8421": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(850) 488-8421"
+        ],
+        "type": "phone",
+        "href": "tel:8504888421"
+      }
+    ],
+    "seayh@circuit8.org; office (386) 496-2621": [
+      {
+        "label": "Email",
+        "lines": [
+          "seayh@circuit8.org"
+        ],
+        "type": "email",
+        "href": "mailto:seayh@circuit8.org"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(386) 496-2621"
+        ],
+        "type": "phone",
+        "href": "tel:3864962621"
+      }
+    ],
+    "(386) 496-2621": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(386) 496-2621"
+        ],
+        "type": "phone",
+        "href": "tel:3864962621"
+      }
+    ],
+    "Awiliams4@coj.net (heading); Awilliams4@coj.net (communications); office904-255-1052": [
+      {
+        "label": "Email — heading",
+        "lines": [
+          "Awiliams4@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:Awiliams4@coj.net"
+      },
+      {
+        "label": "Email — communications",
+        "lines": [
+          "Awilliams4@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:Awilliams4@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1052"
+        ],
+        "type": "phone",
+        "href": "tel:9042551052"
+      }
+    ],
+    "904-255-1052": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1052"
+        ],
+        "type": "phone",
+        "href": "tel:9042551052"
+      }
+    ],
+    "astrickland@coj.net; 904-548-4910": [
+      {
+        "label": "Email",
+        "lines": [
+          "astrickland@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:astrickland@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 548-4910"
+        ],
+        "type": "phone",
+        "href": "tel:9045484910"
+      }
+    ],
+    "904-548-4910 (chambers/JA office)": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 548-4910"
+        ],
+        "type": "phone",
+        "href": "tel:9045484910"
+      }
+    ],
+    "Mspringer@coj.net;904-255-1354": [
+      {
+        "label": "Email",
+        "lines": [
+          "Mspringer@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:Mspringer@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1354"
+        ],
+        "type": "phone",
+        "href": "tel:9042551354"
+      }
+    ],
+    "904-255-1354": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1354"
+        ],
+        "type": "phone",
+        "href": "tel:9042551354"
+      }
+    ],
+    "lblackman@coj.net;904-255-1234": [
+      {
+        "label": "Email",
+        "lines": [
+          "lblackman@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:lblackman@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1234"
+        ],
+        "type": "phone",
+        "href": "tel:9042551234"
+      }
+    ],
+    "904-255-1234": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1234"
+        ],
+        "type": "phone",
+        "href": "tel:9042551234"
+      }
+    ],
+    "office904-255-1360": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1360"
+        ],
+        "type": "phone",
+        "href": "tel:9042551360"
+      }
+    ],
+    "904-255-1360": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1360"
+        ],
+        "type": "phone",
+        "href": "tel:9042551360"
+      }
+    ],
+    "skaleel@coj.net; office904-255-1294": [
+      {
+        "label": "Email",
+        "lines": [
+          "skaleel@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:skaleel@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1294"
+        ],
+        "type": "phone",
+        "href": "tel:9042551294"
+      }
+    ],
+    "904-255-1294": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1294"
+        ],
+        "type": "phone",
+        "href": "tel:9042551294"
+      }
+    ],
+    "bpowell@coj.net (heading/orders); bppowell@coj.net (communications paragraph); office904-255-1324": [
+      {
+        "label": "Email — heading/orders",
+        "lines": [
+          "bpowell@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:bpowell@coj.net"
+      },
+      {
+        "label": "Email — communications",
+        "lines": [
+          "bppowell@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:bppowell@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1324"
+        ],
+        "type": "phone",
+        "href": "tel:9042551324"
+      }
+    ],
+    "904-255-1324 (individual procedure);904-255-1052 (official roster)": [
+      {
+        "label": "Phone — individual procedure",
+        "lines": [
+          "(904) 255-1324"
+        ],
+        "type": "phone",
+        "href": "tel:9042551324"
+      },
+      {
+        "label": "Phone — official roster",
+        "lines": [
+          "(904) 255-1052"
+        ],
+        "type": "phone",
+        "href": "tel:9042551052"
+      }
+    ],
+    "office904-255-1285": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1285"
+        ],
+        "type": "phone",
+        "href": "tel:9042551285"
+      }
+    ],
+    "904-255-1285": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1285"
+        ],
+        "type": "phone",
+        "href": "tel:9042551285"
+      }
+    ],
+    "vhester@coj.net; 904-548-4945": [
+      {
+        "label": "Email",
+        "lines": [
+          "vhester@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:vhester@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 548-4945"
+        ],
+        "type": "phone",
+        "href": "tel:9045484945"
+      }
+    ],
+    "904-548-4945 (chambers/JA office)": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 548-4945"
+        ],
+        "type": "phone",
+        "href": "tel:9045484945"
+      }
+    ],
+    "SKWilk@coj.net; office 904-255-1264": [
+      {
+        "label": "Email",
+        "lines": [
+          "SKWilk@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:SKWilk@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1264"
+        ],
+        "type": "phone",
+        "href": "tel:9042551264"
+      }
+    ],
+    "904-255-1264": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1264"
+        ],
+        "type": "phone",
+        "href": "tel:9042551264"
+      }
+    ],
+    "Via chambers telephone (850) 488-0007": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(850) 488-0007"
+        ],
+        "type": "phone",
+        "href": "tel:8504880007"
+      }
+    ],
+    "(850) 488-0007": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(850) 488-0007"
+        ],
+        "type": "phone",
+        "href": "tel:8504880007"
+      }
+    ],
+    "sshoup@coj.net;904-255-1327": [
+      {
+        "label": "Email",
+        "lines": [
+          "sshoup@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:sshoup@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1327"
+        ],
+        "type": "phone",
+        "href": "tel:9042551327"
+      }
+    ],
+    "904-255-1327": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1327"
+        ],
+        "type": "phone",
+        "href": "tel:9042551327"
+      }
+    ],
+    "LRCarpenter@coj.net;904-255-1249": [
+      {
+        "label": "Email",
+        "lines": [
+          "LRCarpenter@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:LRCarpenter@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1249"
+        ],
+        "type": "phone",
+        "href": "tel:9042551249"
+      }
+    ],
+    "904-255-1249": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1249"
+        ],
+        "type": "phone",
+        "href": "tel:9042551249"
+      }
+    ],
+    "Via chambers telephone (850) 921-1096": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(850) 921-1096"
+        ],
+        "type": "phone",
+        "href": "tel:8509211096"
+      }
+    ],
+    "(850) 921-1096": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(850) 921-1096"
+        ],
+        "type": "phone",
+        "href": "tel:8509211096"
+      }
+    ],
+    "gonzalezd@clayclerk.com; 904-269-6302 (current profile); 904-529-2704 (procedure PDF)": [
+      {
+        "label": "Email",
+        "lines": [
+          "gonzalezd@clayclerk.com"
+        ],
+        "type": "email",
+        "href": "mailto:gonzalezd@clayclerk.com"
+      },
+      {
+        "label": "Phone — current profile",
+        "lines": [
+          "(904) 269-6302"
+        ],
+        "type": "phone",
+        "href": "tel:9042696302"
+      },
+      {
+        "label": "Phone — procedure PDF",
+        "lines": [
+          "(904) 529-2704"
+        ],
+        "type": "phone",
+        "href": "tel:9045292704"
+      }
+    ],
+    "904-269-6302 (current profile); 904-529-2704 (procedure PDF)": [
+      {
+        "label": "Phone — current profile",
+        "lines": [
+          "(904) 269-6302"
+        ],
+        "type": "phone",
+        "href": "tel:9042696302"
+      },
+      {
+        "label": "Phone — procedure PDF",
+        "lines": [
+          "(904) 529-2704"
+        ],
+        "type": "phone",
+        "href": "tel:9045292704"
+      }
+    ],
+    "dradtke1@coj.net;904-255-1267 (dated procedures);904-255-1269 (undated contact sheet)": [
+      {
+        "label": "Email",
+        "lines": [
+          "dradtke1@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:dradtke1@coj.net"
+      },
+      {
+        "label": "Phone — dated procedures",
+        "lines": [
+          "(904) 255-1267"
+        ],
+        "type": "phone",
+        "href": "tel:9042551267"
+      },
+      {
+        "label": "Phone — undated contact sheet",
+        "lines": [
+          "(904) 255-1269"
+        ],
+        "type": "phone",
+        "href": "tel:9042551269"
+      }
+    ],
+    "904-255-1267 (March1,2026 procedures and roster); 904-255-1269 (undated contact sheet)": [
+      {
+        "label": "Phone — dated procedures",
+        "lines": [
+          "(904) 255-1267"
+        ],
+        "type": "phone",
+        "href": "tel:9042551267"
+      },
+      {
+        "label": "Phone — undated sheet",
+        "lines": [
+          "(904) 255-1269"
+        ],
+        "type": "phone",
+        "href": "tel:9042551269"
+      }
+    ],
+    "mstott@coj.net;904-255-1315": [
+      {
+        "label": "Email",
+        "lines": [
+          "mstott@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:mstott@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1315"
+        ],
+        "type": "phone",
+        "href": "tel:9042551315"
+      }
+    ],
+    "904-255-1315": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1315"
+        ],
+        "type": "phone",
+        "href": "tel:9042551315"
+      }
+    ],
+    "AkeishaW@coj.net;904-255-1255": [
+      {
+        "label": "Email",
+        "lines": [
+          "AkeishaW@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:AkeishaW@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1255"
+        ],
+        "type": "phone",
+        "href": "tel:9042551255"
+      }
+    ],
+    "904-255-1255": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1255"
+        ],
+        "type": "phone",
+        "href": "tel:9042551255"
+      }
+    ],
+    "TLevine@coj.net;904-255-1330": [
+      {
+        "label": "Email",
+        "lines": [
+          "TLevine@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:TLevine@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1330"
+        ],
+        "type": "phone",
+        "href": "tel:9042551330"
+      }
+    ],
+    "904-255-1330": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1330"
+        ],
+        "type": "phone",
+        "href": "tel:9042551330"
+      }
+    ],
+    "Via chambers telephone (850) 413-8371": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(850) 413-8371"
+        ],
+        "type": "phone",
+        "href": "tel:8504138371"
+      }
+    ],
+    "(850) 413-8371": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(850) 413-8371"
+        ],
+        "type": "phone",
+        "href": "tel:8504138371"
+      }
+    ],
+    "bbowen_1@coj.net; office904-255-1243": [
+      {
+        "label": "Email",
+        "lines": [
+          "bbowen_1@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:bbowen_1@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1243"
+        ],
+        "type": "phone",
+        "href": "tel:9042551243"
+      }
+    ],
+    "904-255-1243 (individual procedure);904-255-1052 (official roster)": [
+      {
+        "label": "Phone — individual procedure",
+        "lines": [
+          "(904) 255-1243"
+        ],
+        "type": "phone",
+        "href": "tel:9042551243"
+      },
+      {
+        "label": "Phone — official roster",
+        "lines": [
+          "(904) 255-1052"
+        ],
+        "type": "phone",
+        "href": "tel:9042551052"
+      }
+    ],
+    "kbend@coj.net; office904-255-1291": [
+      {
+        "label": "Email",
+        "lines": [
+          "kbend@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:kbend@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1291"
+        ],
+        "type": "phone",
+        "href": "tel:9042551291"
+      }
+    ],
+    "904-255-1291": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1291"
+        ],
+        "type": "phone",
+        "href": "tel:9042551291"
+      }
+    ],
+    "reillyj@clayclerk.com; 904-529-4238 listed in procedure PDF": [
+      {
+        "label": "Email",
+        "lines": [
+          "reillyj@clayclerk.com"
+        ],
+        "type": "email",
+        "href": "mailto:reillyj@clayclerk.com"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 529-4238"
+        ],
+        "type": "phone",
+        "href": "tel:9045294238"
+      }
+    ],
+    "904-529-4238 (judge/JA contact listed in procedure PDF); webpage separately lists 904-269-6302, also used as shared court contact": [
+      {
+        "label": "Phone — procedure PDF",
+        "lines": [
+          "(904) 529-4238"
+        ],
+        "type": "phone",
+        "href": "tel:9045294238"
+      },
+      {
+        "label": "Phone — webpage",
+        "lines": [
+          "(904) 269-6302"
+        ],
+        "type": "phone",
+        "href": "tel:9042696302"
+      }
+    ],
+    "tdavis@circuit7.org;904-827-5606": [
+      {
+        "label": "Email",
+        "lines": [
+          "tdavis@circuit7.org"
+        ],
+        "type": "email",
+        "href": "mailto:tdavis@circuit7.org"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 827-5606"
+        ],
+        "type": "phone",
+        "href": "tel:9048275606"
+      }
+    ],
+    "904-827-5606": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 827-5606"
+        ],
+        "type": "phone",
+        "href": "tel:9048275606"
+      }
+    ],
+    "klee@circuit7.org for communications and scheduling; shared office phone 386-329-0471. Proposed orders: Division54@circuit7.org.": [
+      {
+        "label": "Email",
+        "lines": [
+          "klee@circuit7.org"
+        ],
+        "type": "email",
+        "href": "mailto:klee@circuit7.org"
+      },
+      {
+        "label": "Proposed orders",
+        "lines": [
+          "Division54@circuit7.org"
+        ],
+        "type": "email",
+        "href": "mailto:Division54@circuit7.org"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(386) 329-0471"
+        ],
+        "type": "phone",
+        "href": "tel:3863290471"
+      }
+    ],
+    "386-329-0471": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(386) 329-0471"
+        ],
+        "type": "phone",
+        "href": "tel:3863290471"
+      }
+    ],
+    "MCopeland@coj.net;904-255-1339": [
+      {
+        "label": "Email",
+        "lines": [
+          "MCopeland@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:MCopeland@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1339"
+        ],
+        "type": "phone",
+        "href": "tel:9042551339"
+      }
+    ],
+    "904-255-1339": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1339"
+        ],
+        "type": "phone",
+        "href": "tel:9042551339"
+      }
+    ],
+    "AllenA@circuit8.org; (352) 374-3644": [
+      {
+        "label": "Email",
+        "lines": [
+          "AllenA@circuit8.org"
+        ],
+        "type": "email",
+        "href": "mailto:AllenA@circuit8.org"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(352) 374-3644"
+        ],
+        "type": "phone",
+        "href": "tel:3523743644"
+      }
+    ],
+    "Gainesville (352) 374-3644; Baker (904) 259-4705": [
+      {
+        "label": "Phone — Gainesville",
+        "lines": [
+          "(352) 374-3644"
+        ],
+        "type": "phone",
+        "href": "tel:3523743644"
+      },
+      {
+        "label": "Phone — Baker",
+        "lines": [
+          "(904) 259-4705"
+        ],
+        "type": "phone",
+        "href": "tel:9042594705"
+      }
+    ],
+    "laudicinaw@circuit8.org": [
+      {
+        "label": "Email",
+        "lines": [
+          "laudicinaw@circuit8.org"
+        ],
+        "type": "email",
+        "href": "mailto:laudicinaw@circuit8.org"
+      }
+    ],
+    "(352) 548-3784": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(352) 548-3784"
+        ],
+        "type": "phone",
+        "href": "tel:3525483784"
+      }
+    ],
+    "jsirman@circuit7.org; 386-313-4515 (hearing paragraph and official individual-page mailto agree)": [
+      {
+        "label": "Email",
+        "lines": [
+          "jsirman@circuit7.org"
+        ],
+        "type": "email",
+        "href": "mailto:jsirman@circuit7.org"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(386) 313-4515"
+        ],
+        "type": "phone",
+        "href": "tel:3863134515"
+      }
+    ],
+    "386-313-4515 (chambers/JA office)": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(386) 313-4515"
+        ],
+        "type": "phone",
+        "href": "tel:3863134515"
+      }
+    ],
+    "TLREES@COJ.NET;904-255-1321": [
+      {
+        "label": "Email",
+        "lines": [
+          "TLREES@COJ.NET"
+        ],
+        "type": "email",
+        "href": "mailto:TLREES@COJ.NET"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1321"
+        ],
+        "type": "phone",
+        "href": "tel:9042551321"
+      }
+    ],
+    "904-255-1321": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1321"
+        ],
+        "type": "phone",
+        "href": "tel:9042551321"
+      }
+    ],
+    "wablekc@circuit8.org": [
+      {
+        "label": "Email",
+        "lines": [
+          "wablekc@circuit8.org"
+        ],
+        "type": "email",
+        "href": "mailto:wablekc@circuit8.org"
+      }
+    ],
+    "(352) 548-3775": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(352) 548-3775"
+        ],
+        "type": "phone",
+        "href": "tel:3525483775"
+      }
+    ],
+    "shellyh@clayclerk.com; 904-269-6302 (PDF)": [
+      {
+        "label": "Email",
+        "lines": [
+          "shellyh@clayclerk.com"
+        ],
+        "type": "email",
+        "href": "mailto:shellyh@clayclerk.com"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 269-6302"
+        ],
+        "type": "phone",
+        "href": "tel:9042696302"
+      }
+    ],
+    "904-269-6302 (PDF); same office number on profile": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 269-6302"
+        ],
+        "type": "phone",
+        "href": "tel:9042696302"
+      }
+    ],
+    "cbrick@circuit7.org;386-239-7792": [
+      {
+        "label": "Email",
+        "lines": [
+          "cbrick@circuit7.org"
+        ],
+        "type": "email",
+        "href": "mailto:cbrick@circuit7.org"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(386) 239-7792"
+        ],
+        "type": "phone",
+        "href": "tel:3862397792"
+      }
+    ],
+    "386-239-7792;fax386-239-7795": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(386) 239-7792"
+        ],
+        "type": "phone",
+        "href": "tel:3862397792"
+      },
+      {
+        "label": "Fax",
+        "lines": [
+          "(386) 239-7795"
+        ],
+        "type": "fax",
+        "href": "tel:3862397795"
+      }
+    ],
+    "jprather@coj.net;904-255-1240": [
+      {
+        "label": "Email",
+        "lines": [
+          "jprather@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:jprather@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1240"
+        ],
+        "type": "phone",
+        "href": "tel:9042551240"
+      }
+    ],
+    "904-255-1240": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1240"
+        ],
+        "type": "phone",
+        "href": "tel:9042551240"
+      }
+    ],
+    "polkl@circuit8.org": [
+      {
+        "label": "Email",
+        "lines": [
+          "polkl@circuit8.org"
+        ],
+        "type": "email",
+        "href": "mailto:polkl@circuit8.org"
+      }
+    ],
+    "(352) 264-7007": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(352) 264-7007"
+        ],
+        "type": "phone",
+        "href": "tel:3522647007"
+      }
+    ],
+    "FeagleR@circuit8.org": [
+      {
+        "label": "Email",
+        "lines": [
+          "FeagleR@circuit8.org"
+        ],
+        "type": "email",
+        "href": "mailto:FeagleR@circuit8.org"
+      }
+    ],
+    "Gainesville (352) 548-3700; Baker (904) 259-0216": [
+      {
+        "label": "Phone — Gainesville",
+        "lines": [
+          "(352) 548-3700"
+        ],
+        "type": "phone",
+        "href": "tel:3525483700"
+      },
+      {
+        "label": "Phone — Baker",
+        "lines": [
+          "(904) 259-0216"
+        ],
+        "type": "phone",
+        "href": "tel:9042590216"
+      }
+    ],
+    "fgiannini@coj.net; office904-255-1218": [
+      {
+        "label": "Email",
+        "lines": [
+          "fgiannini@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:fgiannini@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1218"
+        ],
+        "type": "phone",
+        "href": "tel:9042551218"
+      }
+    ],
+    "904-255-1218 (individual procedure);904-255-1052 (official roster)": [
+      {
+        "label": "Phone — individual procedure",
+        "lines": [
+          "(904) 255-1218"
+        ],
+        "type": "phone",
+        "href": "tel:9042551218"
+      },
+      {
+        "label": "Phone — official roster",
+        "lines": [
+          "(904) 255-1052"
+        ],
+        "type": "phone",
+        "href": "tel:9042551052"
+      }
+    ],
+    "Via chambers telephone (850) 922-5624": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(850) 922-5624"
+        ],
+        "type": "phone",
+        "href": "tel:8509225624"
+      }
+    ],
+    "(850) 922-5624": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(850) 922-5624"
+        ],
+        "type": "phone",
+        "href": "tel:8509225624"
+      }
+    ],
+    "mlapinski@circuit7.org;904-827-5654. Proposed orders only:division58@circuit7.org.": [
+      {
+        "label": "Email",
+        "lines": [
+          "mlapinski@circuit7.org"
+        ],
+        "type": "email",
+        "href": "mailto:mlapinski@circuit7.org"
+      },
+      {
+        "label": "Proposed orders",
+        "lines": [
+          "division58@circuit7.org"
+        ],
+        "type": "email",
+        "href": "mailto:division58@circuit7.org"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 827-5654"
+        ],
+        "type": "phone",
+        "href": "tel:9048275654"
+      }
+    ],
+    "904-827-5654": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 827-5654"
+        ],
+        "type": "phone",
+        "href": "tel:9048275654"
+      }
+    ],
+    "blunckm@clayclerk.com; 904-269-6302 (PDF)": [
+      {
+        "label": "Email",
+        "lines": [
+          "blunckm@clayclerk.com"
+        ],
+        "type": "email",
+        "href": "mailto:blunckm@clayclerk.com"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 269-6302"
+        ],
+        "type": "phone",
+        "href": "tel:9042696302"
+      }
+    ],
+    "904-269-6302 (PDF); 904-284-6302 also listed on individual webpage": [
+      {
+        "label": "Phone — procedure PDF",
+        "lines": [
+          "(904) 269-6302"
+        ],
+        "type": "phone",
+        "href": "tel:9042696302"
+      },
+      {
+        "label": "Phone — profile",
+        "lines": [
+          "(904) 284-6302"
+        ],
+        "type": "phone",
+        "href": "tel:9042846302"
+      }
+    ],
+    "MGarwood@coj.net;904-255-1303": [
+      {
+        "label": "Email",
+        "lines": [
+          "MGarwood@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:MGarwood@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1303"
+        ],
+        "type": "phone",
+        "href": "tel:9042551303"
+      }
+    ],
+    "904-255-1303": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1303"
+        ],
+        "type": "phone",
+        "href": "tel:9042551303"
+      }
+    ],
+    "dakelley@coj.net;904-255-1357": [
+      {
+        "label": "Email",
+        "lines": [
+          "dakelley@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:dakelley@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1357"
+        ],
+        "type": "phone",
+        "href": "tel:9042551357"
+      }
+    ],
+    "904-255-1357": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1357"
+        ],
+        "type": "phone",
+        "href": "tel:9042551357"
+      }
+    ],
+    "Jerin@coj.net;904-255-1336": [
+      {
+        "label": "Email",
+        "lines": [
+          "Jerin@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:Jerin@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1336"
+        ],
+        "type": "phone",
+        "href": "tel:9042551336"
+      }
+    ],
+    "904-255-1336": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1336"
+        ],
+        "type": "phone",
+        "href": "tel:9042551336"
+      }
+    ],
+    "THEALY@coj.net;904-255-1333": [
+      {
+        "label": "Email",
+        "lines": [
+          "THEALY@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:THEALY@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1333"
+        ],
+        "type": "phone",
+        "href": "tel:9042551333"
+      }
+    ],
+    "904-357-5977": [
+      {
+        "label": "Fax",
+        "lines": [
+          "(904) 357-5977"
+        ],
+        "type": "fax",
+        "href": "tel:9043575977"
+      }
+    ],
+    "904-255-1333": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1333"
+        ],
+        "type": "phone",
+        "href": "tel:9042551333"
+      }
+    ],
+    "rosarior@coj.net;904-255-1348": [
+      {
+        "label": "Email",
+        "lines": [
+          "rosarior@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:rosarior@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1348"
+        ],
+        "type": "phone",
+        "href": "tel:9042551348"
+      }
+    ],
+    "904-360-8463": [
+      {
+        "label": "Fax",
+        "lines": [
+          "(904) 360-8463"
+        ],
+        "type": "fax",
+        "href": "tel:9043608463"
+      }
+    ],
+    "904-255-1348": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1348"
+        ],
+        "type": "phone",
+        "href": "tel:9042551348"
+      }
+    ],
+    "vgriffis@circuit7.org for administrative communications; shared office904-827-5603. Proposed ordersDivision46@circuit7.org.": [
+      {
+        "label": "Email",
+        "lines": [
+          "vgriffis@circuit7.org"
+        ],
+        "type": "email",
+        "href": "mailto:vgriffis@circuit7.org"
+      },
+      {
+        "label": "Proposed orders",
+        "lines": [
+          "Division46@circuit7.org"
+        ],
+        "type": "email",
+        "href": "mailto:Division46@circuit7.org"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 827-5603"
+        ],
+        "type": "phone",
+        "href": "tel:9048275603"
+      }
+    ],
+    "904-827-5603; fax904-827-5605": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 827-5603"
+        ],
+        "type": "phone",
+        "href": "tel:9048275603"
+      },
+      {
+        "label": "Fax",
+        "lines": [
+          "(904) 827-5605"
+        ],
+        "type": "fax",
+        "href": "tel:9048275605"
+      }
+    ],
+    "Mruiz1@coj.net; office904-255-1270": [
+      {
+        "label": "Email",
+        "lines": [
+          "Mruiz1@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:Mruiz1@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1270"
+        ],
+        "type": "phone",
+        "href": "tel:9042551270"
+      }
+    ],
+    "904-255-1270": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1270"
+        ],
+        "type": "phone",
+        "href": "tel:9042551270"
+      }
+    ],
+    "smiller@circuit7.org; 904-827-5600. Proposed orders: division55@circuit7.org.": [
+      {
+        "label": "Email",
+        "lines": [
+          "smiller@circuit7.org"
+        ],
+        "type": "email",
+        "href": "mailto:smiller@circuit7.org"
+      },
+      {
+        "label": "Proposed orders",
+        "lines": [
+          "division55@circuit7.org"
+        ],
+        "type": "email",
+        "href": "mailto:division55@circuit7.org"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 827-5600"
+        ],
+        "type": "phone",
+        "href": "tel:9048275600"
+      }
+    ],
+    "904-827-5600": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 827-5600"
+        ],
+        "type": "phone",
+        "href": "tel:9048275600"
+      }
+    ],
+    "cpfeifer@coj.net; office904-255-1297": [
+      {
+        "label": "Email",
+        "lines": [
+          "cpfeifer@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:cpfeifer@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1297"
+        ],
+        "type": "phone",
+        "href": "tel:9042551297"
+      }
+    ],
+    "904-255-1297 (individual procedure);904-255-1052 (official roster)": [
+      {
+        "label": "Phone — individual procedure",
+        "lines": [
+          "(904) 255-1297"
+        ],
+        "type": "phone",
+        "href": "tel:9042551297"
+      },
+      {
+        "label": "Phone — official roster",
+        "lines": [
+          "(904) 255-1052"
+        ],
+        "type": "phone",
+        "href": "tel:9042551052"
+      }
+    ],
+    "MorganJ@circuit8.org": [
+      {
+        "label": "Email",
+        "lines": [
+          "MorganJ@circuit8.org"
+        ],
+        "type": "email",
+        "href": "mailto:MorganJ@circuit8.org"
+      }
+    ],
+    "Gainesville (352) 374-3617; Union (386) 496-4935": [
+      {
+        "label": "Phone — Gainesville",
+        "lines": [
+          "(352) 374-3617"
+        ],
+        "type": "phone",
+        "href": "tel:3523743617"
+      },
+      {
+        "label": "Phone — Union",
+        "lines": [
+          "(386) 496-4935"
+        ],
+        "type": "phone",
+        "href": "tel:3864964935"
+      }
+    ],
+    "GSTAPLES@COJ.NET;904-255-1363": [
+      {
+        "label": "Email",
+        "lines": [
+          "GSTAPLES@COJ.NET"
+        ],
+        "type": "email",
+        "href": "mailto:GSTAPLES@COJ.NET"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1363"
+        ],
+        "type": "phone",
+        "href": "tel:9042551363"
+      }
+    ],
+    "904-255-1363": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1363"
+        ],
+        "type": "phone",
+        "href": "tel:9042551363"
+      }
+    ],
+    "mgermany@circuit7.org;904-827-5647. Proposedorders:division56@circuit7.org.": [
+      {
+        "label": "Email",
+        "lines": [
+          "mgermany@circuit7.org"
+        ],
+        "type": "email",
+        "href": "mailto:mgermany@circuit7.org"
+      },
+      {
+        "label": "Proposed orders",
+        "lines": [
+          "division56@circuit7.org"
+        ],
+        "type": "email",
+        "href": "mailto:division56@circuit7.org"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 827-5647"
+        ],
+        "type": "phone",
+        "href": "tel:9048275647"
+      }
+    ],
+    "904-827-5647": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 827-5647"
+        ],
+        "type": "phone",
+        "href": "tel:9048275647"
+      }
+    ],
+    "904-548-4922; current JA email not published on checked official pages": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 548-4922"
+        ],
+        "type": "phone",
+        "href": "tel:9045484922"
+      }
+    ],
+    "904-548-4921 (judge listing); assistant 904-548-4922": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 548-4921"
+        ],
+        "type": "phone",
+        "href": "tel:9045484921"
+      }
+    ],
+    "pawatts@coj.net;904-255-1231": [
+      {
+        "label": "Email",
+        "lines": [
+          "pawatts@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:pawatts@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1231"
+        ],
+        "type": "phone",
+        "href": "tel:9042551231"
+      }
+    ],
+    "904-255-1231": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1231"
+        ],
+        "type": "phone",
+        "href": "tel:9042551231"
+      }
+    ],
+    "jturberville@circuit7.org;386-257-6071": [
+      {
+        "label": "Email",
+        "lines": [
+          "jturberville@circuit7.org"
+        ],
+        "type": "email",
+        "href": "mailto:jturberville@circuit7.org"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(386) 257-6071"
+        ],
+        "type": "phone",
+        "href": "tel:3862576071"
+      }
+    ],
+    "386-257-6071; fax386-248-8132": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(386) 257-6071"
+        ],
+        "type": "phone",
+        "href": "tel:3862576071"
+      },
+      {
+        "label": "Fax",
+        "lines": [
+          "(386) 248-8132"
+        ],
+        "type": "fax",
+        "href": "tel:3862488132"
+      }
+    ],
+    "roldani@coj.net;904-255-1252": [
+      {
+        "label": "Email",
+        "lines": [
+          "roldani@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:roldani@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1252"
+        ],
+        "type": "phone",
+        "href": "tel:9042551252"
+      }
+    ],
+    "904-255-1252": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1252"
+        ],
+        "type": "phone",
+        "href": "tel:9042551252"
+      }
+    ],
+    "RachelWynn@coj.net; office904-255-1309": [
+      {
+        "label": "Email",
+        "lines": [
+          "RachelWynn@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:RachelWynn@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1309"
+        ],
+        "type": "phone",
+        "href": "tel:9042551309"
+      }
+    ],
+    "904-255-1309": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1309"
+        ],
+        "type": "phone",
+        "href": "tel:9042551309"
+      }
+    ],
+    "Via chambers telephone (850) 414-8889": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(850) 414-8889"
+        ],
+        "type": "phone",
+        "href": "tel:8504148889"
+      }
+    ],
+    "(850) 414-8889": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(850) 414-8889"
+        ],
+        "type": "phone",
+        "href": "tel:8504148889"
+      }
+    ],
+    "klofton@circuit7.org;386-329-0269. Divisionemail:division62@circuit7.org for listedcourtesy/exhibit submissions.": [
+      {
+        "label": "Email",
+        "lines": [
+          "klofton@circuit7.org"
+        ],
+        "type": "email",
+        "href": "mailto:klofton@circuit7.org"
+      },
+      {
+        "label": "Courtesy copies / exhibits",
+        "lines": [
+          "division62@circuit7.org"
+        ],
+        "type": "email",
+        "href": "mailto:division62@circuit7.org"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(386) 329-0269"
+        ],
+        "type": "phone",
+        "href": "tel:3863290269"
+      }
+    ],
+    "386-329-0269": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(386) 329-0269"
+        ],
+        "type": "phone",
+        "href": "tel:3863290269"
+      }
+    ],
+    "gdelgado@circuit7.org; 904-827-5665": [
+      {
+        "label": "Email",
+        "lines": [
+          "gdelgado@circuit7.org"
+        ],
+        "type": "email",
+        "href": "mailto:gdelgado@circuit7.org"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 827-5665"
+        ],
+        "type": "phone",
+        "href": "tel:9048275665"
+      }
+    ],
+    "904-827-5665": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 827-5665"
+        ],
+        "type": "phone",
+        "href": "tel:9048275665"
+      }
+    ],
+    "rozear@coj.net;904-255-1261": [
+      {
+        "label": "Email",
+        "lines": [
+          "rozear@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:rozear@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1261"
+        ],
+        "type": "phone",
+        "href": "tel:9042551261"
+      }
+    ],
+    "904-255-1261": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1261"
+        ],
+        "type": "phone",
+        "href": "tel:9042551261"
+      }
+    ],
+    "acollie@coj.net; 904-548-4933": [
+      {
+        "label": "Email",
+        "lines": [
+          "acollie@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:acollie@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 548-4933"
+        ],
+        "type": "phone",
+        "href": "tel:9045484933"
+      }
+    ],
+    "904-548-4933 (chambers/JA office)": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 548-4933"
+        ],
+        "type": "phone",
+        "href": "tel:9045484933"
+      }
+    ],
+    "crewsk@circuit8.org; office (904) 259-3575": [
+      {
+        "label": "Email",
+        "lines": [
+          "crewsk@circuit8.org"
+        ],
+        "type": "email",
+        "href": "mailto:crewsk@circuit8.org"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 259-3575"
+        ],
+        "type": "phone",
+        "href": "tel:9042593575"
+      }
+    ],
+    "(904) 259-3575": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 259-3575"
+        ],
+        "type": "phone",
+        "href": "tel:9042593575"
+      }
+    ],
+    "pbennett@coj.net;904-255-1351": [
+      {
+        "label": "Email",
+        "lines": [
+          "pbennett@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:pbennett@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1351"
+        ],
+        "type": "phone",
+        "href": "tel:9042551351"
+      }
+    ],
+    "904-255-1351": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1351"
+        ],
+        "type": "phone",
+        "href": "tel:9042551351"
+      }
+    ],
+    "bishopm@clayclerk.com;904-269-6302": [
+      {
+        "label": "Email",
+        "lines": [
+          "bishopm@clayclerk.com"
+        ],
+        "type": "email",
+        "href": "mailto:bishopm@clayclerk.com"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 269-6302"
+        ],
+        "type": "phone",
+        "href": "tel:9042696302"
+      }
+    ],
+    "904-269-6302": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 269-6302"
+        ],
+        "type": "phone",
+        "href": "tel:9042696302"
+      }
+    ],
+    "Sfrancis@coj.net;904-255-1345": [
+      {
+        "label": "Email",
+        "lines": [
+          "Sfrancis@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:Sfrancis@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1345"
+        ],
+        "type": "phone",
+        "href": "tel:9042551345"
+      }
+    ],
+    "904-255-1345": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1345"
+        ],
+        "type": "phone",
+        "href": "tel:9042551345"
+      }
+    ],
+    "cryan@circuit7.org;904-827-5652": [
+      {
+        "label": "Email",
+        "lines": [
+          "cryan@circuit7.org"
+        ],
+        "type": "email",
+        "href": "mailto:cryan@circuit7.org"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 827-5652"
+        ],
+        "type": "phone",
+        "href": "tel:9048275652"
+      }
+    ],
+    "904-827-5652": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 827-5652"
+        ],
+        "type": "phone",
+        "href": "tel:9048275652"
+      }
+    ],
+    "PBennett@coj.net;904-255-1318": [
+      {
+        "label": "Email",
+        "lines": [
+          "PBennett@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:PBennett@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1318"
+        ],
+        "type": "phone",
+        "href": "tel:9042551318"
+      }
+    ],
+    "904-255-1318": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1318"
+        ],
+        "type": "phone",
+        "href": "tel:9042551318"
+      }
+    ],
+    "Scheduling: Ashley Strickland, astrickland@coj.net, 904-548-4910. Proposed orders: submit through the e-portal for Sarah Meeks; her published office telephone is 904-548-4922. Current email for Meeks not verified.": [
+      {
+        "label": "Scheduling email",
+        "lines": [
+          "astrickland@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:astrickland@coj.net"
+      },
+      {
+        "label": "Scheduling phone",
+        "lines": [
+          "(904) 548-4910"
+        ],
+        "type": "phone",
+        "href": "tel:9045484910"
+      },
+      {
+        "label": "Proposed-orders office",
+        "lines": [
+          "(904) 548-4922"
+        ],
+        "type": "phone",
+        "href": "tel:9045484922"
+      },
+      {
+        "label": "Orders submission",
+        "lines": [
+          "E-portal"
+        ]
+      }
+    ],
+    "Scheduling contact Ashley Strickland: 904-548-4910; this is Judge Fahlgren’s office, not a separately verified Foster chambers number.": [
+      {
+        "label": "Scheduling — Judge Fahlgren’s office",
+        "lines": [
+          "(904) 548-4910"
+        ],
+        "type": "phone",
+        "href": "tel:9045484910"
+      }
+    ],
+    "durhaml@clayclerk.com; 904-269-6302": [
+      {
+        "label": "Email",
+        "lines": [
+          "durhaml@clayclerk.com"
+        ],
+        "type": "email",
+        "href": "mailto:durhaml@clayclerk.com"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 269-6302"
+        ],
+        "type": "phone",
+        "href": "tel:9042696302"
+      }
+    ],
+    "claxtonk@clayclerk.com; 904-284-6302 (PDF), 904-269-6302 (profile)": [
+      {
+        "label": "Email",
+        "lines": [
+          "claxtonk@clayclerk.com"
+        ],
+        "type": "email",
+        "href": "mailto:claxtonk@clayclerk.com"
+      },
+      {
+        "label": "Phone — PDF",
+        "lines": [
+          "(904) 284-6302"
+        ],
+        "type": "phone",
+        "href": "tel:9042846302"
+      },
+      {
+        "label": "Phone — profile",
+        "lines": [
+          "(904) 269-6302"
+        ],
+        "type": "phone",
+        "href": "tel:9042696302"
+      }
+    ],
+    "904-284-6302 (PDF); 904-269-6302 (profile)": [
+      {
+        "label": "Phone — procedure PDF",
+        "lines": [
+          "(904) 284-6302"
+        ],
+        "type": "phone",
+        "href": "tel:9042846302"
+      },
+      {
+        "label": "Phone — profile",
+        "lines": [
+          "(904) 269-6302"
+        ],
+        "type": "phone",
+        "href": "tel:9042696302"
+      }
+    ],
+    "nponder1@coj.net; office904-255-1306": [
+      {
+        "label": "Email",
+        "lines": [
+          "nponder1@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:nponder1@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1306"
+        ],
+        "type": "phone",
+        "href": "tel:9042551306"
+      }
+    ],
+    "904-255-1306 (individual procedure);904-255-1052 (official roster)": [
+      {
+        "label": "Phone — individual procedure",
+        "lines": [
+          "(904) 255-1306"
+        ],
+        "type": "phone",
+        "href": "tel:9042551306"
+      },
+      {
+        "label": "Phone — official roster",
+        "lines": [
+          "(904) 255-1052"
+        ],
+        "type": "phone",
+        "href": "tel:9042551052"
+      }
+    ],
+    "tsites@circuit7.org;904-827-5611": [
+      {
+        "label": "Email",
+        "lines": [
+          "tsites@circuit7.org"
+        ],
+        "type": "email",
+        "href": "mailto:tsites@circuit7.org"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 827-5611"
+        ],
+        "type": "phone",
+        "href": "tel:9048275611"
+      }
+    ],
+    "904-827-5611": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 827-5611"
+        ],
+        "type": "phone",
+        "href": "tel:9048275611"
+      }
+    ],
+    "tblaha@circuit7.org;386-329-0266. Wordordersdivision52@circuit7.org.": [
+      {
+        "label": "Email",
+        "lines": [
+          "tblaha@circuit7.org"
+        ],
+        "type": "email",
+        "href": "mailto:tblaha@circuit7.org"
+      },
+      {
+        "label": "Proposed orders",
+        "lines": [
+          "division52@circuit7.org"
+        ],
+        "type": "email",
+        "href": "mailto:division52@circuit7.org"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(386) 329-0266"
+        ],
+        "type": "phone",
+        "href": "tel:3863290266"
+      }
+    ],
+    "386-329-0266;fax386-329-1275": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(386) 329-0266"
+        ],
+        "type": "phone",
+        "href": "tel:3863290266"
+      },
+      {
+        "label": "Fax",
+        "lines": [
+          "(386) 329-1275"
+        ],
+        "type": "fax",
+        "href": "tel:3863291275"
+      }
+    ],
+    "jcaliendo@coj.net; 904-548-4673": [
+      {
+        "label": "Email",
+        "lines": [
+          "jcaliendo@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:jcaliendo@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 548-4673"
+        ],
+        "type": "phone",
+        "href": "tel:9045484673"
+      }
+    ],
+    "904-548-4673 (chambers/JA office)": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 548-4673"
+        ],
+        "type": "phone",
+        "href": "tel:9045484673"
+      }
+    ],
+    "kasmith@circuit7.org; 386-313-4530. Proposed orders and hearing materials: Division53@circuit7.org.": [
+      {
+        "label": "Email",
+        "lines": [
+          "kasmith@circuit7.org"
+        ],
+        "type": "email",
+        "href": "mailto:kasmith@circuit7.org"
+      },
+      {
+        "label": "Orders / hearing materials",
+        "lines": [
+          "Division53@circuit7.org"
+        ],
+        "type": "email",
+        "href": "mailto:Division53@circuit7.org"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(386) 313-4530"
+        ],
+        "type": "phone",
+        "href": "tel:3863134530"
+      }
+    ],
+    "386-313-4530": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(386) 313-4530"
+        ],
+        "type": "phone",
+        "href": "tel:3863134530"
+      }
+    ],
+    "courtneyk@circuit8.org": [
+      {
+        "label": "Email",
+        "lines": [
+          "courtneyk@circuit8.org"
+        ],
+        "type": "email",
+        "href": "mailto:courtneyk@circuit8.org"
+      }
+    ],
+    "(352) 264-7057": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(352) 264-7057"
+        ],
+        "type": "phone",
+        "href": "tel:3522647057"
+      }
+    ],
+    "belrod@coj.net;904-255-1282": [
+      {
+        "label": "Email",
+        "lines": [
+          "belrod@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:belrod@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1282"
+        ],
+        "type": "phone",
+        "href": "tel:9042551282"
+      }
+    ],
+    "904-255-1282": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1282"
+        ],
+        "type": "phone",
+        "href": "tel:9042551282"
+      }
+    ],
+    "jlkeen@coj.net": [
+      {
+        "label": "Email",
+        "lines": [
+          "jlkeen@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:jlkeen@coj.net"
+      }
+    ],
+    "904-255-2343": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-2343"
+        ],
+        "type": "phone",
+        "href": "tel:9042552343"
+      }
+    ],
+    "emahoney@circuit7.org;904-827-5613. Proposed orders only:division65@circuit7.org.": [
+      {
+        "label": "Email",
+        "lines": [
+          "emahoney@circuit7.org"
+        ],
+        "type": "email",
+        "href": "mailto:emahoney@circuit7.org"
+      },
+      {
+        "label": "Proposed orders",
+        "lines": [
+          "division65@circuit7.org"
+        ],
+        "type": "email",
+        "href": "mailto:division65@circuit7.org"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 827-5613"
+        ],
+        "type": "phone",
+        "href": "tel:9048275613"
+      }
+    ],
+    "904-827-5613": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 827-5613"
+        ],
+        "type": "phone",
+        "href": "tel:9048275613"
+      }
+    ],
+    "CallowayC@circuit8.org": [
+      {
+        "label": "Email",
+        "lines": [
+          "CallowayC@circuit8.org"
+        ],
+        "type": "email",
+        "href": "mailto:CallowayC@circuit8.org"
+      }
+    ],
+    "(352) 374-3616": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(352) 374-3616"
+        ],
+        "type": "phone",
+        "href": "tel:3523743616"
+      }
+    ],
+    "pfields@coj.net;904-255-1258": [
+      {
+        "label": "Email",
+        "lines": [
+          "pfields@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:pfields@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1258"
+        ],
+        "type": "phone",
+        "href": "tel:9042551258"
+      }
+    ],
+    "904-255-1258;hearing-only904-255-1696": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1258"
+        ],
+        "type": "phone",
+        "href": "tel:9042551258"
+      },
+      {
+        "label": "Phone — hearings only",
+        "lines": [
+          "(904) 255-1696"
+        ],
+        "type": "phone",
+        "href": "tel:9042551696"
+      }
+    ],
+    "PowellS@coj.net;904-255-1246": [
+      {
+        "label": "Email",
+        "lines": [
+          "PowellS@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:PowellS@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1246"
+        ],
+        "type": "phone",
+        "href": "tel:9042551246"
+      }
+    ],
+    "904-255-1246": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1246"
+        ],
+        "type": "phone",
+        "href": "tel:9042551246"
+      }
+    ],
+    "jrichter@circuit7.org;386-326-2736": [
+      {
+        "label": "Email",
+        "lines": [
+          "jrichter@circuit7.org"
+        ],
+        "type": "email",
+        "href": "mailto:jrichter@circuit7.org"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(386) 326-2736"
+        ],
+        "type": "phone",
+        "href": "tel:3863262736"
+      }
+    ],
+    "386-326-2736": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(386) 326-2736"
+        ],
+        "type": "phone",
+        "href": "tel:3863262736"
+      }
+    ],
+    "Via chambers telephone (850) 410-8092; no separate JA direct contact established": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(850) 410-8092"
+        ],
+        "type": "phone",
+        "href": "tel:8504108092"
+      }
+    ],
+    "(850) 410-8092": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(850) 410-8092"
+        ],
+        "type": "phone",
+        "href": "tel:8504108092"
+      }
+    ],
+    "brewerm@clayclerk.com;284-6302(PDF),269-6302(profile)": [
+      {
+        "label": "Email",
+        "lines": [
+          "brewerm@clayclerk.com"
+        ],
+        "type": "email",
+        "href": "mailto:brewerm@clayclerk.com"
+      }
+    ],
+    "904-284-6302 (PDF);904-269-6302(profile)": [
+      {
+        "label": "Phone — procedure PDF",
+        "lines": [
+          "(904) 284-6302"
+        ],
+        "type": "phone",
+        "href": "tel:9042846302"
+      },
+      {
+        "label": "Phone — profile",
+        "lines": [
+          "(904) 269-6302"
+        ],
+        "type": "phone",
+        "href": "tel:9042696302"
+      }
+    ],
+    "jennw@coj.net; office904-255-2428": [
+      {
+        "label": "Email",
+        "lines": [
+          "jennw@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:jennw@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-2428"
+        ],
+        "type": "phone",
+        "href": "tel:9042552428"
+      }
+    ],
+    "904-255-2428 (individual procedure);904-255-1052 (official roster)": [
+      {
+        "label": "Phone — individual procedure",
+        "lines": [
+          "(904) 255-2428"
+        ],
+        "type": "phone",
+        "href": "tel:9042552428"
+      },
+      {
+        "label": "Phone — official roster",
+        "lines": [
+          "(904) 255-1052"
+        ],
+        "type": "phone",
+        "href": "tel:9042551052"
+      }
+    ],
+    "hallt@circuit8.org": [
+      {
+        "label": "Email",
+        "lines": [
+          "hallt@circuit8.org"
+        ],
+        "type": "email",
+        "href": "mailto:hallt@circuit8.org"
+      }
+    ],
+    "(352) 374-3646": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(352) 374-3646"
+        ],
+        "type": "phone",
+        "href": "tel:3523743646"
+      }
+    ],
+    "Public judicial office904-255-1228;assistant-specific email/direct line not published in reviewed sources": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1228"
+        ],
+        "type": "phone",
+        "href": "tel:9042551228"
+      }
+    ],
+    "904-255-1228": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1228"
+        ],
+        "type": "phone",
+        "href": "tel:9042551228"
+      }
+    ],
+    "LMason1@coj.net; office 904-255-1237": [
+      {
+        "label": "Email",
+        "lines": [
+          "LMason1@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:LMason1@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1237"
+        ],
+        "type": "phone",
+        "href": "tel:9042551237"
+      }
+    ],
+    "904-255-1237": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1237"
+        ],
+        "type": "phone",
+        "href": "tel:9042551237"
+      }
+    ],
+    "lsoberay@coj.net; office904-255-2400": [
+      {
+        "label": "Email",
+        "lines": [
+          "lsoberay@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:lsoberay@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-2400"
+        ],
+        "type": "phone",
+        "href": "tel:9042552400"
+      }
+    ],
+    "904-255-2400": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-2400"
+        ],
+        "type": "phone",
+        "href": "tel:9042552400"
+      }
+    ],
+    "eboozer@coj.net;904-255-1342": [
+      {
+        "label": "Email",
+        "lines": [
+          "eboozer@coj.net"
+        ],
+        "type": "email",
+        "href": "mailto:eboozer@coj.net"
+      },
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1342"
+        ],
+        "type": "phone",
+        "href": "tel:9042551342"
+      }
+    ],
+    "904-255-1342": [
+      {
+        "label": "Phone",
+        "lines": [
+          "(904) 255-1342"
+        ],
+        "type": "phone",
+        "href": "tel:9042551342"
+      }
+    ]
+  }
+}

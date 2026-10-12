@@ -20,7 +20,7 @@ from the private cumulative research database.
   heights; reflow to two columns, then one on narrow screens. The first report
   heading below this band has no additional top divider.
 - Render each selected report's summaries beneath Statutes, Case Law, Procedural
-  Rules, and Local Rules. Show the selected reporting period once in a compact
+  Rules, and Local Rules. Show the latest publication date once in a compact
   14px line directly below the site description, before the date controls. Do not
   repeat reporting-period labels within sections or entries. Preserve individual
   publication/effective dates. Show individual-period navigation links only when
@@ -35,7 +35,7 @@ from the private cumulative research database.
   `?from=YYYY-MM-DD&to=YYYY-MM-DD`. Reload, Back and Forward preserve selection.
 - The personnel directory is a separate `directory.html` page, linked in the top
   masthead beside the site title. Navigation order is Updates, Courts, Personnel
-  Directory, Links. Courts, Personnel Directory and Links are dropdowns;
+  Directory, Links, About (at the far right). Courts, Personnel Directory and Links are dropdowns;
   CourtListener appears in Links only. The personnel dropdown supplies an all-courts
   view and individual `directory.html?court=GROUP-ID` links.
   The menu lists the Supreme Court, six DCAs, circuits 4/7/8 and the seven counties
@@ -53,12 +53,17 @@ from the private cumulative research database.
   These menus are identical on Updates and Directory. Keep panels within the
   masthead width, scrollable vertically, and operable by keyboard and touch.
 - The directory page uses the newest selected issue's saved snapshot. Selecting
-  one older issue shows its contacts and personal/governing procedures. Do not
+  one older issue shows its saved contacts. Do not
   merge current contacts into historical results. Navigation between Updates and
   Directory preserves the date-range or individual-issue query parameters. The
   update page itself renders only the four research sections.
-- Personnel records render as a six-column table: personnel, court/county,
-  chambers/office, judicial assistant, procedures/rules, and sources. On narrow
+- Personnel records render as a four-column table: personnel, court/county,
+  chambers/office, and judicial assistant. Use one contact datum per line and
+  separate address heading, street, and city/state/postal lines. Deduplicate
+  repeated values, preserve genuinely distinct contacts and source conflicts,
+  and retain original procedure/source evidence in immutable exports. Exact
+  source-value presentation mappings must not silently follow changed facts.
+  Do not render an Evidence Coverage section on any website page. On narrow
   screens each record becomes labeled rows without horizontal clipping.
   County selections match county assignments; circuit selections show personnel
   serving covered counties in that circuit (including county courts and clerks),
