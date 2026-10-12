@@ -19,9 +19,10 @@
     <nav id="periods" aria-label="Matching updates"></nav>
   </header>
   <form id="period-form" aria-label="Find updates by reporting period">
+    <p id="date-error" class="notice" hidden></p>
     <div class="date-fields">
-      <label for="from">From<input id="from" name="from" type="date" required></label>
-      <label for="to">Through<input id="to" name="to" type="date" required></label>
+      <label for="from">From<input id="from" name="from" type="date" aria-describedby="date-error" required></label>
+      <label for="to">Through<input id="to" name="to" type="date" aria-describedby="date-error" required></label>
       <button type="submit">Find updates</button>
       <button type="button" id="latest">Latest update</button>
     </div>
@@ -31,11 +32,10 @@
       <button type="button" data-days="90">90 days</button>
       <button type="button" data-days="180">180 days</button>
     </div>
-    <p class="hint">Find updates whose reporting periods overlap these dates. Both dates are included.</p>
   </form>
   <main id="report" tabindex="-1"></main>
   <noscript><p>Enable JavaScript to browse this date-range archive.</p></noscript>
-  <footer>Florida Law Weekly Update · Nonofficial informational publication. Consult the linked authorities and current court procedures.</footer>
+  <footer><p>© 2026 Cade Spivey.</p>Florida Law Weekly Update · Nonofficial informational publication. Consult the linked authorities and current court procedures.</footer>
   <script id="archive-data" type="application/json"><!--ARCHIVE--></script>
 </body>
 </html>
