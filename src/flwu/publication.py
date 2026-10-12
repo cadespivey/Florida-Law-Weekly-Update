@@ -15,6 +15,55 @@ from urllib.parse import urlsplit, parse_qs
 SECTIONS = [('statutes', 'Statutes'), ('case_law', 'Case Law'),
             ('procedural_rules', 'Procedural Rules'), ('local_rules', 'Local Rules')]
 KEYS = {k for k, _ in SECTIONS}
+COUNTY_LABELS = {'baker': 'Baker', 'clay': 'Clay', 'duval': 'Duval',
+                 'nassau': 'Nassau', 'putnam': 'Putnam', 'st_johns': 'St. Johns', 'union': 'Union'}
+
+
+def _day(value):
+    if not isinstance(value, str) or not re.fullmatch(r'\d{4}-\d{2}-\d{2}', value):
+        raise ValueError('Evidence dates must use YYYY-MM-DD')
+    return date.fromisoformat(value)
+
+
+def _baseline_metadata(issue):
+    if issue['report_type'] not in ('opening_baseline', 'period_update'):
+        raise ValueError('Invalid report type')
+    if issue['report_type'] == 'opening_baseline' and issue['window_start'] != issue['window_end']:
+        raise ValueError('Opening baseline requires a single cutoff date')
+    coverage = issue['coverage']
+    if not isinstance(coverage, dict) or set(coverage) != {'summary', 'limitations', 'directory_observed_at'}:
+        raise ValueError('Invalid coverage schema')
+    if not isinstance(coverage['summary'], str) or not coverage['summary'].strip():
+        raise ValueError('Coverage summary is required')
+    limits = coverage['limitations']
+    if not isinstance(limits, list) or any(not isinstance(x, str) or not x.strip() for x in limits):
+        raise ValueError('Invalid coverage limitations')
+    observed = coverage['directory_observed_at']
+    if observed is not None:
+        if not isinstance(observed, str) or datetime.fromisoformat(observed.replace('Z', '+00:00')).tzinfo is None:
+            raise ValueError('Directory observation requires a timezone timestamp')
+    if issue['directory'] and (not observed or not limits):
+        raise ValueError('Directory requires observation timestamp and historical limitations')
+
+
+def _inclusion(issue, item):
+    start, end = _day(issue['window_start']), _day(issue['window_end'])
+    pub = None if item['publication_date'] is None else _day(item['publication_date'])
+    effective = None if item['effective_date'] is None else _day(item['effective_date'])
+    basis = item['inclusion_basis']
+    if pub is not None and pub > end:
+        raise ValueError('Source issuance is after the report cutoff')
+    if issue['report_type'] == 'opening_baseline':
+        if basis != 'opening_baseline' or (pub is None and (effective is None or effective > end)):
+            raise ValueError('Opening baseline needs a supported date on or before cutoff')
+    elif basis == 'publication':
+        if pub is None or not start <= pub <= end:
+            raise ValueError('Publication basis requires issuance within the reporting period')
+    elif basis == 'effective':
+        if effective is None or not start <= effective <= end:
+            raise ValueError('Effective basis requires an effective date within the reporting period')
+    else:
+        raise ValueError('Invalid inclusion basis for period update')
 
 
 def digest(value):
@@ -46,8 +95,13 @@ def validate_issue(issue, *, preview=False):
 def _validate_issue(issue, *, preview=False):
     allowed = {'schema_version', 'id', 'title', 'window_start', 'window_end', 'published_at',
                'synthetic', 'sections', 'directory', 'provenance', 'content_sha256'}
-    if set(issue) != allowed or issue['schema_version'] != 1:
+    version = issue['schema_version']
+    if version == 2:
+        allowed |= {'report_type', 'coverage'}
+    if set(issue) != allowed or type(version) is not int or version not in (1, 2):
         raise ValueError('Invalid public issue schema')
+    if version == 2:
+        _baseline_metadata(issue)
     if not re.fullmatch(r'[a-z0-9-]+', issue['id']):
         raise ValueError('Invalid public issue ID')
     if not isinstance(issue['title'], str) or not issue['title'].strip():
@@ -80,13 +134,18 @@ def _validate_issue(issue, *, preview=False):
         if not isinstance(section['items'], list):
             raise ValueError('Section items must be a list')
         for item in section['items']:
-            if set(item) != {'id', 'title', 'summary', 'publication_date', 'effective_date', 'legal_status', 'citations'}:
+            item_keys = {'id', 'title', 'summary', 'publication_date', 'effective_date', 'legal_status', 'citations'}
+            if version == 2:
+                item_keys.add('inclusion_basis')
+            if set(item) != item_keys:
                 raise ValueError('Unexpected public item fields')
             if not item['summary'] or not isinstance(item['citations'], list) or not item['citations']:
                 raise ValueError('Every summary needs source citations')
             if any(not isinstance(item[k], str) for k in ('id', 'title', 'summary', 'legal_status')):
                 raise ValueError('Item text fields must be strings')
-            if item['publication_date']:
+            if version == 2:
+                _inclusion(issue, item)
+            elif item['publication_date']:
                 day = date.fromisoformat(item['publication_date'])
                 if not date.fromisoformat(issue['window_start']) <= day <= date.fromisoformat(issue['window_end']):
                     raise ValueError('Published item falls outside its reporting period')
@@ -173,6 +232,8 @@ def export_capture(database, capture_id, archive, *, preview=False):
                  'directory': [], 'provenance': {'capture_id': capture_id,
                    'report_sha256': approval['report_sha256'] if approval else None,
                    'review_status': 'finalized' if approval else 'preview'}}
+        if 'report_type' in contract:
+            issue.update(schema_version=2, report_type=contract['report_type'], coverage=contract.get('coverage'))
         roster = {}
         court_roster = {}
         court_names = {'roster-supreme': 'supreme_court', **{'roster-dca-'+str(n): 'dca_'+word for n, word in enumerate(['first','second','third','fourth','fifth','sixth'], 1)},
@@ -198,6 +259,8 @@ def export_capture(database, capture_id, archive, *, preview=False):
                 issue['sections'][section]['items'].append({'id': finding['key'], 'title': facts.get('title') or facts['id'],
                     'summary': summary, 'publication_date': facts.get('publication_date'), 'effective_date': facts.get('effective_date'),
                     'legal_status': facts.get('legal_status', 'unknown'), 'citations': citations(finding['citations'])})
+                if issue['schema_version'] == 2:
+                    issue['sections'][section]['items'][-1]['inclusion_basis'] = facts.get('inclusion_basis')
             elif kind in ('judge', 'clerk'):
                 details = {}
                 labels = {'chambers_phone': 'Chambers', 'address': 'Address', 'assistant_name': 'Judicial assistant',
@@ -212,7 +275,7 @@ def export_capture(database, capture_id, archive, *, preview=False):
                     procedure_text = procedure_text or 'No individual procedure located in the sources checked.'
                 issue['directory'].append({'id': finding['key'], 'name': facts['name'], 'kind': kind,
                     'court_ids': sorted(court_roster.get(finding['key'], [])),
-                    'counties': facts.get('counties') or ([facts['county']] if facts.get('county') else sorted(roster.get(finding['key'], []))),
+                    'counties': sorted({COUNTY_LABELS.get(c, c) for c in (facts.get('counties') or ([facts['county']] if facts.get('county') else roster.get(finding['key'], [])))}),
                     'details': details, 'procedures': procedure_text,
                     'governing_rules': [r.get('summary') or r.get('title') or 'See governing rule source.' for r in facts.get('governing_rules', [])],
                     'citations': citations(finding['citations'])})
