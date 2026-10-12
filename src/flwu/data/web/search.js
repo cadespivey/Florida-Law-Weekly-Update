@@ -63,9 +63,6 @@
     const court=(data.courts||[]).find(c=>c.group_id===courtId);
     const directory=node('section',undefined,'directory');directory.id='directory';
     directory.append(node('h2',court?court.label+' — Personnel': 'All covered courts — Personnel'));
-    directory.append(node('p',snapshot.coverage?.directory_observed_at
-      ? `Directory observed at ${snapshot.coverage.directory_observed_at}. Observation time is distinct from the report period. A date range shows the newest matching snapshot.`
-      : `Directory snapshot for ${period(snapshot)}. A date range shows the newest matching snapshot.`));
     if(courtId&&!court){directory.append(node('p','This court is not in the covered directory.'));report.append(directory);return;}
     const circuitCounties={circuit_fourth:['Duval','Clay','Nassau'],circuit_seventh:['Putnam','St. Johns'],circuit_eighth:['Baker','Union']};
     const matches=person=>{
@@ -80,25 +77,35 @@
     if(!entries.length)directory.append(node('p','No personnel records for this court are available in this saved snapshot.'));
     else {
       const table=node('table');table.className='personnel-table';
-      const headers=['Personnel','Court / County','Chambers / Office','Judicial Assistant','Procedures & Rules','Sources'];
+      const headers=['Personnel','Court / County','Chambers / Office','Judicial Assistant'];
       const thead=node('thead'),head=node('tr');headers.forEach(label=>{const th=node('th',label);th.scope='col';head.append(th);});thead.append(head);table.append(thead);
       const tbody=node('tbody');
       entries.forEach(person=>{
         const row=node('tr'),cells=headers.map(label=>{const td=node('td');td.dataset.label=label;row.append(td);return td;});
         cells[0].append(node('strong',person.name),node('p',person.kind==='clerk'?'Clerk':'Judge'));
         const courtLabels=(person.court_ids||[]).map(id=>(data.courts||[]).find(c=>c.group_id===id)?.label).filter(Boolean);
-        cells[1].append(node('p',[...courtLabels,...person.counties].join(' · ')||'Court assignment not recorded'));
-        let assistants=0,contacts=0;
-        Object.entries(person.details).forEach(([key,value])=>{
-          const p=node('p');p.append(node('strong',key+': '),document.createTextNode(value));
-          if(/assistant/i.test(key)){cells[3].append(p);assistants++;}else{cells[2].append(p);contacts++;}
-        });
-        if(!contacts)cells[2].append(node('p','Not recorded'));
-        if(!assistants)cells[3].append(node('p',person.kind==='clerk'?'Not applicable':'Not recorded'));
-        if(person.procedures)cells[4].append(node('p',person.procedures));
-        person.governing_rules.forEach(rule=>cells[4].append(node('p',rule)));
-        if(!person.procedures&&!person.governing_rules.length)cells[4].append(node('p','Not recorded'));
-        citations(cells[5],person.citations);tbody.append(row);
+        [...new Set([...courtLabels,...person.counties.map(c=>c+' County')])].forEach(text=>cells[1].append(node('p',text)));
+        const display=data.directory_contacts[snapshot.id][person.id];
+        function contactLines(cell,rows,empty){
+          if(!rows.length){cell.append(node('p',empty));return;}
+          rows.forEach(item=>{
+            const p=node('p',undefined,item.type==='address'?'contact-address':'contact-line');
+            if(item.type==='address'){
+              p.append(node('strong',item.label));
+              item.lines.forEach(text=>p.append(node('span',text)));
+            }else{
+              if(item.label!=='Name')p.append(node('strong',item.label+': '));
+              item.lines.forEach((text,index)=>{
+                if(index)p.append(node('br'));
+                if(item.href){const a=node('a',text);a.href=item.href;p.append(a);}else p.append(document.createTextNode(text));
+              });
+            }
+            cell.append(p);
+          });
+        }
+        contactLines(cells[2],display.office,'Not published');
+        contactLines(cells[3],display.assistant,person.kind==='clerk'?'Not applicable':'Not published');
+        tbody.append(row);
       });table.append(tbody);directory.append(table);
     }
     report.append(directory);

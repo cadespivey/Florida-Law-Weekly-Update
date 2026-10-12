@@ -8,6 +8,7 @@ import tempfile
 from datetime import datetime
 from html import escape
 from flwu.publication import validate_issue, safe_url
+from flwu.directory_display import format_contacts, load_formats
 
 ASSETS = Path(__file__).parent / 'data' / 'web'
 
@@ -56,6 +57,7 @@ def build_site(archive, output, *, preview=False):
     if output.exists():
         raise ValueError('Use a new output directory; existing builds are preserved')
     issues, evidence = [], {}
+    contact_formats = load_formats()
     for path in sorted(archive.glob('*.json')):
         if path.is_symlink():
             raise ValueError('Archive symlinks are not permitted')
@@ -75,22 +77,29 @@ def build_site(archive, output, *, preview=False):
                         raise ValueError('Preview evidence checksum mismatch')
                     evidence[relative] = content
     issues.sort(key=lambda i: (i['window_end'], i['window_start'], datetime.fromisoformat(i['published_at'].replace('Z', '+00:00')), i['id']), reverse=True)
+    directory_contacts = {issue['id']: {person['id']: format_contacts(person, contact_formats)
+                                      for person in issue['directory']} for issue in issues}
     output.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(prefix='.flwu-site-', dir=output.parent) as staging:
         root = Path(staging) / 'site'
         (root / 'assets').mkdir(parents=True)
         for name in ('site.css', 'search.js'):
             shutil.copyfile(ASSETS / name, root / 'assets' / name)
-        data = json.dumps({'preview': preview, 'issues': issues, 'courts': json.loads((ASSETS / 'courts.json').read_text())}, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c').replace('&', '\\u0026')
-        template = (ASSETS / 'index.html').read_text(encoding='utf-8').replace('<!--ARCHIVE-->', data)
+        data = json.dumps({'preview': preview, 'issues': issues, 'directory_contacts': directory_contacts, 'courts': json.loads((ASSETS / 'courts.json').read_text())}, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c').replace('&', '\\u0026')
+        def version_assets(html):
+            for name in ('site.css', 'search.js'):
+                version = hashlib.sha256((ASSETS / name).read_bytes()).hexdigest()[:12]
+                html = html.replace('assets/'+name, 'assets/'+name+'?v='+version)
+            return html
+        template = version_assets((ASSETS / 'index.html').read_text(encoding='utf-8')).replace('<!--ARCHIVE-->', data)
         for page, filename in [('updates', 'index.html'), ('directory', 'directory.html')]:
             html = template.replace('<!--NAVIGATION-->', navigation(page)).replace('data-page="updates"', f'data-page="{page}"')
             if page == 'directory':
                 html = html.replace('<title>Florida Law Weekly Update</title>', '<title>Court Personnel Directory — Florida Law Weekly Update</title>')
                 html = html.replace('<!--PAGE-TITLE-->', '<h2 class="page-title">Personnel Directory</h2>')
-                html = html.replace('In Florida’s legal system, justice is shaped by judges, who interpret the law, and court personnel, who oversee its administration. These are their updates... <em>Dun-dun.</em>', 'Court contacts, judicial assistants, and individual procedures.')
+                html = html.replace('In Florida’s legal system, justice is shaped by judges, who interpret the law, and court personnel, who oversee its administration. These are their updates... <em>Dun-dun.</em>', 'Court contacts and judicial assistants.')
             (root / filename).write_text(html.replace('<!--PAGE-TITLE-->', ''), encoding='utf-8')
-        about = (ASSETS / 'about.html').read_text(encoding='utf-8').replace('<!--NAVIGATION-->', navigation('about'))
+        about = version_assets((ASSETS / 'about.html').read_text(encoding='utf-8')).replace('<!--NAVIGATION-->', navigation('about'))
         (root / 'about.html').write_text(about, encoding='utf-8')
         (root / '.nojekyll').touch()
         for relative, content in evidence.items():

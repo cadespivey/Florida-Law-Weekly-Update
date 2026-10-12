@@ -52,3 +52,10 @@ footer{font-size:.85em;color:#666;border-top:1px solid #d9d9d9;padding-top:1rem;
 input,button{min-height:44px;height:auto}
 .date-fields button{white-space:normal}
 .quick-ranges button{min-height:24px;min-width:24px}
+
+/* Four concise directory columns; address label, street and city each get a line. */
+.contact-address>strong,.contact-address>span{display:block}
+.personnel-table th:nth-child(1){width:19%}
+.personnel-table th:nth-child(2){width:18%}
+.personnel-table th:nth-child(3){width:35%}
+.personnel-table th:nth-child(4){width:28%}
