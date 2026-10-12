@@ -43,7 +43,8 @@ def navigation(page):
             '<details class="personnel-menu"><summary>Personnel Directory</summary>'
             f'<div class="court-links"><a id="directory-link" href="directory.html"{current if page == "directory" else ""}>All covered courts</a>{panel(personnel)}</div></details>'
             '<details class="resources-menu"><summary>Links</summary>'
-            f'<div class="court-links"><ul class="resource-links">{resources}</ul></div></details></nav>')
+            f'<div class="court-links"><ul class="resource-links">{resources}</ul></div></details>'
+            f'<a id="about-link" href="about.html"{current if page == "about" else ""}>About</a></nav>')
 
 
 def build_site(archive, output, *, preview=False):
@@ -89,6 +90,8 @@ def build_site(archive, output, *, preview=False):
                 html = html.replace('<!--PAGE-TITLE-->', '<h2 class="page-title">Personnel Directory</h2>')
                 html = html.replace('In Florida’s legal system, justice is shaped by judges, who interpret the law, and court personnel, who oversee its administration. These are their updates... <em>Dun-dun.</em>', 'Court contacts, judicial assistants, and individual procedures.')
             (root / filename).write_text(html.replace('<!--PAGE-TITLE-->', ''), encoding='utf-8')
+        about = (ASSETS / 'about.html').read_text(encoding='utf-8').replace('<!--NAVIGATION-->', navigation('about'))
+        (root / 'about.html').write_text(about, encoding='utf-8')
         (root / '.nojekyll').touch()
         for relative, content in evidence.items():
             target = root / relative

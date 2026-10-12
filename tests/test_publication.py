@@ -57,6 +57,13 @@ def test_deterministic_archive_order_safe_embedding_and_no_private_files(tmp_pat
     assert len(homepage.select('.court-menu .court-links a')) == 38
     assert len(directory.select('.personnel-menu [data-court]')) == 17
     assert directory.select_one('script[src]')['src'] == 'assets/search.js'
+    about = BeautifulSoup((first/'about.html').read_text(), 'html.parser')
+    assert about.body['data-page'] == 'about'
+    assert about.select_one('#about-link')['aria-current'] == 'page'
+    assert not about.select('form, #archive-data')
+    for page in (homepage, directory, about):
+        assert page.select_one('.site-nav').find_all(recursive=False)[-1]['id'] == 'about-link'
+    assert (first/'about.html').read_bytes() == (second/'about.html').read_bytes()
 
 
 def test_failed_build_preserves_previous_and_rejects_synthetic(tmp_path):

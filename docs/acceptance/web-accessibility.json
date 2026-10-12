@@ -1,0 +1,253 @@
+{
+  "reviewed_at": "2026-10-12T22:25:12.521643+00:00",
+  "target": "WCAG 2.2 Level AA",
+  "standard": "https://www.w3.org/TR/WCAG22/",
+  "axe_version": "4.14.0",
+  "automated_states": [
+    {
+      "path": "",
+      "width": 1280,
+      "overflow": false,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "path": "",
+      "width": 320,
+      "overflow": false,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "path": "about.html",
+      "width": 1280,
+      "overflow": false,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "path": "about.html",
+      "width": 320,
+      "overflow": false,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "path": "directory.html",
+      "width": 1280,
+      "overflow": false,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "path": "directory.html",
+      "width": 320,
+      "overflow": false,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "path": "?from=2026-10-12&to=2026-01-01",
+      "width": 1280,
+      "overflow": false,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "path": "?from=2026-10-12&to=2026-01-01",
+      "width": 320,
+      "overflow": false,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "path": "?from=2020-01-01&to=2020-01-02",
+      "width": 1280,
+      "overflow": false,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "path": "?from=2020-01-01&to=2020-01-02",
+      "width": 320,
+      "overflow": false,
+      "violations": [],
+      "incomplete": []
+    }
+  ],
+  "keyboard_and_accessibility_tree": [
+    {
+      "test": "skip link first",
+      "pass": true
+    },
+    {
+      "test": "skip focuses report",
+      "pass": true
+    },
+    {
+      "test": "keyboard enters menu",
+      "pass": true
+    },
+    {
+      "test": "escape closes and restores trigger",
+      "pass": true
+    },
+    {
+      "test": "leaving menu closes overlay",
+      "pass": true
+    },
+    {
+      "test": "invalid range identified and focused",
+      "pass": true
+    },
+    {
+      "test": "reset clears errors",
+      "pass": true
+    },
+    {
+      "test": "period selection focuses new report",
+      "pass": true
+    },
+    {
+      "test": "mobile directory exposes table and column headers",
+      "pass": true
+    },
+    {
+      "test": "no JavaScript errors",
+      "pass": true
+    }
+  ],
+  "text_resize_and_spacing": [
+    {
+      "path": "",
+      "test": "200 percent text",
+      "overflow": false
+    },
+    {
+      "path": "",
+      "test": "text spacing at320",
+      "overflow": false
+    },
+    {
+      "path": "about.html",
+      "test": "200 percent text",
+      "overflow": false
+    },
+    {
+      "path": "about.html",
+      "test": "text spacing at320",
+      "overflow": false
+    },
+    {
+      "path": "directory.html?court=clerk_baker",
+      "test": "200 percent text",
+      "overflow": false
+    },
+    {
+      "path": "directory.html?court=clerk_baker",
+      "test": "text spacing at320",
+      "overflow": false
+    }
+  ],
+  "menus_and_forced_colors": [
+    {
+      "status": "Latest update: October 12, 2026",
+      "hintCount": 0,
+      "copyright": "\u00a9 2026 Cade Spivey.Florida Law Weekly Update \u00b7 Nonofficial informational publication. Consult the linked authorities and current court procedures."
+    },
+    {
+      "menu": ".court-menu",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "menu": ".personnel-menu",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "menu": ".resources-menu",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "forcedColorFocus": {
+        "outline": "solid",
+        "width": "3px"
+      }
+    }
+  ],
+  "contrast": [
+    {
+      "foreground": "225985",
+      "background": "ffffff",
+      "ratio": 7.41
+    },
+    {
+      "foreground": "242424",
+      "background": "ffffff",
+      "ratio": 15.52
+    },
+    {
+      "foreground": "555555",
+      "background": "ffffff",
+      "ratio": 7.46
+    },
+    {
+      "foreground": "666666",
+      "background": "ffffff",
+      "ratio": 5.74
+    },
+    {
+      "foreground": "ffffff",
+      "background": "225985",
+      "ratio": 7.41
+    },
+    {
+      "foreground": "767676",
+      "background": "f3f3f1",
+      "ratio": 4.09
+    },
+    {
+      "foreground": "b16b1b",
+      "background": "f3f3f1",
+      "ratio": 3.79
+    }
+  ],
+  "changes": [
+    "Removed visible Evidence Coverage and date-range helper sentence.",
+    "Added About page at end of navigation; creator copy revised by owner, LinkedIn and donation links included.",
+    "Added copyright footer and publication-date-only latest-update label.",
+    "Strengthened control borders; retained visible focus in forced colors.",
+    "Added associated date validation errors and focus; closes dropdowns when focus leaves; moves focus to selected report.",
+    "Controls allow enlarged text and quick links have minimum24px targets."
+  ],
+  "validation": {
+    "working_tests": 230,
+    "isolated_release_tests": 156,
+    "wheel_build": "passed",
+    "wheel_site_build": "passed",
+    "viewport_widths": [
+      320,
+      1280
+    ],
+    "text_size": "200% computed text enlargement",
+    "text_spacing": "1.5 line height, .12em letter spacing, .16em word spacing,2em paragraph spacing"
+  },
+  "limitations": [
+    "Automated scans and manual browser checks do not establish complete WCAG conformance.",
+    "No end-to-end VoiceOver/NVDA user session or Safari/Firefox/mobile-device matrix was performed. Chromium accessibility tree retains the responsive table and six column headers.",
+    "Open dropdown scans flag color contrast for manual review of obscured content; visible navigation links use7.41:1 contrast, with other palette checks recorded.",
+    "320CSSpx reflow checks approximate the layout at400% desktop zoom; native browser zoom was not independently exercised."
+  ],
+  "test_environment_notes": [
+    "Initial unconstrained pytest collection encountered duplicate tests in retained research release copies. Explicit repository tests/ passed230 tests; the isolated clean release passed156.",
+    "Initial release setup used the system Python lacking the newer tar extraction API, then resolved the virtualenv symlink and lost pytest. Corrected to invoke the virtualenv path directly; clean release checks completed."
+  ]
+}

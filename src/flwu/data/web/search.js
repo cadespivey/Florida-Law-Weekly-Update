@@ -1,6 +1,10 @@
 /* Public text is always inserted as text, never executed as markup. */
 'use strict';
 (() => {
+  document.querySelectorAll('.site-nav details').forEach(menu=>menu.addEventListener('toggle',()=>{if(menu.open)document.querySelectorAll('.site-nav details').forEach(other=>{if(other!==menu)other.open=false;});}));
+  document.addEventListener('keydown',event=>{if(event.key==='Escape'){document.querySelectorAll('.site-nav details[open]').forEach(menu=>{menu.open=false;menu.querySelector('summary').focus();});}});
+  document.addEventListener('focusin',event=>{document.querySelectorAll('.site-nav details[open]').forEach(menu=>{if(!menu.contains(event.target))menu.open=false;});});
+  if(document.body.dataset.page==='about')return;
   const data = JSON.parse(document.getElementById('archive-data').textContent);
   const isDirectory = document.body.dataset.page === 'directory';
   const sections = [['statutes','Statutes'],['case_law','Case Law'],['procedural_rules','Procedural Rules'],['local_rules','Local Rules']];
@@ -9,6 +13,7 @@
   const periods = document.getElementById('periods');
   const node = (tag, text, cls) => {const e=document.createElement(tag); if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;};
   const period = i => `${i.window_start} – ${i.window_end}`;
+  const publicationDate = i => new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',year:'numeric',month:'long',day:'numeric'}).format(new Date(i.published_at));
   // Newest revision for each period; direct issue URLs retain older revisions.
   const seen=new Set();
   const issues=data.issues.filter(i=>{const k=period(i);if(seen.has(k))return false;seen.add(k);return true;});
@@ -34,14 +39,8 @@
     report.replaceChildren();periods.replaceChildren();status.textContent=description;status.hidden=!description;
     if(!selected.length){report.append(node('p',issues.length?'No published updates match this period. This does not establish that no legal changes occurred.':'No reviewed updates have been published yet.'));return;}
     const list=node('ul');
-    selected.forEach(i=>{const li=node('li'),a=node('a',period(i));const q=new URLSearchParams({issue:i.id}),court=new URLSearchParams(location.search).get('court');if(court)q.set('court',court);a.href='?'+q;a.addEventListener('click',e=>{if(e.button===0&&!e.metaKey&&!e.ctrlKey&&!e.shiftKey&&!e.altKey){e.preventDefault();navigate(a.getAttribute('href'));}});li.append(a);list.append(li);});
+    selected.forEach(i=>{const li=node('li'),a=node('a',period(i));const q=new URLSearchParams({issue:i.id}),court=new URLSearchParams(location.search).get('court');if(court)q.set('court',court);a.href='?'+q;a.addEventListener('click',e=>{if(e.button===0&&!e.metaKey&&!e.ctrlKey&&!e.shiftKey&&!e.altKey){e.preventDefault();navigate(a.getAttribute('href'));report.focus();}});li.append(a);list.append(li);});
     if(selected.length>1)periods.append(list);
-    for(const issue of (isDirectory?selected.slice(0,1):selected)){
-      if(!issue.coverage)continue;
-      const coverage=node('aside');coverage.className='evidence-coverage';
-      coverage.append(node('h2','Evidence coverage'),node('p',issue.coverage.summary));
-      const limits=node('ul');issue.coverage.limitations.forEach(text=>limits.append(node('li',text)));coverage.append(limits);report.append(coverage);
-    }
     if(isDirectory){renderDirectory(selected[0]);return;}
     for(const [key,title] of sections){
       const section=node('section');section.append(node('h2',title));
@@ -106,17 +105,19 @@
   }
   function validDate(value){return /^\d{4}-\d{2}-\d{2}$/.test(value)&&!Number.isNaN(Date.parse(value+'T00:00:00Z'))&&new Date(value+'T00:00:00Z').toISOString().slice(0,10)===value;}
   function route(){
+    const error=document.getElementById('date-error');error.hidden=true;error.textContent='';
+    from.removeAttribute('aria-invalid');to.removeAttribute('aria-invalid');
     document.getElementById('updates-link').href='./'+location.search;
     const allQuery=new URLSearchParams(location.search);allQuery.delete('court');
     document.getElementById('directory-link').href='directory.html'+(allQuery.size?'?'+allQuery:'');
     document.querySelectorAll('[data-court]').forEach(link=>{const q=new URLSearchParams(allQuery);q.set('court',link.dataset.court);link.href='directory.html?'+q;});
     const query=new URLSearchParams(location.search),start=query.get('from'),end=query.get('to'),id=query.get('issue');
     if(id){const issue=data.issues.find(i=>i.id===id);from.value=issue?.window_start||'';to.value=issue?.window_end||'';render(issue?[issue]:[],issue?`Update: ${period(issue)}`:'The requested update was not found.');return;}
-    if(start!==null||end!==null){from.value=start||'';to.value=end||'';if(!validDate(start||'')||!validDate(end||'')||start>end){render([],'Enter a valid date range with From on or before Through.');return;}const selected=filterRows(start,end);render(selected,`${selected.length} update${selected.length===1?'':'s'} for ${start} – ${end}`);return;}
-    const latest=issues[0];from.value=latest?.window_start||'';to.value=latest?.window_end||'';render(latest?[latest]:[],latest?`Latest update: ${period(latest)}`:'');
+    if(start!==null||end!==null){from.value=start||'';to.value=end||'';if(!validDate(start||'')||!validDate(end||'')||start>end){const message='Enter a valid date range with From on or before Through.';error.textContent=message;error.hidden=false;if(!validDate(start||'')||start>end)from.setAttribute('aria-invalid','true');if(!validDate(end||'')||start>end)to.setAttribute('aria-invalid','true');render([],message);return;}const selected=filterRows(start,end);render(selected,`${selected.length} update${selected.length===1?'':'s'} for ${start} – ${end}`);return;}
+    const latest=issues[0];from.value=latest?.window_start||'';to.value=latest?.window_end||'';render(latest?[latest]:[],latest?`Latest update: ${publicationDate(latest)}`:'');
   }
   function navigate(search){const q=new URLSearchParams(search),court=new URLSearchParams(location.search).get('court');if(court)q.set('court',court);history.pushState(null,'',location.pathname+(q.size?'?'+q:''));route();}
-  document.getElementById('period-form').addEventListener('submit',e=>{e.preventDefault();navigate('?'+new URLSearchParams({from:from.value,to:to.value}));});
+  document.getElementById('period-form').addEventListener('submit',e=>{e.preventDefault();navigate('?'+new URLSearchParams({from:from.value,to:to.value}));document.querySelector('[aria-invalid="true"]')?.focus();});
   document.getElementById('latest').addEventListener('click',()=>navigate(''));
   document.querySelectorAll('[data-days]').forEach(button=>button.addEventListener('click',()=>{
     // Calendar days in the reporting timezone, including today. UTC arithmetic
@@ -127,7 +128,5 @@
     const start=new Date(end+'T00:00:00Z');start.setUTCDate(start.getUTCDate()-Number(button.dataset.days)+1);
     navigate('?'+new URLSearchParams({from:start.toISOString().slice(0,10),to:end}));
   }));
-  document.querySelectorAll('.site-nav details').forEach(menu=>menu.addEventListener('toggle',()=>{if(menu.open)document.querySelectorAll('.site-nav details').forEach(other=>{if(other!==menu)other.open=false;});}));
   addEventListener('popstate',route);route();
-  document.addEventListener('keydown',event=>{if(event.key==='Escape'){document.querySelectorAll('.site-nav details[open]').forEach(menu=>{menu.open=false;menu.querySelector('summary').focus();});}});
 })();
