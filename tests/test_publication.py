@@ -66,6 +66,15 @@ def test_deterministic_archive_order_safe_embedding_and_no_private_files(tmp_pat
     assert not about.select('form, #archive-data')
     for page in (homepage, directory, about):
         assert page.select_one('.site-nav').find_all(recursive=False)[-1]['id'] == 'about-link'
+        for size in ('16x16', '32x32'):
+            icon = page.select_one(f'link[rel="icon"][sizes="{size}"]')
+            assert icon and (first / icon['href'].split('?')[0]).is_file()
+        touch = page.select_one('link[rel="apple-touch-icon"]')
+        assert touch and (first / touch['href'].split('?')[0]).is_file()
+        manifest = page.select_one('link[rel="manifest"]')
+        manifest_path = first / manifest['href'].split('?')[0]
+        for icon in json.loads(manifest_path.read_text())['icons']:
+            assert (manifest_path.parent / icon['src']).is_file()
     assert (first/'about.html').read_bytes() == (second/'about.html').read_bytes()
 
 

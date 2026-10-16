@@ -83,11 +83,15 @@ def build_site(archive, output, *, preview=False):
     with tempfile.TemporaryDirectory(prefix='.flwu-site-', dir=output.parent) as staging:
         root = Path(staging) / 'site'
         (root / 'assets').mkdir(parents=True)
-        for name in ('site.css', 'search.js', 'florida-litigator-logo.png'):
+        asset_names = ('site.css', 'search.js', 'florida-litigator-logo.png',
+                       'favicon-16x16.png', 'favicon-32x32.png',
+                       'apple-touch-icon.png', 'icon-192.png', 'icon-512.png',
+                       'site.webmanifest')
+        for name in asset_names:
             shutil.copyfile(ASSETS / name, root / 'assets' / name)
         data = json.dumps({'preview': preview, 'issues': issues, 'directory_contacts': directory_contacts, 'courts': json.loads((ASSETS / 'courts.json').read_text())}, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c').replace('&', '\\u0026')
         def version_assets(html):
-            for name in ('site.css', 'search.js', 'florida-litigator-logo.png'):
+            for name in asset_names:
                 version = hashlib.sha256((ASSETS / name).read_bytes()).hexdigest()[:12]
                 html = html.replace('assets/'+name, 'assets/'+name+'?v='+version)
             return html
