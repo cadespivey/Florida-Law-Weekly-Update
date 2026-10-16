@@ -19,16 +19,21 @@
   const issues=data.issues.filter(i=>{const k=period(i);if(seen.has(k))return false;seen.add(k);return true;});
   function filterRows(start,end){return issues.filter(i=>i.window_start<=end && i.window_end>=start);}
   function summary(text, isCaseLaw){
-    const p=node('p',undefined,'summary');
-    if(!isCaseLaw){p.textContent=text;return p;}
-    // Only emphasize known labels at the start of a line; never parse source HTML.
-    text.split('\n').forEach((line,index)=>{
-      if(index)p.append('\n');
-      const match=line.match(/^(\s*)(Holding|Disposition|Author):/);
-      if(match)p.append(match[1],node('strong',match[2]+':'),line.slice(match[0].length));
-      else p.append(line);
+    if(!isCaseLaw)return node('p',text,'summary');
+    const body=node('div',undefined,'case-body');
+    let value, extra;
+    // Source text stays text. A continuation line belongs to the preceding label.
+    text.split('\n').forEach(line=>{
+      const match=line.match(/^\s*(Holding|Disposition|Author):\s*(.*)$/);
+      if(match){
+        const fact=node('div',undefined,'case-fact');
+        fact.append(node('span',match[1],'case-label'));
+        value=node('span',match[2]);extra=null;fact.append(value);body.append(fact);
+      }else if(!line){value=null;extra=null;}
+      else if(value)value.append('\n'+line);
+      else{if(!extra){extra=node('p',undefined,'case-extra');body.append(extra);}else extra.append('\n');extra.append(line);}
     });
-    return p;
+    return body;
   }
   function citations(parent,refs){
     const sources=[...new Map(refs.map(c=>[c.url,c])).values()];
@@ -43,19 +48,23 @@
     if(selected.length>1)periods.append(list);
     if(isDirectory){renderDirectory(selected[0]);return;}
     for(const [key,title] of sections){
-      const section=node('section');section.append(node('h2',title));
-      if(selected.some(issue=>issue.sections[key].status==='incomplete'))section.append(node('p','Research is incomplete; missing findings do not establish no changes.','notice'));
-      if(selected.every(issue=>issue.sections[key].status==='reviewed'&&!issue.sections[key].items.length))section.append(node('p','No items included in this reviewed section.','meta'));
+      const section=node('details',undefined,'update-section');
+      if(key==='case_law')section.open=true;
+      const heading=node('h2',title),toggle=node('summary');toggle.append(heading);section.append(toggle);
+      const content=node('div',undefined,'section-content');
+      if(selected.some(issue=>issue.sections[key].status==='incomplete'))content.append(node('p','Research is incomplete; missing findings do not establish no changes.','notice'));
+      if(selected.every(issue=>issue.sections[key].status==='reviewed'&&!issue.sections[key].items.length))content.append(node('p','No items included in this reviewed section.','meta'));
       selected.forEach(issue=>{
         const part=issue.sections[key];
-        part.items.forEach(item=>{const article=node('article');article.append(node('h3',item.title));
+        part.items.forEach(item=>{const article=node('article');if(key==='case_law')article.className='case-law-entry';article.append(node('h3',item.title));
           const dates=[];if(item.publication_date)dates.push(`Published: ${item.publication_date}`);if(item.effective_date)dates.push(`Effective: ${item.effective_date}`);if(item.legal_status!=='unknown')dates.push(item.legal_status);
           if(item.inclusion_basis==='opening_baseline')dates.push('Opening evidence baseline');
           if(item.inclusion_basis==='effective')dates.push('Included for its stated effective date');
           if(dates.length)article.append(node('p',dates.join(' · '),'meta'));
-          article.append(summary(item.summary,key==='case_law'));citations(article,item.citations);section.append(article);
+          const detail=summary(item.summary,key==='case_law');article.append(detail);
+          citations(key==='case_law'?detail:article,item.citations);content.append(article);
         });
-      });report.append(section);
+      });section.append(content);report.append(section);
     }
   }
   function renderDirectory(snapshot){
