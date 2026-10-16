@@ -1,12 +1,16 @@
 """Archive tests use invented text; they establish mechanics, never legal correctness."""
 import copy
 import json
+import re
 from pathlib import Path
 import pytest
 from flwu.publication import SECTIONS, digest, validate_issue, export_capture
-from flwu.site import build_site
+from flwu.site import ASSETS, build_site
 from flwu.cli import main
 from flwu import history as h
+
+# Exact user-supplied notice; it must appear once, only on the main page.
+HOMEPAGE_DISCLAIMER_TEXT = 'The information presented on TheFloridaLitigator.com is provided for informational purposes only. It is not intended as legal advice and does not form an attorney-client or representative relationship. Information presented on the site is aggregated using web search tools, autonomous AI agents, personal research, public databases, and other publically available information, which may or may not be accurate at the time it was collected or published. These systems are updated by people and aggregated using AI tools, both of which may make mistakes. When possible, source links are provided for verification purposes, and users are strongly encouraged to consult the provided sources and their attorney before relying on this information.'
 
 
 def example_issue(*, synthetic=True, start='2026-01-01', end='2026-01-07', ident='test-one'):
@@ -77,6 +81,23 @@ def test_deterministic_archive_order_safe_embedding_and_no_private_files(tmp_pat
         manifest_path = first / manifest['href'].split('?')[0]
         for icon in json.loads(manifest_path.read_text())['icons']:
             assert (manifest_path.parent / icon['src']).is_file()
+    # Creator photo: versioned asset, portrait beside the biography, real file on disk.
+    photo = about.select_one('.creator-profile img.creator-photo')
+    assert photo is not None
+    assert re.fullmatch(r'assets/cade-spivey\.jpg\?v=[0-9a-f]{12}', photo['src'])
+    assert (first / 'assets' / 'cade-spivey.jpg').is_file()
+    assert (first / 'assets' / 'cade-spivey.jpg').read_bytes() == (ASSETS / 'cade-spivey.jpg').read_bytes()
+    assert photo['width'] == '800' and photo['height'] == '688'
+    assert photo['loading'] == 'lazy'
+    assert 'Cade Spivey' in photo['alt']
+    about_text = (first / 'about.html').read_text()
+    assert 'Cade Spivey is an attorney and a graduate of the United States Naval Academy and Wake Forest University School of Law.' in about_text
+    assert about.select_one('a[href="https://www.linkedin.com/in/cade-spivey/"]') is not None
+    # Homepage-only disclaimer: exact user text, once, inside the footer, never on the directory page.
+    assert text.count(HOMEPAGE_DISCLAIMER_TEXT) == 1
+    directory_text = (first / 'directory.html').read_text()
+    assert directory_text.count(HOMEPAGE_DISCLAIMER_TEXT) == 0
+    assert any(HOMEPAGE_DISCLAIMER_TEXT in p.get_text() for p in homepage.select('footer p'))
     assert (first/'about.html').read_bytes() == (second/'about.html').read_bytes()
 
 
