@@ -39,13 +39,16 @@ footer{font-size:.85em;color:#666;border-top:1px solid #d9d9d9;padding-top:1rem;
 /* Title and navigation share one masthead; menus stay inside that container. */
 .masthead{display:flex;align-items:center;justify-content:space-between;gap:1rem;position:relative;margin:.4rem 0 1rem}
 .masthead h1{margin:0;max-width:none;flex:1}.masthead .site-nav{margin:0;flex-shrink:0;gap:1rem;flex-wrap:nowrap}
+.masthead .site-brand{flex:0 1 340px;min-width:0}
+.site-brand a,.site-brand img{display:block}
+.site-brand img{width:100%;height:auto}
 .site-nav details{margin:0;min-width:0}.site-nav details>summary{font-size:14px;color:#225985;white-space:nowrap;padding:.3rem 0;cursor:pointer}
 .site-nav .court-menu[open]{flex-basis:auto}.masthead .court-links{position:absolute;left:0;right:0;top:100%;z-index:5;max-height:65vh;overflow:auto;background:white;box-shadow:0 5px 14px #0002}
 .page-title{border:0;padding:0;margin:1.5rem 0 1rem}
 .personnel-table{border-collapse:collapse;width:100%;table-layout:fixed;font:11px/1.4 Arial,sans-serif}
 .personnel-table th,.personnel-table td{padding:.65rem .5rem;border:1px solid #d9d9d9;text-align:left;vertical-align:top;overflow-wrap:anywhere}
 .personnel-table th{background:#f5f5f5}.directory .personnel-table p{font-size:11px;margin:0 0 .5rem}.personnel-table p:last-child{margin-bottom:0}
-@media(max-width:850px){.masthead{align-items:flex-start;flex-direction:column}.masthead .site-nav{flex-wrap:wrap;flex-shrink:1}.masthead .court-links{max-height:60vh}}
+@media(max-width:850px){.masthead{align-items:flex-start;flex-direction:column}.masthead .site-brand{width:min(100%,480px);flex:auto}.masthead .site-nav{flex-wrap:wrap;flex-shrink:1}.masthead .court-links{max-height:60vh}}
 @media(max-width:600px){.personnel-table,.personnel-table tbody,.personnel-table tr{display:block}.personnel-table thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.personnel-table tr{margin-bottom:1rem;border-top:1px solid #d9d9d9}.personnel-table td{display:grid;grid-template-columns:7rem minmax(0,1fr);gap:.25rem .65rem;border-top:0}.personnel-table td::before{content:attr(data-label);font-weight:bold;grid-column:1;grid-row:1}.personnel-table td>*{grid-column:2}}
 
 /* Controls remain usable when text size or spacing is increased. */
