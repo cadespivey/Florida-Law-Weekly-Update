@@ -83,11 +83,11 @@ def build_site(archive, output, *, preview=False):
     with tempfile.TemporaryDirectory(prefix='.flwu-site-', dir=output.parent) as staging:
         root = Path(staging) / 'site'
         (root / 'assets').mkdir(parents=True)
-        for name in ('site.css', 'search.js'):
+        for name in ('site.css', 'search.js', 'florida-litigator-logo.png'):
             shutil.copyfile(ASSETS / name, root / 'assets' / name)
         data = json.dumps({'preview': preview, 'issues': issues, 'directory_contacts': directory_contacts, 'courts': json.loads((ASSETS / 'courts.json').read_text())}, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c').replace('&', '\\u0026')
         def version_assets(html):
-            for name in ('site.css', 'search.js'):
+            for name in ('site.css', 'search.js', 'florida-litigator-logo.png'):
                 version = hashlib.sha256((ASSETS / name).read_bytes()).hexdigest()[:12]
                 html = html.replace('assets/'+name, 'assets/'+name+'?v='+version)
             return html
@@ -95,7 +95,7 @@ def build_site(archive, output, *, preview=False):
         for page, filename in [('updates', 'index.html'), ('directory', 'directory.html')]:
             html = template.replace('<!--NAVIGATION-->', navigation(page)).replace('data-page="updates"', f'data-page="{page}"')
             if page == 'directory':
-                html = html.replace('<title>Florida Law Weekly Update</title>', '<title>Court Personnel Directory — Florida Law Weekly Update</title>')
+                html = html.replace('<title>The Florida Litigator</title>', '<title>Court Personnel Directory — The Florida Litigator</title>')
                 html = html.replace('<!--PAGE-TITLE-->', '<h2 class="page-title">Personnel Directory</h2>')
                 html = html.replace('In Florida’s legal system, justice is shaped by judges, who interpret the law, and court personnel, who oversee its administration. These are their updates... <em>Dun-dun.</em>', 'Court contacts and judicial assistants.')
             (root / filename).write_text(html.replace('<!--PAGE-TITLE-->', ''), encoding='utf-8')
