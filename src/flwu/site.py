@@ -12,6 +12,9 @@ from flwu.directory_display import format_contacts, load_formats
 
 ASSETS = Path(__file__).parent / 'data' / 'web'
 
+# Exact user-supplied notice, shown only in the main (updates) page footer.
+HOMEPAGE_DISCLAIMER = ('<p>' + 'The information presented on TheFloridaLitigator.com is provided for informational purposes only. It is not intended as legal advice and does not form an attorney-client or representative relationship. Information presented on the site is aggregated using web search tools, autonomous AI agents, personal research, public databases, and other publically available information, which may or may not be accurate at the time it was collected or published. These systems are updated by people and aggregated using AI tools, both of which may make mistakes. When possible, source links are provided for verification purposes, and users are strongly encouraged to consult the provided sources and their attorney before relying on this information.' + '</p>')
+
 
 def navigation(page):
     """Official destinations restricted to the packaged research registry's scope."""
@@ -86,7 +89,7 @@ def build_site(archive, output, *, preview=False):
         asset_names = ('site.css', 'search.js', 'florida-litigator-logo.png', 'favicon.svg',
                        'favicon-16x16.png', 'favicon-32x32.png',
                        'apple-touch-icon.png', 'icon-192.png', 'icon-512.png',
-                       'site.webmanifest')
+                       'site.webmanifest', 'cade-spivey.jpg')
         for name in asset_names:
             shutil.copyfile(ASSETS / name, root / 'assets' / name)
         data = json.dumps({'preview': preview, 'issues': issues, 'directory_contacts': directory_contacts, 'courts': json.loads((ASSETS / 'courts.json').read_text())}, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c').replace('&', '\\u0026')
@@ -102,6 +105,7 @@ def build_site(archive, output, *, preview=False):
                 html = html.replace('<title>The Florida Litigator</title>', '<title>Court Personnel Directory — The Florida Litigator</title>')
                 html = html.replace('<!--PAGE-TITLE-->', '<h2 class="page-title">Personnel Directory</h2>')
                 html = html.replace('In Florida’s legal system, justice is shaped by judges, who interpret the law, and court personnel, who oversee its administration. These are their updates... <em>Dun-dun.</em>', 'Court contacts and judicial assistants.')
+            html = html.replace('<!--HOMEPAGE-DISCLAIMER-->', HOMEPAGE_DISCLAIMER if page == 'updates' else '')
             (root / filename).write_text(html.replace('<!--PAGE-TITLE-->', ''), encoding='utf-8')
         about = version_assets((ASSETS / 'about.html').read_text(encoding='utf-8')).replace('<!--NAVIGATION-->', navigation('about'))
         (root / 'about.html').write_text(about, encoding='utf-8')

@@ -99,3 +99,9 @@ h3{font-family:Charter,"Iowan Old Style",Georgia,serif;font-size:20px;line-heigh
 .directory .personnel-table p{font-size:15px;line-height:1.44;margin:0 0 .5rem}
 @media(max-width:850px){body{padding:0 24px}.masthead{gap:18px}}
 @media(max-width:600px){body{margin:1.5rem auto;padding:0 18px}#report .update-section>summary{padding:21px 0 17px}#report .update-section>summary h2{font-size:23px}#report .section-content{padding-left:0}.case-fact{display:block;margin-bottom:13px}.case-label{display:block;margin-bottom:2px}.case-body{padding-left:13px;margin-left:0}.personnel-table td{display:block}.personnel-table td::before{display:block;margin-bottom:2px}}
+
+/* About page: creator portrait left of the biography; stacks on narrow screens. */
+.creator-profile{display:grid;grid-template-columns:minmax(180px,240px) minmax(0,1fr);gap:1.75rem 2rem;align-items:start}
+.creator-photo{display:block;width:100%;height:auto;border-radius:4px}
+.creator-text p{max-width:68ch}
+@media(max-width:640px){.creator-profile{grid-template-columns:1fr}.creator-photo{max-width:340px}}
