@@ -83,7 +83,7 @@ def build_site(archive, output, *, preview=False):
     with tempfile.TemporaryDirectory(prefix='.flwu-site-', dir=output.parent) as staging:
         root = Path(staging) / 'site'
         (root / 'assets').mkdir(parents=True)
-        asset_names = ('site.css', 'search.js', 'florida-litigator-logo.png',
+        asset_names = ('site.css', 'search.js', 'florida-litigator-logo.png', 'favicon.svg',
                        'favicon-16x16.png', 'favicon-32x32.png',
                        'apple-touch-icon.png', 'icon-192.png', 'icon-512.png',
                        'site.webmanifest')

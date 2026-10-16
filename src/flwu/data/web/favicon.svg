@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Alligator head">
+  <rect width="64" height="64" rx="10" fill="#092a29"/>
+  <path fill="#f8f5eb" d="M4 43c2-4 9-6 20-6h8l5-9c2-4 6-6 11-6 6 0 10 4 11 10l-3 3c4 4 5 8 3 12-4 7-17 9-35 9H14C6 56 2 51 4 43Z"/>
+  <path fill="#092a29" d="M9 47c14 2 31 1 48-4l-2 6c-14 5-30 6-45 2Z"/>
+  <path fill="#f8f5eb" d="M22 48h5l-2.5 4Zm16-1h5l-2.5 4Z"/>
+  <circle cx="47" cy="31" r="4" fill="#092a29"/>
+  <circle cx="16" cy="43" r="2.5" fill="#092a29"/>
+</svg>

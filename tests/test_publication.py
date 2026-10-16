@@ -66,6 +66,8 @@ def test_deterministic_archive_order_safe_embedding_and_no_private_files(tmp_pat
     assert not about.select('form, #archive-data')
     for page in (homepage, directory, about):
         assert page.select_one('.site-nav').find_all(recursive=False)[-1]['id'] == 'about-link'
+        vector_icon = page.select_one('link[rel="icon"][type="image/svg+xml"]')
+        assert vector_icon and (first / vector_icon['href'].split('?')[0]).is_file()
         for size in ('16x16', '32x32'):
             icon = page.select_one(f'link[rel="icon"][sizes="{size}"]')
             assert icon and (first / icon['href'].split('?')[0]).is_file()
